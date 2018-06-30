@@ -3,7 +3,7 @@
  *
  * StackOfStrings() : create an empty stack
  * void push(String item) :  insert a new string onto stack
- * String pop()     : remove & return the string most recent string
+ * String pop()     : remove & return the string most recently added
  * boolean isEmpty() : is stack empty?
  */
 
