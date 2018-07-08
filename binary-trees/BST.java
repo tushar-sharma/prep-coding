@@ -1,3 +1,7 @@
+import java.util.Queue;
+import java.util.LinkedList;
+
+
 public class BST<E extends Comparable<? super E>> {
 
     private Node root;
@@ -75,12 +79,35 @@ public class BST<E extends Comparable<? super E>> {
         return false;
     }
 
+    public void levelorder() {
+        Queue<E> keys = new LinkedList<E>();
+        Queue<Node> queue = new LinkedList<Node>();
+
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            Node<E> curr = queue.poll();
+
+            if (curr == null) continue;
+
+            keys.add(curr.getData());
+            queue.add(curr.getLeft());
+            queue.add(curr.getRight());
+        }
+
+        for (E s : keys) {
+            System.out.print(s.toString() + " ");
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
-        Integer[] arrFill = {1, 5, 2, 7, 4};
-        BST<Integer> bst = new BST<Integer>();
+        String[] arrFill = {"1", "5", "2", "7", "4"};
+        BST<String> bst = new BST<String>();
 
         for (int i =0; i < arrFill.length; i++) {
             bst.put(arrFill[i]);
         }
+
+        bst.levelorder();
     }
 }
