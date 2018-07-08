@@ -1,7 +1,9 @@
 import java.util.Queue;
 import java.util.LinkedList;
 
-
+/**
+ * Implement binary search tree
+ */
 public class BST<E extends Comparable<? super E>> {
 
     private Node root;
@@ -10,10 +12,15 @@ public class BST<E extends Comparable<? super E>> {
         root = null;
     }
 
+    public Node getRoot() {
+        return root;
+    }
+
     private class Node<E>{
-        Node<E> left;
-        Node<E> right;
-        E value;
+
+        private Node<E> left;
+        private Node<E> right;
+        private E value;
 
         public Node(E value) {
             this.value = value;
@@ -22,15 +29,15 @@ public class BST<E extends Comparable<? super E>> {
         }
 
         public E getData() {
-            return this.value;
+            return value;
         }
 
         public Node<E> getLeft() {
-            return this.left;
+            return left;
         }
 
         public Node<E> getRight() {
-            return this.right;
+            return right;
         }
 
         public void setLeft(Node<E> left) {
@@ -100,6 +107,47 @@ public class BST<E extends Comparable<? super E>> {
         System.out.println();
     }
 
+    public Node<E> inorder(Node<E> curr) {
+
+        if (curr == null) {
+            return null;
+        }
+
+        inorder(curr.getLeft());
+
+        System.out.print(curr.getData() + " ");
+
+        inorder(curr.getRight());
+
+        return curr;
+    }
+
+    public Node<E> preorder(Node<E> curr) {
+        if (curr == null) {
+            return null;
+        }
+
+        System.out.print(curr.getData() + " ");
+
+        preorder(curr.getLeft());
+        preorder(curr.getRight());
+        return curr;
+    }
+
+    public Node<E> postorder(Node<E> curr) {
+        if (curr == null) {
+            return null;
+        }
+
+
+        postorder(curr.getLeft());
+        postorder(curr.getRight());
+
+        System.out.print(curr.getData() + " ");
+
+        return curr;
+    }
+
     public static void main(String[] args) {
         String[] arrFill = {"1", "5", "2", "7", "4"};
         BST<String> bst = new BST<String>();
@@ -108,6 +156,13 @@ public class BST<E extends Comparable<? super E>> {
             bst.put(arrFill[i]);
         }
 
+        System.out.println("\nLevel order traversal");
         bst.levelorder();
+        System.out.println("\nIn order traversal");
+        bst.inorder(bst.root);
+        System.out.println("\nPre order traversal");
+        bst.preorder(bst.root);
+        System.out.println("\npost order traversal");
+        bst.postorder(bst.root);
     }
 }
