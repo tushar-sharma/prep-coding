@@ -37,6 +37,10 @@ public class Trie {
             text.append(c);
 
         }
+
+        public TrieNode() {
+            this.isWord = false;
+        }
     }
 
     private TrieNode root;
