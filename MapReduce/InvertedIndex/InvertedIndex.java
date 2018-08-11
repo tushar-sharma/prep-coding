@@ -14,10 +14,10 @@ import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
 public class InvertedIndex {
 
-
-
     public static class MapClass
        extends Mapper<Object, Text, Text, Text>{
+
+       private Text word = new Text();
 
         public void map(Object key, Text value, Context context
                     ) throws IOException, InterruptedException {
@@ -50,8 +50,7 @@ public class InvertedIndex {
 
 
         Configuration conf = new Configuration();
-        Job job = Job.getInstance(conf, "word count");
-        job.setJarByClass(InvertedIndex.class);
+        Job job = Job.getInstance(conf, "inverted index");
 
 
         job.setMapperClass(MapClass.class);
@@ -62,6 +61,8 @@ public class InvertedIndex {
 
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
+
+        job.setJarByClass(InvertedIndex.class);
         System.exit(job.waitForCompletion(true) ? 0 : 1);
 
     }
