@@ -51,8 +51,6 @@ public class GraphMatrix {
         return inEdges;
     }
 
-
-
     /*
      * copy text file to populate adjMatrix
      * @param : text file
@@ -75,7 +73,8 @@ public class GraphMatrix {
 
     /*
      * @param : arguments from command line
-     * v - number of vertices
+     * v (number of vertices)
+     * vertex1:vertex2 (here path is from vertex1 to vertex2)
      */
     public static void main(String[] args) throws IOException {
 
