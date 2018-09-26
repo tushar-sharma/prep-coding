@@ -3,6 +3,8 @@ import java.util.Scanner;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Queue;
+import java.util.LinkedList;
 
 /*
  * Implement graph using adjacency matrix
@@ -10,22 +12,24 @@ import java.util.ArrayList;
 @SuppressWarnings("unchecked")
 public class GraphMatrix {
 
-    private static boolean[][] adjMatrix;
-    private static int numOfVertices;
+    private boolean[][] adjMatrix;
+    private int numOfVertices;
+    private boolean[] dfsexplored;
 
-    public static void addEdge(int vertex1, int vertex2) {
+
+    public void addEdge(int vertex1, int vertex2) {
         adjMatrix[vertex1][vertex2] = true;
     }
 
-    public static void removeEdge(int vertex1, int vertex2) {
+    public void removeEdge(int vertex1, int vertex2) {
         adjMatrix[vertex1][vertex2] = false;
     }
 
-    public static boolean hasEdge(int vertex1, int vertex2) {
+    public boolean hasEdge(int vertex1, int vertex2) {
         return adjMatrix[vertex1][vertex2];
     }
 
-    public static ArrayList<Integer> outEdges(int vertex) {
+    public ArrayList<Integer> outEdges(int vertex) {
 
         ArrayList<Integer> outEdges = new ArrayList();
 
@@ -38,7 +42,7 @@ public class GraphMatrix {
         return outEdges;
     }
 
-    public static ArrayList<Integer> inEdges(int vertex) {
+    public ArrayList<Integer> inEdges(int vertex) {
 
         ArrayList<Integer> inEdges = new ArrayList();
 
@@ -52,10 +56,50 @@ public class GraphMatrix {
     }
 
     /*
+     * Bread first search - get the shortest path
+     * @param :  startVertex starting index to start search
+     */
+    public void bfs(int startVertex) {
+        boolean[] explored = new boolean[numOfVertices];
+
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(startVertex);
+        explored[startVertex] = true;
+
+        while (!queue.isEmpty()) {
+            int curr = queue.poll();
+            System.out.print(curr + " ");
+            ArrayList<Integer> edges = outEdges(curr);
+            for(Integer edge : edges) {
+                if (explored[edge] == false) {
+                    explored[edge] = true;
+                    queue.add(edge);
+                }
+            }
+        }
+    }
+
+    /*
+     * Depth first search
+     * @param startVertex starting vertex to start serch
+     */
+
+    public void dfs(int startVertex) {
+        System.out.print(startVertex + " ");
+        dfsexplored[startVertex] = true;
+        ArrayList<Integer> edges = outEdges(startVertex);
+        for (Integer edge : edges) {
+            if (dfsexplored[edge] == false) {
+                dfs(edge);
+            }
+        }
+    }
+
+    /*
      * copy text file to populate adjMatrix
      * @param : text file
      */
-    public static void readInput(String filename) throws FileNotFoundException {
+    public void readInput(String filename) throws FileNotFoundException {
         File file = new File(filename);
         Scanner sc = new Scanner(file);
 
@@ -69,6 +113,8 @@ public class GraphMatrix {
             int vertex2 = Integer.parseInt(input[1]);
             adjMatrix[vertex1][vertex2] = true;
         }
+        //dfs
+        dfsexplored = new boolean[numOfVertices];
     }
 
     /*
@@ -87,8 +133,12 @@ public class GraphMatrix {
 
         graphMatrix.readInput(args[0]);
 
-        System.out.println(graphMatrix.outEdges(2));
-        System.out.println(graphMatrix.inEdges(2));
+        //System.out.println(graphMatrix.outEdges(2));
+        //System.out.println(graphMatrix.inEdges(2));
+        graphMatrix.bfs(0); //starting from 0 index
+        System.out.println();
+        graphMatrix.dfs(0); //starting from 0 index
+        System.out.println();
 
     }
 

@@ -1,8 +1,7 @@
 /*
  * implement graph using adjacency matrix
- * input: inputList.tx
+ * input: inputList.txt
  */
-
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
@@ -85,4 +84,3 @@ public class GraphList {
          System.out.println(graphList.inEdges(4));
      }
 }
-
