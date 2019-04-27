@@ -1,7 +1,10 @@
 import java.util.HashSet;
-
+/**
+ * Check if a string has unique characters
+ */
 public class UniqueString {
 
+    /* with using extra data structure */
     public static boolean isUnique(String inputString) {
 
         HashSet<Character> hashSet = new HashSet<>();
