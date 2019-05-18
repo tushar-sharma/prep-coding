@@ -8,7 +8,8 @@
  * }
  */
 
-/*Check if binary tree is balanced */
+/*Check if binary tree is balanced
+ * Using postorder traversal*/
 class Solution {
 
     public boolean isBalanced(TreeNode root) {
