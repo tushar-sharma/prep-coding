@@ -11,9 +11,9 @@ public class BinarySearch {
     public static int binarySearch(int[] testInput, int target) {
 
         int low = 0;
-        int high = testInput.length;
+        int high = testInput.length -1;
 
-        while (low < high) {
+        while (low <=  high) {
             int mid = low + ((high -low) / 2);
 
             if (testInput[mid] == target) {
