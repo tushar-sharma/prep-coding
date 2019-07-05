@@ -1,6 +1,7 @@
 public class SortedArray{
 
     /**
+     * Search a value in rotated array
      */
 
     public static int findArray(int[] testInput, int target) {
@@ -64,5 +65,7 @@ public class SortedArray{
         assert findArray(new int[]{4, 5, 6, 7, 8, 9, 0, 1, 2}, 2) == 8;
 
         assert findArray(new int[]{6, 7, 8, 0, 1, 2, 3, 4, 5}, 7) == 1;
+
+        assert findArray(new int[]{6, 7, 8, 0, 1, 2, 3, 4, 5}, 6) == 0;
     }
 }
