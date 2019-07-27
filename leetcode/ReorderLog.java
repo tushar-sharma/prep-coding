@@ -7,10 +7,43 @@
  */
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.regex.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Iterator;
 
 public class ReorderLog {
+
+    /**
+     * Using ArrayList
+     * @param String of logs
+     * @return final order of the logs
+     */
+    public static String[] reorderLogFiles2(String[]  logs) {
+        //using Comparator
+        List<String> logsList = new ArrayList<>();
+
+        //print the string[] logs
+        for (int i = 0; i < logs.length; i++) {
+            System.out.println(logs[i]);
+        }
+
+        System.out.println("\n\n***sorting***\n\n");
+
+
+        Collections.sort(logsList, new ComparatorLogs());
+
+        //print the string[] logs
+        Iterator<String> iter = logsList.iterator();
+
+        while (iter.hasNext() ) {
+            System.out.println(iter.next());
+        }
+
+        return logs;
+    }
 
 
     /**
@@ -36,13 +69,6 @@ public class ReorderLog {
         }
 
         return logs;
-    }
-
-    public static void main(String[] args) {
-
-        String[] logs = {"a1 9 2 3 1","g1 act car","zo4 4 7","ab1 off key dog","a8 act zoo"};
-
-        reorderLogFiles(logs);
     }
 
     static class ComparatorLogs implements Comparator<String> {
@@ -84,4 +110,16 @@ public class ReorderLog {
         }
 
     }
+
+    public static void main(String[] args) {
+
+        String[] logs = {"a1 9 2 3 1","g1 act car","zo4 4 7","ab1 off key dog","a8 act zoo"};
+
+        System.out.println("\n*** reorder logs ****\n");
+        reorderLogFiles(logs);
+        System.out.println("\n*** reorder logs ****\n");
+        reorderLogFiles2(logs);
+    }
+
+
 }
