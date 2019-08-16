@@ -159,13 +159,10 @@ public class MyHashMap <K, V>{
     public static void main(String[] args) {
 
         MyHashMap<Integer, Integer> myHashMap = new MyHashMap<>();
-        System.out.println("puttin  1");
         myHashMap.put(1, 100);
         MyHashMap.inc_n();
-        System.out.println("puttin  2");
         myHashMap.put(2, 200);
         MyHashMap.inc_n();
-        System.out.println("puttin  1");
         myHashMap.put(1, 300);
         myHashMap.inc_n();
         System.out.println(myHashMap.get(2)); //200
