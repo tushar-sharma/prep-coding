@@ -55,6 +55,7 @@ public class GroupAnagram {
 
     public static void main(String[] args) {
 
+        //TODO: remember how to create string array
         String[] testInput = {"eat", "tea", "tan", "ate", "nat", "bat"};
 
         System.out.println(groupAnagrams(testInput));
