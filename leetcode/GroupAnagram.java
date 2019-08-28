@@ -20,25 +20,26 @@ public class GroupAnagram {
         int index = 0;
 
         for (String str : strs) {
-             char[] strArray = str.toCharArray();
-             Arrays.sort(strArray);
-             String newStr = new String(strArray);
+            //TODO: remember how to sort string
+            char[] strArray = str.toCharArray();
+            Arrays.sort(strArray);
+            String newStr = new String(strArray);
 
-             if (!testMap.containsKey(newStr) ) {
-                 //TODO: remember
-                 testMap.put(newStr, new ArrayList<>(Arrays.asList(index)));
-             } else {
-                 testMap.get(newStr).add(index);
-             }
-             index++;
+            if (!testMap.containsKey(newStr) ) {
+                //TODO: remember how to insert value in ArrayList
+                testMap.put(newStr, new ArrayList<>(Arrays.asList(index)));
+            } else {
+                testMap.get(newStr).add(index);
+            }
+            index++;
         }
 
-        //TODO: remember
+        //TODO: remember how to create list of list
         List<List<String>> result = new ArrayList<List<String>>();
 
-        //TODO: remember
+        //TODO: remember how to iterate hashmap
         for (Map.Entry<String, List<Integer>> entry : testMap.entrySet()) {
-            //TODO: remember
+            //TODO: remember how to get values
             List<Integer> testIndex =  entry.getValue();
             List<String> tmpString = new ArrayList<String>();
 
