@@ -15,9 +15,9 @@ public class FirstUnique {
 
         Map<Character, Integer> myMap = new HashMap<Character, Integer>();
 
-        //TODO :remember
+        //TODO :remember how to iterate over string
         for (Character ch : testString.toCharArray()) {
-            //TODO: remember
+            //TODO: remember if key exits in hashmap
             if (myMap.containsKey(ch)) {
                 myMap.put(ch, myMap.get(ch) + 1);
             } else {
