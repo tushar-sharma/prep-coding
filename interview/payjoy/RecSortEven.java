@@ -45,6 +45,7 @@ public class RecSortEven {
 
         while (iter1 <= right1 && iter2 <= right2) {
 
+            //TODO: remember how to access index of ArrayList
             if (isEven(testInput.get(iter1)) && !isEven(testInput.get(iter2))) {
                 auxInput.add(testInput.get(iter1++));
             } else if (isEven(testInput.get(iter2)) && !isEven(testInput.get(iter1))) {
