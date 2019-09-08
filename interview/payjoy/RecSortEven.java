@@ -8,8 +8,10 @@ import java.util.List;
 
 public class RecSortEven {
 
-    /*check if it's even or odd*/
-
+    /*
+     * checks if a number is even or not
+     * @param number integer
+    */
     public static boolean isEven(int number ) {
         if (number % 2 == 0) {
             return true;
@@ -18,8 +20,11 @@ public class RecSortEven {
         }
     }
 
-    /*
-     * recursively sort the array */
+    /* recursively sort the array
+     * @param testInput: ArrayList
+     * @param left integer
+     * @param right integer
+    */
     public static void mergeSort(List<Integer> testInput, int left, int right) {
         //TODO: remember the base condition
         if (left >= right) {
@@ -27,8 +32,6 @@ public class RecSortEven {
         }
 
         int mid = left + (right - left) / 2;
-
-        //System.out.println("mid is " + mid);
 
         mergeSort(testInput, left, mid );
 
