@@ -1,43 +1,34 @@
 /**
- *Problem: https://leetcode.com/problems/two-sum/description/
+ * Two Sum
+ * url : https://leetcode.com/problems/two-sum/description/
  */
 import java.util.Arrays;
+import java.util.Map;
 import java.util.HashMap;
 
 public class TwoSum {
 
     public static int[] twoSum(int[] nums, int target) {
+        Map<Integer, Integer> numsDifferences = new HashMap<Integer, Integer>();
+        int[] indexDifferences = new int[]{-1, -1};
 
-
-
-        int[] result = new int[2];
-        HashMap<Integer, Integer> values = new HashMap<>();
-
-
-        for (int i = 0; i < nums.length; i++){
-
-            if (values.containsKey(target - nums[i])) {
-                result[1] = i;
-                result[0] = values.get(target - nums[i]);
+        for (int i = 0; i < nums.length; i++) {
+            if (numsDifferences.containsKey(target - nums[i])) {
+                indexDifferences[0] = numsDifferences.get(target - nums[i]);
+                indexDifferences[1] = i;
+            } else {
+                numsDifferences.put(nums[i], i);
             }
-
-            values.put(nums[i], i);
         }
 
-        return result;
-
-    }
-
-    public static boolean isConsistent(int[] foo, int[] bar) {
-        return Arrays.equals(foo, bar);
+        return indexDifferences;
     }
 
     public static void main(String[] args) {
 
-        //assert isConsistent(twoSum(new int[]{2, 7, 11, 15}, 9), new int[]{0, 1});
+        assert Arrays.equals(twoSum(new int[]{3, 2, 4}, 6), new int[]{1, 2});
 
-        //twoSum(new int[]{3, 2, 3}, 6);
-        twoSum(new int[]{3, 2, 4}, 6);
+        assert Arrays.equals(twoSum(new int[]{2, 7, 11, 15}, 9), new int[]{0, 1});
 
     }
 
