@@ -78,16 +78,6 @@ public class  AddTwoNo{
         return series2;
     }
 
-
-    public void display(ListNode iter) {
-        while(iter != null) {
-            System.out.print(iter.val);
-            System.out.print(" ");
-            iter = iter.next;
-        }
-        System.out.println();
-    }
-
     public static void main(String[] args) {
         // insert values for linkedlists
         int[] inputSeries1 = new int[]{2, 4, 3};
@@ -105,6 +95,5 @@ public class  AddTwoNo{
                                   inputSeries2[i]));
         }
 
-        //addTwoNo.display(addTwoNo.getSeries2());
     }
 }
