@@ -1,5 +1,6 @@
 /**
- * Two Sum
+ * Problem: Two Sum
+ * See: twoSum
  * url : https://leetcode.com/problems/two-sum/description/
  */
 import java.util.Arrays;

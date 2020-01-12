@@ -1,123 +1,110 @@
-class Node {
-    Node next;
+/*
+ * Problem: Add two linked list in reverse order
+ * See: addTwoNumbers
+ * url: https://leetcode.com/problems/add-two-numbers/
+ */
+class ListNode {
+    ListNode next;
     int val;
 
-    public Node(int val) {
+    public ListNode(int val) {
         this.val = val;
         next =null;
     }
-
 }
-/*
- * Add two linked list in reverse order
- */
+
 public class  AddTwoNo{
 
-    Node l1;
-    Node l2;
-    Node l3;
+    ListNode series1 = null;
+    ListNode series2 = null;
 
-    /*
-     * Inserts value into the linked list
-     */
-    public void insertl1(int val) {
-        l1 = insert_value(val, l1);
-    }
+    public ListNode addTwoNumbers(ListNode series1, ListNode series2) {
+        ListNode series3 = null;
+        int rem = 0, sum = 0;
 
-    public void insertl2(int val) {
-        l2= insert_value(val, l2);
-    }
+        while (series1 != null || series2 != null) {
+            sum = 0;
 
-    public Node getL1() {
-        return l1;
-    }
+            if (series1 != null){
+                sum = series1.val;
+                series1 = series1.next;
+            }
 
-    public Node getL2() {
-        return l2;
-    }
+            if (series2 != null) {
+                sum += series2.val;
+                series2 = series2.next;
+            }
 
-    public Node getL3() {
-        return l3;
-    }
-
-    public Node addTwoNo(Node l1, Node l2) {
-        Node iter = null;
-        l3 = iter;
-        int rem = 0;
-
-        while (l1 != null && l2 != null) {
-
-            int sum = l1.val + l2.val + rem ;
-            int val = sum % 10;
+            sum += rem;
             rem = sum / 10;
-            l3 = insert_value(val, l3);
-            l1 = l1.next;
-            l2 = l2.next;
+
+            series3 = insertSeriesValue(series3, sum % 10);
         }
 
-        while (l1 != null) {
-            int sum = l1.val + rem;
-            int val = sum % 10;
-            l3 = insert_value(val, l3);
-            l1 = l1.next;
-            rem = sum % 10;
+        if (rem > 0)  {
+            series3 = insertSeriesValue(series3, rem);
         }
 
-        while (l2 != null) {
-            int sum = l2.val + rem;
-            int val = sum %10;
-            rem = sum / 10;
-            l3 = insert_value(val, l3);
-            l2 = l2.next;
-        }
-
-        if (rem > 0) {
-            l3 = insert_value(rem, l3);
-        }
-
-        return l3;
-
+        return series3;
     }
 
-    public void dsp(Node iter) {
-        while (iter != null) {
-            System.out.println(iter.val);
-            iter = iter.next;
-        }
+    public ListNode insertSeries(ListNode series, int value) {
+        return insertSeriesValue(series, value);
     }
 
-    public Node insert_value(int val, Node curr) {
-
+    public ListNode insertSeriesValue(ListNode curr, int value) {
         if (curr == null) {
-            return new Node(val);
+            return new ListNode(value);
         }
 
-        curr.next = insert_value(val, curr.next);
+        curr.next = insertSeriesValue(curr.next, value);
 
         return curr;
     }
 
+    public ListNode getSeries1() {
+        return series1;
+    }
+
+    public void setSeries1(ListNode series) {
+        this.series1 = series;
+    }
+
+    public void setSeries2(ListNode series) {
+        this.series2 = series;
+    }
+
+    public ListNode getSeries2() {
+        return series2;
+    }
+
+
+    public void display(ListNode iter) {
+        while(iter != null) {
+            System.out.print(iter.val);
+            System.out.print(" ");
+            iter = iter.next;
+        }
+        System.out.println();
+    }
+
     public static void main(String[] args) {
+        // insert values for linkedlists
+        int[] inputSeries1 = new int[]{2, 4, 3};
+        int[] inputSeries2 = new int[]{5, 6, 4};
 
-        //declare two primite integer array
-        int[] l1_array = {2, 4, 3};
-        int[] l2_array = {5, 6, 4};
+        AddTwoNo addTwoNo = new AddTwoNo();
 
-        AddTwoNo objAdd = new AddTwoNo();
-
-        //insert values into linked list
-        for (int i = 0; i < l1_array.length; i++) {
-            objAdd.insertl1(l1_array[i]);
+        for (int i = 0; i < inputSeries1.length; i++) {
+            addTwoNo.setSeries1(addTwoNo.insertSeries(addTwoNo.getSeries1(),
+                                  inputSeries1[i]));
         }
 
-
-        //insert values into linked list
-        for (int i = 0; i < l2_array.length; i++) {
-            objAdd.insertl2(l2_array[i]);
+        for (int i = 0; i < inputSeries2.length; i++) {
+            addTwoNo.setSeries2(addTwoNo.insertSeries(addTwoNo.getSeries2(),
+                                  inputSeries2[i]));
         }
 
-        objAdd.addTwoNo(objAdd.getL1(), objAdd.getL2());
-
-        objAdd.dsp(objAdd.getL3());
+        //addTwoNo.display(addTwoNo.getSeries2());
     }
 }
