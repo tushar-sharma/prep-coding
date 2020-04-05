@@ -1,8 +1,10 @@
-public class SortedArray{
+/**
+  * Search a value in rotated array
+  *
+  * https://leetcode.com/problems/search-in-rotated-sorted-array/
+  */
 
-    /**
-     * Search a value in rotated array
-     */
+public class SortedArray{
 
     public static int findArray(int[] testInput, int target) {
         int low = 0;
