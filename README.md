@@ -57,8 +57,8 @@ def bar(f):
 
     return wrapper
 
-def @foo
-def @bar
+@foo
+@bar
 def myFunc(arr):
     return arr[-1] * 2
 
