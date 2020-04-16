@@ -11,3 +11,9 @@ Coding Preparation
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](../master/leetcode/AddTwoNo.java)| Medium | LinkedList
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](../master/leetcode/TwoSum.java)| Easy | HashMap
 
+## Python
+
+
+1. What's the difference between tuple & list?
+
+2. What's the differnce between return and yield in python?
