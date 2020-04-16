@@ -5,7 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag
 |-----|----------------|---------------|-------------|-------------
-|5|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](../master/leetcode/PivotIndex.java), [Python](./master/leetcode/PivotIndex.py)| Easy | Array
+|5|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](../master/leetcode/PivotIndex.java), [Python](../master/leetcode/PivotIndex.py)| Easy | Array
 |4|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](../master/leetcode/SortedArray.java)| Medium | Array
 |3|[Three Sum](https://leetcode.com/problems/3sum/)|[Java](../master/leetcode/ThreeSum.java)| Medium | Array, Two Pointers
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](../master/leetcode/AddTwoNo.java)| Medium | LinkedList
