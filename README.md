@@ -16,4 +16,4 @@ Coding Preparation
 
 1. What's the difference between tuple & list?
 
-2. What's the differnce between return and yield in python?
+2. What's the difference between return and yield in python?
