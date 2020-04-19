@@ -26,4 +26,4 @@ System.out.println(str1);
 
 4. Sort a String in Java
 
-[Example]((../master/leetcode/SortAString.java)
+[Example](../master/leetcode/SortAString.java)
