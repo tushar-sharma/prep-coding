@@ -11,57 +11,12 @@ Coding Preparation
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](../master/leetcode/AddTwoNo.java)| Medium | LinkedList
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](../master/leetcode/TwoSum.java)| Easy | HashMap
 
-## Python
+## Interview Questions
 
 
-1. What's the difference between tuple & list?
+|  #  | Languages/Stack
+|-----|-------------
+|1|[Python](../master/python/PythonQuestions.md)|
 
-2. What's the difference between return and yield in python?
 
-3. What's the output?
 
-```python
-class Parent(object):
-    x = 1
-
-class Child1(Parent):
-    pass
-
-class Child2(Parent):
-    pass
-
-print(Parent.x, Child1.x, Child2.x)
-
-Child1.x = 2
-print(Parent.x, Child1.x, Child2.x)
-
-Parent.x = 3
-print(Parent.x, Child1.x, Child2.x)
-```
-
-4. What's the output?
-
-```python
-
-def foo(f):
-    def wrapper(*args, **kwargs):
-       g = f(*args, **kwargs)
-       value = list(g)[::-1]
-       return "".join(str(x) for x in value)
-    return wrapper
-
-def bar(f):
-    def wrapper(*args, **kwargs):
-        g = f(*args, **kwargs)
-        return '$' + str(abs(g))
-
-    return wrapper
-
-@foo
-@bar
-def myFunc(arr):
-    return arr[-1] * 2
-
-arr = [-1 , 2, 3, -4]
-print(myFunc(arr))
-```
