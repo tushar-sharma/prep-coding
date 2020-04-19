@@ -16,7 +16,5 @@ Coding Preparation
 
 |  #  | Languages/Stack
 |-----|-------------
+|2|[Java](../master/java/JavaQuestions.md)|
 |1|[Python](../master/python/PythonQuestions.md)|
-
-
-
