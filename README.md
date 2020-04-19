@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag
 |-----|----------------|---------------|-------------|-------------
+|7|[Permutations](https://leetcode.com/problems/permutations)| | Medium | Backtracking
 |6|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[Java](../master/leetcode/LettersCombinations.java)| Medium | String, Backtracking
 |5|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Java](../master/leetcode/PivotIndex.java), [Python](../master/leetcode/PivotIndex.py)| Easy | Array
 |4|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](../master/leetcode/SortedArray.java)| Medium | Array
