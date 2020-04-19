@@ -19,3 +19,9 @@ Coding Preparation
 |-----|-------------
 |2|[Java](../master/java/JavaQuestions.md)|
 |1|[Python](../master/python/PythonQuestions.md)|
+
+## Cracking the Coding Interview
+
+|  #  |      Title     |   Solutions   |
+|-----|----------------|---------------|
+|1|Check if a string has unique characters|[Java](../master/ctci/UniqueString.java) |
