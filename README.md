@@ -17,6 +17,7 @@ Coding Preparation
 
 |  #  | Languages/Stack
 |-----|-------------
+|2|[Database](../master/database/DatabaseQuestions.md)|
 |2|[Java](../master/java/JavaQuestions.md)|
 |1|[Python](../master/python/PythonQuestions.md)|
 
