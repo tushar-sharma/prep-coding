@@ -27,3 +27,11 @@ System.out.println(str1);
 4. Sort a String in Java
 
 [Example](../java/SortAString.java)
+
+5. When would you use a private constructor?
+
+6. Which of the following types cannot be used as the parameter for a switch statement?
+a. char
+b. boolean
+c. byte
+d. int
