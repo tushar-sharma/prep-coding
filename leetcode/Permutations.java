@@ -13,7 +13,13 @@ public class Permutations {
     public static void permuteRec(int[] nums, int n, List<List<Integer>> output) {
 
         if (n == 1) {
-            System.out.println(Arrays.toString(nums));
+            List<Integer> temp = new ArrayList<>();
+
+            for (int num : nums) {
+                temp.add(num);
+            }
+
+            output.add(temp);
 
         } else {
 
@@ -32,6 +38,10 @@ public class Permutations {
         List<List<Integer>> output = new ArrayList<List<Integer>>();
 
         permuteRec(nums, nums.length, output);
+
+        System.out.println(output.toString());
+
+
     }
 
     public static void main(String[] args) {
