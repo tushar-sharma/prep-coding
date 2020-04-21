@@ -3,7 +3,7 @@
 1. What's the difference between GET & POST methods? Which one is usually faster? Why?
 
 ```bash
-GET method is usually intended for retriving data from the server. It's idempotent (repeating query doesn't have side effects).
+GET method is usually intended for retriving data from the server. It's idempotent.
 
 POST method is usually intended for changing state of the server. It's not idempotent.
 
