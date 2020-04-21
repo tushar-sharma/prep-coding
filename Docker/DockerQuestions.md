@@ -12,6 +12,18 @@
 
 6. What's health checks in docker compose?
 
+7. Build a docker image?
+
+```bash
+docker build -t myDocker .
+```
+
+8. Run a docker image?
+
+```bash
+docker run -it --rm myDocker
+```
+
 # Kubernetes
 
 1. Difference between container vs pods?
