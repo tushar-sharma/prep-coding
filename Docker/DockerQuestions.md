@@ -24,6 +24,13 @@ docker build -t myDocker .
 docker run -it --rm myDocker
 ```
 
+
+9. How to resolve this error for this command? 
+
+```bash 
+docker run -it --rm <image>
+```
+
 # Kubernetes
 
 1. Difference between container vs pods?
