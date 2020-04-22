@@ -25,7 +25,7 @@ docker run -it --rm myDocker
 ```
 
 
-9. How to resolve this error for this command? 
+9.Error “The input device is not a TTY”? Fix the command
 
 ```bash 
 docker run -it --rm <image>
