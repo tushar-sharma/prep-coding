@@ -43,3 +43,5 @@ Non-clustered index creates a separate entity witin table which references origi
 ```bash
 No
 ```
+
+6. What's a trigger?
