@@ -17,6 +17,7 @@ Coding Preparation
 
 |  #  | Languages/Stack
 |-----|-------------
+|7|[Javascript](../master/javascript/JavascriptQuestions.md)|
 |6|[REST](../master/REST/RESTQuestions.md)|
 |5|[Docker](../master/Docker/DockerQuestions.md)|
 |4|[Github Actions](../master/Github_Actions/GitHubActionsQuestions.md)|
