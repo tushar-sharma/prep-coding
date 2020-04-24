@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Resources
 |-----|----------------|---------------|-------------|-------------|----------
+|9|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Java](../master/leetcode/ValidParenth.java), [Javascript](../master/leetcode/ValidParenth.js) | Easy | Stack |
 |8|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Java](../master/leetcode/RemoveDupSortArr.java) | Easy | Array |
 |7|[Permutations](https://leetcode.com/problems/permutations)| [Java](../master/leetcode/Permutations.java) | Medium | Backtracking | [Topcoder](https://drive.google.com/open?id=1J7XiH1ZyCjoHO4loO4ppkK46I6kMEoFV)
 |6|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[Java](../master/leetcode/LettersCombinations.java)| Medium | String, Backtracking |
