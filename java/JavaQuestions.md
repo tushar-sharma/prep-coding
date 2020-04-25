@@ -1,6 +1,6 @@
 # Java Questions
 
-1. What's the difference between String & String Builder vs String String Buffer? Which one is thread safe class? Which one is faster, String Buffer or String builder?
+**1. What's the difference between String, String Builder, String Buffer? Which one is thread safe class? Which one is faster, String Buffer or String builder?**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Strings are immutable. The object is stored in Constant String Pool. Every immutable object in Java is thread safe ,that implies String is also thread safe.
 
@@ -10,42 +10,42 @@ But being thread safe has disadvantages too as the performance of the StringBuff
 
 String Buffer can be converted to the string by using toString() method
 
-2. What's the output?
+**2. What's the output?**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Example](../java/CompareString.java)
 
-3. Sort a String in Java
+**3. Sort a String in Java**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Example](../java/SortAString.java)
 
-4. When would you use a private constructor? Give one example where you would use it?
+**4. When would you use a private constructor? Give one example where you would use it?**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yes. We could use for creating Singleton class [Example](../java/Singleton.java)
 
 
-5. Which of the following types cannot be used as the parameter for a switch statement?
+**5. Which of the following types cannot be used as the parameter for a switch statement? **
 
 ```bash
 a. char
 
-b. boolean
+b. boolean (Answer)
 
 c. byte
 
 d. int
 ```
 
-7. What are Wrapper classes?
+**7. What are Wrapper classes?**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.
 
-8. What's difference between Stack Memory and Heap ?
+**8. What's difference between Stack Memory and Heap?**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stack Memory is used for memory allocation and execution of thread. Access to this is faster than heap memory.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Heap space in used for dynamic memory allocation for Java Objects at runtime. New objects are created in heap memory and refereces are stored in stack memory. Java thorws **java.lang.OutofMemoryError**. It's not threadsafe, unlike stack, need synchronization.
 
-9. Does Java support multiple inheritance? How to implement it?
+**9. Does Java support multiple inheritance? How to implement it?**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No. However we can implement multiple interfaces.
 
