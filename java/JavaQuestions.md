@@ -67,3 +67,5 @@ public class Test implements Foo, Bar {
     }
 }
 ```
+
+Before Java 8, interfaces could only define abstract methods. So this wont work anymore.
