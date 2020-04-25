@@ -24,6 +24,7 @@ System.out.println(str1.equals(str3));
 
 5. Which of the following types cannot be used as the parameter for a switch statement?
 
+```bash
 a. char
 
 b. boolean
@@ -31,6 +32,7 @@ b. boolean
 c. byte
 
 d. int
+```
 
 7. What are Wrapper classes?
 
