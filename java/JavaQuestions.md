@@ -2,19 +2,17 @@
 
 1. What's the difference between String & String Builder vs String String Buffer? Which one is thread safe class? Which one is faster, String Buffer or String builder?
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Strings are immutable. The object is stored in Constant String Pool. Every immutable object in Java is thread safe ,that implies String is also thread safe.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; StringBuffer is mutable means one can change the value of the object . The object created through StringBuffer is stored in the heap. StringBuffer has the same methods as the StringBuilder , but each method in StringBuffer is synchronized that is StringBuffer is thread safe.
+
+But being thread safe has disadvantages too as the performance of the StringBuffer hits due to thread safe property . Thus StringBuilder is faster than the StringBuffer when calling the same methods of each class.
+
+String Buffer can be converted to the string by using toString() method
 
 2. What's the output?
-```java
-String str1 = "hello";
-String str2 = str1;
-String str3 = new String("hello");
 
-System.out.println(str1 == str2);
-System.out.println(str1 == str3);
-System.out.println(str2 == str3);
-System.out.println(str1.equals(str2));
-System.out.println(str1.equals(str3));
-```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Example](../java/CompareString.java)
 
 3. Sort a String in Java
 
