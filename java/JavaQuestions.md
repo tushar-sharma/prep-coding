@@ -18,7 +18,7 @@ System.out.println(str1.equals(str3));
 
 3. Sort a String in Java
 
-[Example](../java/SortAString.java)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Example](../java/SortAString.java)
 
 4. When would you use a private constructor?
 
@@ -36,10 +36,10 @@ d. int
 
 7. What are Wrapper classes?
 
-The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.
 
 8. What's difference between Stack Memory and Heap ?
 
-Stack Memory is used for memory allocation and execution of thread. Access to this is faster than heap memory.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stack Memory is used for memory allocation and execution of thread. Access to this is faster than heap memory.
 
-Heap space in used for dynamic memory allocation for Java Objects at runtime. New objects are created in heap memory and refereces are stored in stack memory. Java thorws **java.lang.OutofMemoryError**. It's not threadsafe, unlike stack, need synchronization.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Heap space in used for dynamic memory allocation for Java Objects at runtime. New objects are created in heap memory and refereces are stored in stack memory. Java thorws **java.lang.OutofMemoryError**. It's not threadsafe, unlike stack, need synchronization.
