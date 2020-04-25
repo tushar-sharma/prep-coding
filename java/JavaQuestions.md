@@ -43,3 +43,27 @@ d. int
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stack Memory is used for memory allocation and execution of thread. Access to this is faster than heap memory.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Heap space in used for dynamic memory allocation for Java Objects at runtime. New objects are created in heap memory and refereces are stored in stack memory. Java thorws **java.lang.OutofMemoryError**. It's not threadsafe, unlike stack, need synchronization.
+
+9. Does Java support multiple inheritance? How to implement it?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No. However we can implement multiple interfaces.
+
+```java
+public interface Foo() {
+    void fooDsp();
+}
+
+public interface Bar() {
+    void barDsp();
+}
+
+public class Test implements Foo, Bar {
+    public void fooDsp() {
+        System.out.println("Foo called");
+    }
+
+    public void barDsp() {
+        System.out.println("Bar called");
+    }
+}
+```
