@@ -38,7 +38,7 @@ d. int
 
 The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.
 
-8. What's differnce between Stack Memory and Heap ?
+8. What's difference between Stack Memory and Heap ?
 
 Stack Memory is used for memory allocation and execution of thread. Access to this is faster than heap memory.
 
