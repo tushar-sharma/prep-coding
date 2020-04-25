@@ -42,4 +42,4 @@ The wrapper class in Java provides the mechanism to convert primitive into objec
 
 Stack Memory is used for memory allocation and execution of thread. Access to this is faster than heap memory.
 
-Heap space in used for dynamic memory allocation for Java Objects at runtime. New objects are created in heap memory and refereces are stored in stack memory. Java thorws java.lang.OutofMemoryError. IT's not threadsafe, unlike stack, need synchronization.
+Heap space in used for dynamic memory allocation for Java Objects at runtime. New objects are created in heap memory and refereces are stored in stack memory. Java thorws **java.lang.OutofMemoryError**. It's not threadsafe, unlike stack, need synchronization.
