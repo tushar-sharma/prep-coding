@@ -20,7 +20,12 @@ System.out.println(str1.equals(str3));
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Example](../java/SortAString.java)
 
-4. When would you use a private constructor?
+4. When would you use a private constructor? Give one example where you would use it?
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yes. We could use for creating Singleton class [Example](../java/Singleton.java)
+
+```java
+```
 
 5. Which of the following types cannot be used as the parameter for a switch statement?
 
