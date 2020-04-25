@@ -24,8 +24,6 @@ System.out.println(str1.equals(str3));
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yes. We could use for creating Singleton class [Example](../java/Singleton.java)
 
-```java
-```
 
 5. Which of the following types cannot be used as the parameter for a switch statement?
 
