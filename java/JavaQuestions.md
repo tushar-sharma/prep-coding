@@ -23,7 +23,7 @@ String Buffer can be converted to the string by using toString() method
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yes. We could use for creating Singleton class [Example](../java/Singleton.java)
 
 
-**5. Which of the following types cannot be used as the parameter for a switch statement? **
+**5. Which of the following types cannot be used as the parameter for a switch statement?**
 
 ```bash
 a. char
