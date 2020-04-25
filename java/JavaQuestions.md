@@ -16,24 +16,20 @@ System.out.println(str1.equals(str2));
 System.out.println(str1.equals(str3));
 ```
 
-3. What's the output?
-
-`java
-String str1 = "Hello World!";
-str1.substring(1,4).concat("abc").toUpperCase().trim().replace('A', 'B');
-System.out.println(str1);
-```
-
-4. Sort a String in Java
+3. Sort a String in Java
 
 [Example](../java/SortAString.java)
 
-5. When would you use a private constructor?
+4. When would you use a private constructor?
 
-6. Which of the following types cannot be used as the parameter for a switch statement?
+5. Which of the following types cannot be used as the parameter for a switch statement?
+
 a. char
+
 b. boolean
+
 c. byte
+
 d. int
 
 7. What are Wrapper classes?
