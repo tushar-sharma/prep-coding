@@ -5,6 +5,9 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Resources
 |-----|----------------|---------------|-------------|-------------|----------
+|13|[Combination Sum](https://leetcode.com/problems/combination-sum/)| TODO | Medium | Array |
+|12|[Next Permutatoin](https://leetcode.com/problems/next-permutation/)| TODO | Medium | Array |
+|11|[Best Time to Buy & Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| TODO | Easy | Array |
 |10|[Best Time to Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java](../master/leetcode/BestTimeStock.java) | Easy | Array |
 |9|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Java](../master/leetcode/ValidParenth.java), [Javascript](../master/leetcode/ValidParenth.js) | Easy | Stack |
 |8|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Java](../master/leetcode/RemoveDupSortArr.java) | Easy | Array |
