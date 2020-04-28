@@ -47,17 +47,13 @@ Yes, it's called a materialized view does is created & store result in disk. It 
 
 4. What's the difference between clusterd and non-clustered index? Which one is faster?
 
-```bash
 Clustered index are indexes whose order of rows in database correspond to the order of rows in index. It modifies the way records are stored in the database.
 
 Non-clustered index creates a separate entity witin table which references original table.
-```
 
 5. Can more than one clustered index exist on a given table?
 
-```bash
 No
-```
 
 
 7. What's a trigger?
