@@ -10,7 +10,6 @@ Coding Preparation
 |11|[Best Time to Buy & Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| TODO | Easy | Array |
 -->
 
-|
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Resources
 |-----|----------------|---------------|-------------|-------------|----------
 10|[Best Time to Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java](../master/leetcode/BestTimeStock.java) | Easy | Array |
