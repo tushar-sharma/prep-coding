@@ -44,4 +44,21 @@ Non-clustered index creates a separate entity witin table which references origi
 No
 ```
 
-6. What's a trigger?
+6. What's a view? How's different than materialized view?
+
+View is simply a select query that is saved in database.
+
+```bash
+CREATE OR REPLACE VIEW <view_name> as
+SELECT ...
+
+```
+
+View query is saved in database but is not run until called. Hence it does not take any space in database. It's also used for restricting access.
+
+A materialized view does create & store result in disk. It has to be re-run when change of the data in the table.
+
+[More Info](https://drive.google.com/open?id=1Rjs3Z38rMKLUpzfOWuc_w2DUTdbCLVmY)
+
+
+7. What's a trigger?
