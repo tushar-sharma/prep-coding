@@ -40,7 +40,7 @@ SELECT ...
 
 View query is saved in database but is not run until called. Hence it does not take any space in database. It's also used for restricting access.
 
-Yes, it's called a materialized view which is created & stored in disk. It has to be re-run when change of the data in the table.
+Yes, it's called a materialized view which is created & stored in disk. It has to be re-run when data changes in the table.
 
 [More Info](https://drive.google.com/open?id=1Rjs3Z38rMKLUpzfOWuc_w2DUTdbCLVmY)
 
