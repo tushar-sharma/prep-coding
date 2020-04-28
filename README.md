@@ -8,10 +8,13 @@ Coding Preparation
 |?|[Combination Sum](https://leetcode.com/problems/combination-sum/)| TODO | Medium | Array |
 |?|[Next Permutation](https://leetcode.com/problems/next-permutation/)| TODO | Medium | Array |
 |?|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| TODO | Medium | Array |
+|?|[](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| | Medium| Array, Binary Search|
+
 -->
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Resources
 |-----|----------------|---------------|-------------|-------------|----------
+|12|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)| [Java](../master/leetcode/GroupAnagrams.java) | Medium | String, Hashmap |
 |11|[Best Time to Buy & Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Java](../master/leetcode/BestTimeStock2.java) | Easy | Array |
 |10|[Best Time to Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java](../master/leetcode/BestTimeStock.java) | Easy | Array |
 |9|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Java](../master/leetcode/ValidParenth.java), [Javascript](../master/leetcode/ValidParenth.js) | Easy | Stack |
