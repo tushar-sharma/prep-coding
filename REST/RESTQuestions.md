@@ -34,4 +34,14 @@ POST request
 
 Stateless
 
+7. What's token authentication?
+
+Token is a string that server generates for a client that can be passed inside HTTP request. First server authenticates the client, then instead of saving the password, server sends token which client can use for subsequent requests.
+
+8. How do JSON web tokens work?
+
+JSON web tokens give users temporary authorization to access protected end points.
+
 [More Info](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html)
+
+
