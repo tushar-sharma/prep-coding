@@ -17,19 +17,19 @@
 7. Build a docker image?
 
 ```bash
-$ docker build -t myDocker .
+$ docker build -t $Docker_Image .
 ```
 
 8. Run a docker image?
 
 ```bash
-$ docker run -it --rm myDocker
+$ docker run -it --rm $Docker_Image
 ```
 
 9. How to override entrypoint using docker run?
 
 ```bash
-$ docker run --entrypoint python3 script.py
+$ docker run --entrypoint "python3 script.py" $Docker_Image
 ```
 
 # Kubernetes
