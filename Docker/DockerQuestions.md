@@ -15,20 +15,19 @@
 7. Build a docker image?
 
 ```bash
-docker build -t myDocker .
+$ docker build -t myDocker .
 ```
 
 8. Run a docker image?
 
 ```bash
-docker run -it --rm myDocker
+$ docker run -it --rm myDocker
 ```
 
+9. How to override entrypoint using docker run?
 
-9.Error “The input device is not a TTY”? Fix the command
-
-```bash 
-docker run -it --rm <image>
+```bash
+$ docker run --entrypoint python3 script.py
 ```
 
 # Kubernetes
