@@ -30,4 +30,8 @@ POST request
 
 5. What's the difference between POST & PUT request?
 
-6. What's the difference between SOAP and REST? Which one is stateful or stateless ? Which one is usually faster?
+6. Is REST a stateless or stateful API?
+
+Stateless
+
+[More Info](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html)
