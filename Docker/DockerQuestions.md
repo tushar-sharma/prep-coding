@@ -12,6 +12,8 @@
 
 6. What's health checks in docker compose?
 
+&nbsp;&nbsp;&nbsp;&nbsp;[Info](https://howchoo.com/g/zwjhogrkywe/how-to-add-a-health-check-to-your-docker-container)
+
 7. Build a docker image?
 
 ```bash
