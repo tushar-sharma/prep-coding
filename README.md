@@ -39,6 +39,7 @@ Coding Preparation
 
 |  #  | Languages/Stack
 |-----|-------------
+|8|[AWS](../master/aws/AWSQuestions.md)|
 |7|[Javascript](../master/javascript/JavascriptQuestions.md)|
 |6|[REST](../master/REST/RESTQuestions.md)|
 |5|[Docker](../master/Docker/DockerQuestions.md)|
