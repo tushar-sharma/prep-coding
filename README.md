@@ -9,6 +9,7 @@ Coding Preparation
 |?|[Next Permutation](https://leetcode.com/problems/next-permutation/)| TODO | Medium | Array |
 |?|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| TODO | Medium | Array |
 |?|[](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| | Medium| Array, Binary Search|
+https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses, string
 -->
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
