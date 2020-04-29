@@ -9,11 +9,11 @@ Coding Preparation
 |?|[Next Permutation](https://leetcode.com/problems/next-permutation/)| TODO | Medium | Array |
 |?|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| TODO | Medium | Array |
 |?|[](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| | Medium| Array, Binary Search|
-
 -->
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Resources
 |-----|----------------|---------------|-------------|-------------|----------
+|13|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Java](../master/leetcode/NumberOfIslands.java) | Medium | Array, DFS |
 |12|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)| [Java](../master/leetcode/GroupAnagram.java) | Medium | String, Hashmap |
 |11|[Best Time to Buy & Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Java](../master/leetcode/BestTimeStock2.java) | Easy | Array |
 |10|[Best Time to Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java](../master/leetcode/BestTimeStock.java) | Easy | Array |
