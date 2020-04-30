@@ -28,13 +28,11 @@ https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses, string
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](../master/leetcode/AddTwoNo.java)| Medium | LinkedList |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](../master/leetcode/TwoSum.java)| Easy | HashMap |
 
-<!--
-## Binary Search Tree
+## Implementation
 
 |#| Title | Solutions |
 |-|-------|-----------|
-|1| Implementation | |
--->
+|1| Stack | [Java](../master/implementation/CustomStack.java)
 
 ## Interview Questions
 
