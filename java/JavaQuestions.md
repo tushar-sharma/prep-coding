@@ -81,16 +81,16 @@ case 30: n = n + 5;
 System.out.println(n);
 ```
 
-**3. Sort a String in Java**
+**5. Sort a String in Java**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Example](../java/SortAString.java)
 
-**4. When would you use a private constructor? Give one example where you would use it?**
+**6. When would you use a private constructor? Give one example where you would use it?**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Yes. We could use for creating Singleton class [Example](../java/Singleton.java)
 
 
-**5. Which of the following types cannot be used as the parameter for a switch statement?**
+**7. Which of the following types cannot be used as the parameter for a switch statement?**
 
 ```bash
 a. char
@@ -102,17 +102,17 @@ c. byte
 d. int
 ```
 
-**7. What are Wrapper classes?**
+**8. What are Wrapper classes?**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The wrapper class in Java provides the mechanism to convert primitive into object and object into primitive.
 
-**8. What's difference between Stack Memory and Heap?**
+**9. What's difference between Stack Memory and Heap?**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stack Memory is used for memory allocation and execution of thread. Access to this is faster than heap memory.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Heap space in used for dynamic memory allocation for Java Objects at runtime. New objects are created in heap memory and refereces are stored in stack memory. Java thorws **java.lang.OutofMemoryError**. It's not threadsafe, unlike stack, need synchronization.
 
-**9. Does Java support multiple inheritance? How to implement it?**
+**10. Does Java support multiple inheritance? How to implement it?**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No. However we can implement multiple interfaces.
 
@@ -137,3 +137,42 @@ public void barDsp() {
 ```
 
 Before Java 8, interfaces could only define abstract methods. So this wont work anymore.
+
+**11. What's an abstract class?**
+
+An abstract class is a class whose sole purpose is to be extended.
+
+```java
+public abstract class List {
+  protected int size;
+
+  public int length() {
+    return size;
+  }
+
+  public abstract void insertFront(Object item);
+}
+```
+
+Abstract classes don't allow you to create objects directly.  You can declare a
+variable of type List, but you can't create a List object.
+
+```java
+List myList;                 // Right on.
+myList = new List();         // COMPILE-TIME ERROR.
+```
+[More Info](https://drive.google.com/open?id=10B8lKlBBkuoI98nhq3H6WbV7B2RtdiWh)
+
+**12. What's a comparable interface?**
+
+Java provides the Comparable interface, which specifies a
+method compareTo()
+
+```bash
+public interface Comparable<T> {
+    //post: return < 0 if this smaller than other
+    return 0 if this equal to other
+    return > 0 if this greater than other
+    int compareTo(T other);
+}
+```
