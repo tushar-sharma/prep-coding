@@ -31,6 +31,9 @@ $ docker run -it --rm $Docker_Image
 ```bash
 $ docker run --entrypoint=python $Docker_Image $script
  ```
+ 
+10. Difference between CMD and ENTRYPOINT?
+
 
 # Kubernetes
 
