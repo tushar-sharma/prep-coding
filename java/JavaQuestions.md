@@ -15,41 +15,31 @@ String Buffer can be converted to the string by using toString() method
 **2. What's the output?**
 
 ``` bash
-class CompareString {
+String str1 = "hello";
 
+String str2 = str1;
 
-    public static void main(String[] args) {
+String str3 = new String("hello");
 
-    /* create strings */
-    String str1 = "hello";
+StringBuffer str4 = new StringBuffer("hello");
 
-    String str2 = str1;
+StringBuilder str5 = new StringBuilder("hello");
 
-    String str3 = new String("hello");
+/* check equality */
 
-    StringBuffer str4 = new StringBuffer("hello");
+System.out.println(str1 == str2);
 
-    StringBuilder str5 = new StringBuilder("hello");
+System.out.println(str1 == str3);
 
+System.out.println(str2 == str3);
 
-    /* check equality */
+System.out.println(str1.equals(str2));
 
-    System.out.println(str1 == str2);
+System.out.println(str1.equals(str3));
 
-    System.out.println(str1 == str3);
+System.out.println(str3.equals(str4));
 
-    System.out.println(str2 == str3);
-
-    System.out.println(str1.equals(str2));
-
-    System.out.println(str1.equals(str3));
-
-    System.out.println(str3.equals(str4));
-
-    System.out.println(str3.equals(str5.toString()));
-
-    }
-}
+System.out.println(str3.equals(str5.toString()));
 
 ```
 
@@ -57,22 +47,22 @@ class CompareString {
 
 ```bash
 interface MyInterface {
-    public void method1();
-    public void method2();
+public void method1();
+public void method2();
 }
 
 class MyClass implements MyInterface {
-    public void method1() {
-        System.out.println( "method 1" );
-    }
+public void method1() {
+    System.out.println( "method 1" );
+}
 }
 
 public class Test {
-    public static void main( String args[] ) {
-        MyClass c1 = new MyClass();
-        c1.method1();
-        c1.method2();
-    }
+public static void main( String args[] ) {
+    MyClass c1 = new MyClass();
+    c1.method1();
+    c1.method2();
+}
 }
 ```
 
@@ -113,21 +103,21 @@ d. int
 
 ```java
 public interface Foo() {
-    void fooDsp();
+void fooDsp();
 }
 
 public interface Bar() {
-    void barDsp();
+void barDsp();
 }
 
 public class Test implements Foo, Bar {
-    public void fooDsp() {
-        System.out.println("Foo called");
-    }
+public void fooDsp() {
+    System.out.println("Foo called");
+}
 
-    public void barDsp() {
-        System.out.println("Bar called");
-    }
+public void barDsp() {
+    System.out.println("Bar called");
+}
 }
 ```
 
