@@ -81,8 +81,6 @@ case 30: n = n + 5;
 System.out.println(n);
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;Error
-
 **3. Sort a String in Java**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Example](../java/SortAString.java)
