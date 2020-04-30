@@ -44,10 +44,7 @@ public class MinimumValidParentheses {
             else if (mapLetters.containsValue(ch) ) {
                 if (!braces.isEmpty() && mapLetters.get(braces.peek()) != null && mapLetters.get(braces.peek()) == ch )  {
                     braces.pop();
-
                     indices.remove(indices.last());
-
-
                 }
                 else {
                     braces.push(ch);
