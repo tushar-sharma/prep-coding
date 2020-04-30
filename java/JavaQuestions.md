@@ -14,7 +14,67 @@ String Buffer can be converted to the string by using toString() method
 
 **2. What's the output?**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Example](../java/CompareString.java)
+``` bash
+class CompareString {
+
+
+    public static void main(String[] args) {
+
+    /* create strings */
+    String str1 = "hello";
+
+    String str2 = str1;
+
+    String str3 = new String("hello");
+
+    StringBuffer str4 = new StringBuffer("hello");
+
+    StringBuilder str5 = new StringBuilder("hello");
+
+
+    /* check equality */
+
+    System.out.println(str1 == str2);
+
+    System.out.println(str1 == str3);
+
+    System.out.println(str2 == str3);
+
+    System.out.println(str1.equals(str2));
+
+    System.out.println(str1.equals(str3));
+
+    System.out.println(str3.equals(str4));
+
+    System.out.println(str3.equals(str5.toString()));
+
+    }
+}
+
+```
+
+**3. What's the output?**
+
+```bash
+interface MyInterface {
+    public void method1();
+    public void method2();
+}
+
+class MyClass implements MyInterface {
+    public void method1() {
+        System.out.println( "method 1" );
+    }
+}
+
+public class Test {
+    public static void main( String args[] ) {
+        MyClass c1 = new MyClass();
+        c1.method1();
+        c1.method2();
+    }
+}
+```
 
 **3. Sort a String in Java**
 
