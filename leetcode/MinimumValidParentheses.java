@@ -31,7 +31,6 @@ public class MinimumValidParentheses {
         mapLetters.put('[', ']');
         mapLetters.put('(', ')');
 
-        int prev = 0;
 
         for (int i = 0; i < s.length(); i++)  {
             char ch = s.charAt(i);
@@ -39,7 +38,6 @@ public class MinimumValidParentheses {
             if(mapLetters.containsKey(ch)) {
                 braces.push(ch);
                 indices.add(i);
-                prev = i;
             }
             else if (mapLetters.containsValue(ch) ) {
                 if (!braces.isEmpty() && mapLetters.get(braces.peek()) != null && mapLetters.get(braces.peek()) == ch )  {

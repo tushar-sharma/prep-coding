@@ -10,6 +10,10 @@ Coding Preparation
 |?|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| TODO | Medium | Array |
 |?|[](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| | Medium| Array, Binary Search|
 https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses, string
+https://leetcode.com/problems/rotting-oranges/
+https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions
+https://leetcode.com/problems/word-break-ii/
+https://leetcode.com/problems/word-search-ii/
 -->
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
