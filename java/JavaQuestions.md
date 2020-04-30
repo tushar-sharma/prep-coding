@@ -176,3 +176,6 @@ public interface Comparable<T> {
     int compareTo(T other);
 }
 ```
+**13. How will you sort an object in Array?**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Example](../java/Book.java)
