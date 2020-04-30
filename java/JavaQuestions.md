@@ -14,7 +14,7 @@ String Buffer can be converted to the string by using toString() method
 
 **2. What's the output?**
 
-``` bash
+```java
 String str1 = "hello";
 
 String str2 = str1;
