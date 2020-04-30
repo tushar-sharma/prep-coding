@@ -29,8 +29,8 @@ $ docker run -it --rm $Docker_Image
 9. How to override entrypoint using docker run?
 
 ```bash
-$ docker run --entrypoint "python3 script.py" $Docker_Image
-```
+$ docker run --entrypoint=python $Docker_Image $script
+ ```
 
 # Kubernetes
 
