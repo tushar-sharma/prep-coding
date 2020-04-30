@@ -45,24 +45,24 @@ System.out.println(str3.equals(str5.toString()));
 
 **3. What's the output?**
 
-```bash
+```java
 interface MyInterface {
-public void method1();
-public void method2();
+    public void method1();
+    public void method2();
 }
 
 class MyClass implements MyInterface {
-public void method1() {
-    System.out.println( "method 1" );
-}
+    public void method1() {
+        System.out.println( "method 1" );
+    }
 }
 
 public class Test {
-public static void main( String args[] ) {
-    MyClass c1 = new MyClass();
-    c1.method1();
-    c1.method2();
-}
+    public static void main( String args[] ) {
+        MyClass c1 = new MyClass();
+        c1.method1();
+        c1.method2();
+    }
 }
 ```
 
