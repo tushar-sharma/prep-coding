@@ -259,7 +259,24 @@ eg function overloading & funciton overriding.
 
 The static keyword denotes that a member variable or method can be accessed, without requiring an instantiation of the class to which it belongs. A user cannot override static methods in Java, because method overriding is based upon dynamic binding at runtime and static methods are statically binded at compile time.
 
-**18. What is an iterator? difference between fail-fast and fail-safe iterator?**
+**18. What is an iterator interface? difference between fail-fast and fail-safe iterator?**
+
+An iterator over a collection. It has 3 methods
+
+1. next() : for stepping over next element and obtaining it:
+2. hasNext() :  used for checking if there's at least one element left to iterate over.
+3. remove()
+
+```java
+while (iter.hasNext()) {
+    String next = iter.next();
+    System.out.println(next);
+  
+    if( "TWO".equals(next)) {
+        iter.remove();              
+    }
+}
+```
 
 The Iterator's fail-safe property works with the clone of the underlying collection and thus, it is not affected by any modification in the collection. All the collection classes in java.util package are fail-fast, while the collection classes in java.util.concurrent are fail-safe. Fail-fast iterators throw a ConcurrentModificationException, while fail-safe iterator never throws such an exception.
 
@@ -274,6 +291,23 @@ In order for a class to implement an interface, it must implement all its declar
 Variables declared in a Java interface is by default final. An abstract class may contain non-final variables.
 4. Members of a Java interface are public by default. A member of an abstract class can either be private, protected or public.
 5. An interface is absolutely abstract and cannot be instantiated. An abstract class also cannot be instantiated, but can be invoked if it contains a main method.
+
+**20. What's the output? **
+
+```java
+      ArrayList<Integer> arr = new ArrayList<>();
+      arr.add(1);
+      arr.add(2);
+      arr.add(3);
+
+      Iterator<Integer> iter = arr.iterator();
+
+      while(iter.hasNext()) {
+        System.out.println(iter.next());
+        arr.add(4);
+      }
+
+```
 
 
 
