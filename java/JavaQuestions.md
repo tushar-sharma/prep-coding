@@ -211,3 +211,43 @@ public class A {
 }
 
 ```
+
+**15. What's the output?**
+
+```java
+class Animal {
+  public void dsp() {
+    System.out.println("animal");
+   }
+
+    public void foo(){
+      System.out.println("foo");
+    } 
+}
+
+class Mammal extends Animal { }
+
+class Cat extends Mammal {
+  public void dsp() {
+    System.out.println("cat");
+  }
+}
+public class MyClass {
+    public static void main(String args[]) {
+
+        Mammal m1 = new Cat(); 
+        m1.dsp();
+   
+        Mammal m2 = new Cat();
+        Cat c1 = (Cat) m2;
+        c1.dsp();
+
+       Cat c2 = new Cat();
+       c2.foo();
+  
+       Mammal m3 = new Mammal();
+       Cat c3 = (Cat) m3;
+  }
+}
+
+```
