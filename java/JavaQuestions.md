@@ -255,3 +255,12 @@ public class MyClass {
 **16. Difference between static vs dynamic polymorphism?**
 
 eg function overloading & funciton overriding.
+
+**17. What does the “static” keyword mean ? Can you override private or static method in Java ?**
+
+The static keyword denotes that a member variable or method can be accessed, without requiring an instantiation of the class to which it belongs. A user cannot override static methods in Java, because method overriding is based upon dynamic binding at runtime and static methods are statically binded at compile time.
+
+**18. What is an iterator? difference between fail-fast and fail-safe iterator?**
+
+
+
