@@ -61,7 +61,6 @@ public class Test {
     public static void main( String args[] ) {
         MyClass c1 = new MyClass();
         c1.method1();
-        c1.method2();
     }
 }
 ```
