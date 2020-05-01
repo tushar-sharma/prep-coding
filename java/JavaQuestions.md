@@ -168,7 +168,7 @@ myList = new List();         // COMPILE-TIME ERROR.
 Java provides the Comparable interface, which specifies a
 method compareTo()
 
-```bash
+```java
 public interface Comparable<T> {
     //post: return < 0 if this smaller than other
     return 0 if this equal to other
@@ -179,3 +179,35 @@ public interface Comparable<T> {
 **13. How will you sort an object in Array?**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Example](../java/Book.java)
+
+**14. What's the output?**
+
+```java
+class Animal {
+    private int x = 2;
+
+    protected String y = "hello";
+}
+
+class Cat extends Animal {
+
+    public int getX() {
+        return x;
+    }
+
+    public String getY() {
+        return y;
+    }
+}
+
+public class A {
+    public static void main(String[] args) {
+
+        Cat cat = new Cat();
+        System.out.println(cat.getX());
+
+        System.out.println(cat.getY());
+    }
+}
+
+```
