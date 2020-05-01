@@ -261,6 +261,8 @@ The static keyword denotes that a member variable or method can be accessed, wit
 
 **18. What is an iterator? difference between fail-fast and fail-safe iterator?**
 
+The Iterator's fail-safe property works with the clone of the underlying collection and thus, it is not affected by any modification in the collection. All the collection classes in java.util package are fail-fast, while the collection classes in java.util.concurrent are fail-safe. Fail-fast iterators throw a ConcurrentModificationException, while fail-safe iterator never throws such an exception.
+
 **19. What's the difference between interface and abstract class ?**
 
 Java provides and supports the creation both of abstract classes and interfaces. Both implementations share some common characteristics, but they differ in the following features:
