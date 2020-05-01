@@ -251,3 +251,7 @@ public class MyClass {
 }
 
 ```
+
+**16. Difference between static vs dynamic polymorphism?**
+
+eg function overloading & funciton overriding.
