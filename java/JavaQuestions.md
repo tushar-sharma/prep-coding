@@ -307,6 +307,21 @@ Variables declared in a Java interface is by default final. An abstract class ma
         arr.add(4);
       }
 
+
+      ConcurrentHashMap<String, Integer> map = new ConcurrentHashMap<>();
+
+      map.put("First", 10);
+      map.put("Second", 20);
+      map.put("Third", 30);
+      map.put("Fourth", 40);
+
+      Iterator<String> iterator = map.keySet().iterator();
+
+      while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+            map.put("Fifth", 50);
+      }
+
 ```
 
 
