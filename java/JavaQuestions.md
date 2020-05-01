@@ -114,7 +114,7 @@ d. int
 
 **10. Does Java support multiple inheritance? How to implement it?**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No. However we can implement multiple interfaces.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No. However we can implement multiple inheritance using interfaces.
 
 ```java
 public interface Foo() {
