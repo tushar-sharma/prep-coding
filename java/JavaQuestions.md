@@ -127,6 +127,7 @@ method.  The stack frames are on the left.  Everything on the right half of the
 page is in the heap.  Read the stack from bottom to top, because that's the
 order in which the stack frames were created.
 
+```bash
 STACK                                         |                            HEAP
                                               |
 method call      parameters & local variables |
@@ -155,6 +156,8 @@ SList.main                  ---               |         ---------   -----------
                                               |           |    -----------
 ----------------------------------------------|           \--->|  input  |
                                                                -----------
+
+```
 
 The method that is currently executing (at any point in time) is the one whose
 stack frame is on top.  All the other stack frames represent methods waiting
