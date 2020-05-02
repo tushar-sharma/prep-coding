@@ -107,9 +107,13 @@ d. int
 
 **9. What's difference between Stack Memory and Heap?**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stack Memory is used for memory allocation and execution of thread. Access to this is faster than heap memory.
+Java stores stuff in two separate pools of memory:  the stack and the heap.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Heap space in used for dynamic memory allocation for Java Objects at runtime. New objects are created in heap memory and refereces are stored in stack memory. Java thorws **java.lang.OutofMemoryError**. It's not threadsafe, unlike stack, need synchronization.
+
+The _heap_ stores all objects, including all arrays, and all class variables
+(i.e. those declared "static").
+
+The _stack_ stores all local variables, including all parameters. Access to this is faster than heap memory. It's also used for memory allocation and executin of thread.
 
 **10. Does Java support multiple inheritance? How to implement it?**
 
@@ -357,3 +361,5 @@ class Test {
 
 }
 ```
+
+**22. Difference between Linked lists vs. array lists?**
