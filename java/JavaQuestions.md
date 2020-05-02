@@ -296,7 +296,7 @@ Variables declared in a Java interface is by default final. An abstract class ma
 4. Members of a Java interface are public by default. A member of an abstract class can either be private, protected or public.
 5. An interface is absolutely abstract and cannot be instantiated. An abstract class also cannot be instantiated, but can be invoked if it contains a main method.
 
-**20. What's the output? **
+**20. What's the output?**
 
 ```java
       ArrayList<Integer> arr = new ArrayList<>();
