@@ -115,6 +115,59 @@ The _heap_ stores all objects, including all arrays, and all class variables
 
 The _stack_ stores all local variables, including all parameters. Access to this is faster than heap memory. It's also used for memory allocation and execution of thread.
 
+
+When a method is called, the Java Virtual Machine creates a _stack_frame_ (also
+known as an _activation_record_) that stores the parameters and local variables
+for that method.  One method can call another, which can call another, and so
+on, so the JVM maintains an internal _stack_ of stack frames, with "main" at
+the bottom, and the most recent method call on top.
+
+Here's a snapshot of the stack while Java is executing the SList.insertEnd
+method.  The stack frames are on the left.  Everything on the right half of the
+page is in the heap.  Read the stack from bottom to top, because that's the
+order in which the stack frames were created.
+
+STACK                                         |                            HEAP
+                                              |
+method call      parameters & local variables |
+----------------------------------------------|
+                                       ---    |       -------------------
+                                  this |.+----------->|item |.|  next |X|
+SListNode.SListNode         ---        ---    |       -------+-----------
+                        obj |.+--------------------------\   |
+                            ---               |          |   |
+----------------------------------------------|          v   v
+                            ---               |        ------------
+                        obj |.+----------------------->|  string  |
+                            ---               |        ------------
+SList.insertEnd             ---               |          ^
+                       this |.+--------------------------+---------\
+                            ---               |          |         |
+----------------------------------------------|          |         |
+                            ---               |          |         |
+                        str |.+--------------------------/         v
+                            ---      ---      |           ---------------------
+                                list |.+----------------->|head |X|  size | 0 |
+                                     ---      |           ---------------------
+SList.main                  ---               |         ---------   -----------
+                       args |.+------------------------>| . | .-+-->|  words  |
+                            ---               |         --+------   -----------
+                                              |           |    -----------
+----------------------------------------------|           \--->|  input  |
+                                                               -----------
+
+The method that is currently executing (at any point in time) is the one whose
+stack frame is on top.  All the other stack frames represent methods waiting
+for the methods above them to return before they can continue executing.
+
+When a method finishes executing, its stack frame is erased from the top of the
+stack, and its local variables are erased forever.
+
+The java.lang library has a method "Thread.dumpStack" that prints a list of the
+methods on the stack (but it doesn't print their local variables).  This method
+can be convenient for debugging--for instance, when you're trying to figure out
+which method called another method with illegal parameters.
+
 **10. Does Java support multiple inheritance? How to implement it?**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; No. However we can implement multiple inheritance using interfaces.
