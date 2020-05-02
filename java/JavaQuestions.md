@@ -113,7 +113,7 @@ Java stores stuff in two separate pools of memory:  the stack and the heap.
 The _heap_ stores all objects, including all arrays, and all class variables
 (i.e. those declared "static").
 
-The _stack_ stores all local variables, including all parameters. Access to this is faster than heap memory. It's also used for memory allocation and executin of thread.
+The _stack_ stores all local variables, including all parameters. Access to this is faster than heap memory. It's also used for memory allocation and execution of thread.
 
 **10. Does Java support multiple inheritance? How to implement it?**
 
