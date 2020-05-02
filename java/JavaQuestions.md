@@ -275,6 +275,11 @@ public class A {
 
 ```java
 class Animal {
+
+  public Animal() {
+      SYstem.out.prinln("AA");
+  }
+
   public void dsp() {
     System.out.println("animal");
    }
@@ -287,15 +292,30 @@ class Animal {
 class Mammal extends Animal { }
 
 class Cat extends Mammal {
+
+  public Mammal() {
+      SYstem.out.prinln("MM");
+  }
+
   public void dsp() {
     System.out.println("cat");
+  }
+
+  public void foo() {
+    System.out.pritnln("foo");
   }
 }
 public class MyClass {
     public static void main(String args[]) {
 
+        //Part 1
+        Cat c0 = new Mammal();
+        c0.dsp();
+
+        //Part 2
         Mammal m1 = new Cat();
         m1.dsp();
+        m1.foo();
 
         Mammal m2 = new Cat();
         Cat c1 = (Cat) m2;
