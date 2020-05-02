@@ -221,7 +221,7 @@ class Animal {
 
     public void foo(){
       System.out.println("foo");
-    } 
+    }
 }
 
 class Mammal extends Animal { }
@@ -234,16 +234,16 @@ class Cat extends Mammal {
 public class MyClass {
     public static void main(String args[]) {
 
-        Mammal m1 = new Cat(); 
+        Mammal m1 = new Cat();
         m1.dsp();
-   
+
         Mammal m2 = new Cat();
         Cat c1 = (Cat) m2;
         c1.dsp();
 
        Cat c2 = new Cat();
        c2.foo();
-  
+
        Mammal m3 = new Mammal();
        Cat c3 = (Cat) m3;
   }
@@ -271,9 +271,9 @@ An iterator over a collection. It has 3 methods
 while (iter.hasNext()) {
     String next = iter.next();
     System.out.println(next);
-  
+
     if( "TWO".equals(next)) {
-        iter.remove();              
+        iter.remove();
     }
 }
 ```
@@ -325,4 +325,35 @@ Variables declared in a Java interface is by default final. An abstract class ma
 ```
 
 
+**21. What' the output?**
 
+```java
+
+class Test {
+    public static boolean foo(int num) {
+        return num % 2 == 0;
+    }
+
+    public static void main(String[] args) {
+
+        //Part 1
+        int i = 1;
+        while (i < 5) {
+            if (foo(i)) {
+                continue;
+            }
+            System.out.println(i);
+            i++;
+        }
+
+        //Part 2
+
+        for (i = 0; i < 5; i++) {
+            if (foo(i)) {
+                continue;
+            }
+            System.out.println(i);
+        }
+
+}
+```
