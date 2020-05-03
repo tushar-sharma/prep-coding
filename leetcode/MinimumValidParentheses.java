@@ -10,21 +10,30 @@ import java.util.SortedSet;
 
 public class MinimumValidParentheses {
 
+	class SS {
+        int index;
+        char ch;
+
+        public SS(int index, char ch) {
+            this.index = index;
+            this.ch = ch;
+
+        }
+	}
+
     public static void main(String[] args) {
 
         assert minRemoveToMakeValid("a)b(c)d").equals("ab(c)d") == true;
     }
 
-
     public static String minRemoveToMakeValid(String s) {
 
+    public String minRemoveToMakeValid(String s) {
         if (s.isEmpty()) {
             return "";
         }
 
-        Stack<Character> braces = new Stack<>();
-
-        SortedSet<Integer> indices = new TreeSet<>();
+        Stack<SS> braces = new Stack<>();
 
         Map<Character, Character> mapLetters  = new HashMap<>();
         mapLetters.put('{', '}');
@@ -33,28 +42,38 @@ public class MinimumValidParentheses {
 
 
         for (int i = 0; i < s.length(); i++)  {
+
             char ch = s.charAt(i);
 
             if(mapLetters.containsKey(ch)) {
-                braces.push(ch);
-                indices.add(i);
-            }
-            else if (mapLetters.containsValue(ch) ) {
-                if (!braces.isEmpty() && mapLetters.get(braces.peek()) != null && mapLetters.get(braces.peek()) == ch )  {
+                braces.push(new SS(i, ch));
+            } else if (ch == ']' || ch == ')' || ch == '}' ) {
+
+                if (!braces.isEmpty() && mapLetters.get(braces.peek().ch) != null && mapLetters.get(braces.peek().ch) == ch) {
+                    //&& mapLetters.get(braces.peek()) != null && )  {
                     braces.pop();
-                    indices.remove(indices.last());
                 }
                 else {
-                    braces.push(ch);
-                    indices.add(i);
+                    braces.push(new SS(i, ch));
                 }
             }
         }
 
+
+
         StringBuilder sb = new StringBuilder();
 
+        boolean[] indices = new boolean[s.length()];
+
+        Iterator<SS> iter = braces.iterator();
+
+        while(iter.hasNext()){
+            indices[iter.next().index] = true;
+        }
+
+
         for (int i = 0; i < s.length(); i++) {
-            if (!indices.contains(i)) {
+            if (!indices[i]) {
                 sb.append(s.charAt(i));
             }
         }
