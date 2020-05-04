@@ -5,3 +5,7 @@
 A Lambda Layer is a ZIP archive / file that contains code and can be imported by Lambda functions. They are extracted to /opt folder in a Lambda function execution environment.
 
 ## What's an AWS lambda function? What is a handler in a lambda function?
+
+## Why do we need task definition in Amazon ECS?
+
+A task definition is required to run Docker containers in Amazon ECS. 
