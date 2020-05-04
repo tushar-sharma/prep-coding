@@ -10,7 +10,7 @@ A Lambda Layer is a ZIP archive / file that contains code and can be imported by
 
 A task definition is required to run Docker containers in Amazon ECS. 
 
-## How does one use task in Amazon ECS? 
+## How does one use task to run docker image in  Amazon ECS? 
 
 1. Build you image
 2. Push image to registry.
