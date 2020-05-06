@@ -23,7 +23,10 @@ A task definition is required to run Docker containers in Amazon ECS.
 
 ## Explain 
 
-**ECR Repository:** store versioned application container images
-**ECS Cluster:** provides compute power to run application container instances
-**ECS Task Definition:** specifies application container image version and environment considerations
-**ECS Service:** specifies how task definition will be deployed onto underlying compute resources
+1. **ECR Repository:** store versioned application container images
+
+2. **ECS Cluster:** provides compute power to run application container instances
+
+3. **ECS Task Definition:** specifies application container image version and environment considerations
+
+4. **ECS Service:** specifies how task definition will be deployed onto underlying compute resources
