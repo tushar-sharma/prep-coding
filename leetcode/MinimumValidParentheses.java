@@ -10,7 +10,7 @@ import java.util.SortedSet;
 
 public class MinimumValidParentheses {
 
-	class SS {
+    class SS {
         int index;
         char ch;
 
@@ -19,7 +19,7 @@ public class MinimumValidParentheses {
             this.ch = ch;
 
         }
-	}
+    }
 
     public static void main(String[] args) {
 
@@ -50,7 +50,6 @@ public class MinimumValidParentheses {
             } else if (ch == ']' || ch == ')' || ch == '}' ) {
 
                 if (!braces.isEmpty() && mapLetters.get(braces.peek().ch) != null && mapLetters.get(braces.peek().ch) == ch) {
-                    //&& mapLetters.get(braces.peek()) != null && )  {
                     braces.pop();
                 }
                 else {
