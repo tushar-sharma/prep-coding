@@ -38,7 +38,8 @@ https://leetcode.com/problems/word-search-ii/
 
 |#| Title | Solutions |
 |-|-------|-----------|
-|1| Stack | [Java](../master/implementation/CustomStack.java)
+|1| Stack | [Java](../master/implementation/CustomStack.java)|
+|2| Binary Search | [Java](../master/binarySearch/BinarySearch.java)|
 
 ## Interview Questions
 
