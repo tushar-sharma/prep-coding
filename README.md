@@ -18,6 +18,7 @@ https://leetcode.com/problems/word-search-ii/
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|16|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Java](../master/leetcode/SearchInsertPos.java) | Binary Search |
 |15|[Word Search](https://leetcode.com/problems/word-search/)| [Java](../master/leetcode/WordSearch.java) | Medium | DFS, BackTracking |
 |14|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)| [Java](../master/leetcode/MinimumValidParentheses.java) | Medium | String, Stack |
 |13|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Java](../master/leetcode/NumberOfIslands.java) | Medium | Array, DFS | [DFS](https://www.coursera.org/lecture/algorithms-graphs-data-structures/depth-first-search-dfs-the-basics-pKr0Y)
