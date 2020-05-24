@@ -18,6 +18,7 @@ https://leetcode.com/problems/word-search-ii/
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|17|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Java](../master/leetcode/PermString.java)| Medium | Sliding Window |
 |16|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Java](../master/leetcode/SearchInsertPos.java) | Easy | Binary Search |
 |15|[Word Search](https://leetcode.com/problems/word-search/)| [Java](../master/leetcode/WordSearch.java) | Medium | DFS, BackTracking |
 |14|[Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/)| [Java](../master/leetcode/MinimumValidParentheses.java) | Medium | String, Stack |
