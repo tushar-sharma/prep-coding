@@ -42,6 +42,7 @@ https://leetcode.com/problems/word-search-ii/
 |-|-------|-----------|
 |1| Stack | [Java](../master/implementation/CustomStack.java)|
 |2| Binary Search | [Java](../master/binarySearch/BinarySearch.java)|
+|3| Binary Search Tree | [Java](../master/implementation/BinarySearchTree.java|
 
 ## Interview Questions
 
