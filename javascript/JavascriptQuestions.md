@@ -2,10 +2,7 @@
 
 1. What's an closure in javascript?
 
-```bash
 A closure is a function defined inside another function (called parent function) and has access to the variable which is declared and defined in parent function scope.
-
-```
 
 2. What is IIFE (Immediately Invoked Function Expression) ?
 
