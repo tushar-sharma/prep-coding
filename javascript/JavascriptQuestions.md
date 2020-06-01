@@ -8,8 +8,6 @@ A closure is a function defined inside another function (called parent function)
 
 3. What are promises in JS and why they are useful?
 
-```bash
 It's used for handling asynchronous interactions in a sequential manner. They are especially useful when we need to do an async operation and THEN do another async operation based on the results of the first one.
-```
 
 4. Find first unique character in a string?
