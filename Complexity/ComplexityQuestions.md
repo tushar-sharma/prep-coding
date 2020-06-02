@@ -10,4 +10,4 @@
 | Rank | O(h) |
 
 
-where h is height of tree or lg(n)
+where h is height of tree. Best case it is lg(n) or n for worst case.
