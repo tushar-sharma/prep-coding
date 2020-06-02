@@ -2,6 +2,7 @@
 
 ## Binary Search Tree
 
+| Opeartions| Complexity | 
 |--|--|
 | Insert	 | O(h)  |
 | Min | O(h) |
