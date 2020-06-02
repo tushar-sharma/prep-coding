@@ -1,5 +1,7 @@
 /** 
-  *Implement binary serach tree 
+  * Implement binary search tree
+  * Supports : Insertion
+  *            Preorder traversal
   */  
 class Node<T> {
     T value;
