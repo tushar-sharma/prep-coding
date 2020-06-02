@@ -2,7 +2,6 @@
 
 ## Binary Search Tree
 
-|  |  |
 |--|--|
 | Insert	 | O(h)  |
 | Min | O(h) |
