@@ -2,7 +2,7 @@
 
 ## Binary Search Tree
 
-| Opeartions| Complexity | 
+| Opeartions| Big Oh | 
 |--|--|
 | Insert	 | O(h)  |
 | Min | O(h) |
