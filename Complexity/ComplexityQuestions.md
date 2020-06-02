@@ -10,4 +10,4 @@
 | Rank | O(h) |
 
 
-where h is height of tree
+where h is height of tree or lg(n)
