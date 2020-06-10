@@ -18,7 +18,7 @@ https://leetcode.com/problems/word-search-ii/
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|18|[Reverse words in String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Java](../master/leetcode/ReverseWords.java) | Medium | String |
+|18|[Reverse words in String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Java](../master/leetcode/ReverseWords.java), [Scala](../master/leetcode/ReverseWords.scala)  | Medium | String |
 |17|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Java](../master/leetcode/PermString.java)| Medium | Sliding Window |
 |16|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Java](../master/leetcode/SearchInsertPos.java) | Easy | Binary Search |
 |15|[Word Search](https://leetcode.com/problems/word-search/)| [Java](../master/leetcode/WordSearch.java) | Medium | DFS, BackTracking |
