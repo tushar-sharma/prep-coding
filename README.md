@@ -50,7 +50,7 @@ https://leetcode.com/problems/word-search-ii/
 
 |  #  | Languages/Stack
 |-----|-------------
-|11| [Heap](../master/Heap/HeapQuestions.md) |
+|11| [Heap](../master/heap/HeapQuestions.md) |
 |10|[Complexity](../master/Complexity/ComplexityQuestions.md)|
 |9|[Spark](../master/Spark/SparkQuestions.md)|
 |8|[AWS](../master/aws/AWSQuestions.md)|
