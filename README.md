@@ -18,6 +18,7 @@ https://leetcode.com/problems/word-search-ii/
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|20|[Replace Words](https://leetcode.com/problems/replace-words/) | [Java](../master/leetcode/ReplaceWords.java) | Medium | Trie  |
 |19|[Find all the anagrams in a string](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Java](../master/leetcode/FindAnagrams.java) | Medium | Sliding window  |
 |18|[Reverse words in String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Java](../master/leetcode/ReverseWords.java), [Scala](../master/leetcode/ReverseWords.scala)  | Medium | String |
 |17|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Java](../master/leetcode/PermString.java)| Medium | Sliding Window |
@@ -46,11 +47,13 @@ https://leetcode.com/problems/word-search-ii/
 |2| Binary Search | [Java](../master/binarySearch/BinarySearch.java)|
 |3| Binary Search Tree | [Java](../master/implementation/BinarySearchTree.java), [Python](../master/implementation/BinarySearchTree.py)|
 |4| Heap | [Java](../master/heap/Ex3.java) |
+|5| Trie | [Java](../master/implementation/Trie.java)|
+
 ## Interview Questions
 
 |  #  | Languages/Stack
 |-----|-------------
-|11| [Heap](../master/heap/HeapQuestions.md) |
+|11|[Heap](../master/heap/HeapQuestions.md) |
 |10|[Complexity](../master/Complexity/ComplexityQuestions.md)|
 |9|[Spark](../master/Spark/SparkQuestions.md)|
 |8|[AWS](../master/aws/AWSQuestions.md)|
