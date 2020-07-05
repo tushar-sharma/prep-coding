@@ -18,6 +18,7 @@ https://leetcode.com/problems/word-search-ii/
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|21|[Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Java](../master/leetcode/WordDictionary.java) | Medium | Trie  |
 |20|[Replace Words](https://leetcode.com/problems/replace-words/) | [Java](../master/leetcode/ReplaceWords.java) | Medium | Trie  |
 |19|[Find all the anagrams in a string](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Java](../master/leetcode/FindAnagrams.java) | Medium | Sliding window  |
 |18|[Reverse words in String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Java](../master/leetcode/ReverseWords.java), [Scala](../master/leetcode/ReverseWords.scala)  | Medium | String |
