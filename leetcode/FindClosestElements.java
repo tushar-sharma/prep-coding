@@ -31,6 +31,7 @@ class FindClosestElements {
          */
         if (index == -1)  { 
             
+            // if element is not in the array
             if (x < arr[0] || x > arr[arr.length - 1]) {
                 left = -1;
             }
