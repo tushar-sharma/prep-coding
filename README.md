@@ -7,7 +7,7 @@ Coding Preparation
 |-----|----------------|---------------|-------------|-------------|----------
 |22|[Find K Closest Element](https://leetcode.com/problems/find-k-closest-elements/)|[Java](../master/leetcode/FindClosestElements.java) | Medium | Binary Search, Two pointer |
 |21|[Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Java](../master/leetcode/WordDictionary.java) | Medium | Trie  |
-|20|[Replace Words](https://leetcode.com/problems/replace-words/) | [Java](../master/leetcode/ReplaceWords.java) | Medium | Trie  |
+|20|[Replace Words](https://leetcode.com/problems/replace-words/) | [Java](../master/leetcode/ReplaceWords.java),[Python](../master/leetcode/ReplaceWords.py) | Medium | Trie  |
 |19|[Find all the anagrams in a string](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Java](../master/leetcode/FindAnagrams.java) | Medium | Sliding window  |
 |18|[Reverse words in String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Java](../master/leetcode/ReverseWords.java), [Scala](../master/leetcode/ReverseWords.scala)  | Medium | String |
 |17|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Java](../master/leetcode/PermString.java)| Medium | Sliding Window |
