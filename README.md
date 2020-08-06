@@ -40,7 +40,7 @@ Coding Preparation
 
 ## Interview Questions
 
-|  #  | Languages/Stack
+|  #  | Languages/Stack/Concepts
 |-----|-------------
 |12|[Graph](https://drive.google.com/file/d/1uJTVbiArq7XoHnwnFdCAX6H-kMf88YnQ/view?usp=sharing)|
 |11|[Heap](../master/heap/HeapQuestions.md) |
