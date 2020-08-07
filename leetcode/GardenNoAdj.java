@@ -88,16 +88,8 @@ class Solution {
         int[] output = new int[N];
         int gardenType = 1;
         
-        //find the minimum vertex
-        int startPos = Integer.MAX_VALUE, index = 0;
-        
-        for(Map.Entry<Integer, List<Integer>> entry : adjacencyList.entrySet()){
-            int key = entry.getKey();
-            if (startPos > key){
-                startPos = key;
-            }
-        }
-        
+        int index = 0;
+
         for (int garden = 1; garden <= N; garden++) {
         
             List<Integer> edges = outEdges(garden);
@@ -114,10 +106,11 @@ class Solution {
                 possibleType.add(output[edge - 1]);
             }
                 
-            for (int i = 1; i <= 4; i++){     
-                if (!possibleType.contains(i)) {       
-                    gardenType = i;
+            for (int i = 1; i <= 4; i++){
+                if (!possibleType.contains(i)) {
+                    gardenType = i;  
                     break;
+                    
                 }
             
             }
