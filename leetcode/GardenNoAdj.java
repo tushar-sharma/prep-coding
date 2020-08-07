@@ -104,37 +104,22 @@ class Solution {
             
             if (edges == null){
                 output[index++] = 1;
+                //index++;
                 continue;
             }
-            
-            boolean startOver = true; 
-            int maxValue = Integer.MIN_VALUE;
-            
             
             Set<Integer> possibleType = new HashSet<>();
             
             for (Integer edge : edges) {
                 possibleType.add(output[edge - 1]);
-
-                if (edge == startPos || output[edge - 1] == 1) {
-                    startOver = false;
-                }
+            }
                 
-            }
-
-            if (startOver) {
-                gardenType = 1;
-            }
-            
-            else {
-
-                for (int i = 1; i <= 4; i++){
-                    if (!possibleType.contains(i)) {
-                        gardenType = i;
-                        break;
-                    }
+            for (int i = 1; i <= 4; i++){     
+                if (!possibleType.contains(i)) {       
+                    gardenType = i;
+                    break;
                 }
-             
+            
             }
             
             output[index++] = gardenType;
