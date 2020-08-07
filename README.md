@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|23|[Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/)|[Java](../master/leetcode/GardenNoAdj.java)| Easy | Graph |
 |22|[Find K Closest Element](https://leetcode.com/problems/find-k-closest-elements/)|[Java](../master/leetcode/FindClosestElements.java) | Medium | Binary Search, Two pointer |
 |21|[Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Java](../master/leetcode/WordDictionary.java) | Medium | Trie  |
 |20|[Replace Words](https://leetcode.com/problems/replace-words/) | [Java](../master/leetcode/ReplaceWords.java), [Python](../master/leetcode/ReplaceWords.py) | Medium | Trie  |
