@@ -120,7 +120,6 @@ class Solution {
                     startOver = false;
                 }
                 
-                //maxValue = Math.max(maxValue, output[edge - 1]);
             }
 
             if (startOver) {
