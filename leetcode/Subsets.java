@@ -10,6 +10,10 @@
  * Print an ArrayList for debugging
  * System.out.println(list.toString())
  *
+ * Test Cases:
+ * [9,0,3,5,7]
+ * [1,2,3]
+ *
  */
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
