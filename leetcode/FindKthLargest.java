@@ -3,6 +3,7 @@
  */
 class Solution {
     public int findKthLargest(int[] nums, int k) {
+        //O(n logn)
         Arrays.sort(nums);
         return nums[nums.length - k];
     }
