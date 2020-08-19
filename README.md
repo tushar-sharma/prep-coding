@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|25|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](../master/leetcode/FindKthLargest.java)| Easy | Array |
 |24|[Subsets](https://leetcode.com/problems/subsets/)|[Java](../master/leetcode/Subsets.java)| Medium | Array |
 |23|[Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/)|[Java](../master/leetcode/GardenNoAdj.java)| Easy | Graph |
 |22|[Find K Closest Element](https://leetcode.com/problems/find-k-closest-elements/)|[Java](../master/leetcode/FindClosestElements.java) | Medium | Binary Search, Two pointer |
