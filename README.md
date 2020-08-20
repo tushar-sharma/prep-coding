@@ -33,6 +33,8 @@ Coding Preparation
 
 ## Codeforces
 
+|  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
+|-----|----------------|---------------|-------------|-------------|----------
 |1|[Tokitsukaze and Enhancement](https://codeforces.com/contest/1191/problem/A)|[Java](../master/codeforces/1191A/Main.java)| Easy | Array |
 
 ## Implementation
