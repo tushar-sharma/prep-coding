@@ -31,6 +31,10 @@ Coding Preparation
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](../master/leetcode/AddTwoNo.java)| Medium | LinkedList |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](../master/leetcode/TwoSum.java)| Easy | HashMap |
 
+## Codeforces
+
+|1|[Tokitsukaze and Enhancement](https://codeforces.com/contest/1191/problem/A)|[Java](../master/codeforces/1191A/Main.java)| Easy | Array |
+
 ## Implementation
 
 |#| Title | Solutions |
