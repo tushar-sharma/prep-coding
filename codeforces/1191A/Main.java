@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 /*
  * https://codeforces.com/contest/1191/problem/A
+ *
  */
 public class Main {
 
@@ -25,11 +26,18 @@ public class Main {
             }
         }
 
-
         wr.println(change + " " + ctg[rem]);
 
         wr.close();
-
         br.close();
     }
 }
+/*
+ ** Test cases
+ - 33
+   0 A
+ - 98
+   1 B
+ - 43
+   2 A
+ */
