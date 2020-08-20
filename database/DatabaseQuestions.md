@@ -57,8 +57,8 @@ Non-clustered index creates a separate entity witin table which references origi
 
 No
 
+7. What's a trigger?
+
 ## Dynamodb
 
 [Notes 1](https://drive.google.com/file/d/1rk6OVeUTE5c8Cw1OX4ruOsp9NzsKB9vW/view?usp=sharing)
-
-7. What's a trigger?
