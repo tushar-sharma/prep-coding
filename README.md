@@ -35,7 +35,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|1|[Tokitsukaze and Enhancement](https://codeforces.com/problemset/problem/1191/A)|[Java](../master/codeforces/1191A/Main.java)| Easy | Array |
+|1|[Tokitsukaze and Enhancement](https://codeforces.com/problemset/problem/1191/A)|[Java](../master/codeforces/1191/A/Main.java)| Easy | Array |
 
 ## Implementation
 
