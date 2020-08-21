@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 /*
- * https://codeforces.com/contest/1191/problem/A
+ * https://codeforces.com/problemset/problem/1191/A
  *
  */
 public class Main {
