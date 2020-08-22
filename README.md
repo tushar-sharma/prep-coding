@@ -35,6 +35,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|2|[Hamburgers](https://codeforces.com/contest/371/problem/C)|[Java](../master/codeforces/371/C/Main.java)| Medium | Binary Search |
 |1|[Tokitsukaze and Enhancement](https://codeforces.com/problemset/problem/1191/A)|[Java](../master/codeforces/1191/A/Main.java)| Easy | Array |
 
 ## Implementation
