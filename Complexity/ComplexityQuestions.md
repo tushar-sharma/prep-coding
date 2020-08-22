@@ -1,10 +1,19 @@
 # Complexity
 
+## Stack
+
+| Operations | Big Oh|
+|--|--|
+|Access | O(n) |
+|Search | O(n) |
+|Insert | O(1) |
+|Remove | O(1) |
+
 ## Binary Search Tree
 
-| Opeartions| Big Oh |
+| Opertions| Big Oh |
 |--|--|
-| Insert	 | O(h)  |
+| Insert | O(h)  |
 | Min | O(h) |
 | Delete | O(h) |
 | Rank | O(h) |
