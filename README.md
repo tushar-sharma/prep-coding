@@ -42,7 +42,7 @@ Coding Preparation
 
 |#| Title | Solutions |
 |-|-------|-----------|
-|1| Stack | [Java](../master/implementation/CustomStack.java)|
+|1| Stack | [Java](../master/implementation/CustomStack.java), [Python](../master/implementation/CustomStack.py)|
 |2| Binary Search | [Java](../master/binarySearch/BinarySearch.java)|
 |3| Binary Search Tree | [Java](../master/implementation/BinarySearchTree.java), [Python](../master/implementation/BinarySearchTree.py)|
 |4| Heap | [Java](../master/heap/Ex3.java) |
