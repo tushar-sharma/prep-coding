@@ -5,7 +5,6 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|26|[Reorganize String](https://leetcode.com/problems/reorganize-string/)|| Medium | |
 |25|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](../master/leetcode/FindKthLargest.java)| Easy | Array |
 |24|[Subsets](https://leetcode.com/problems/subsets/)|[Java](../master/leetcode/Subsets.java)| Medium | Array |
 |23|[Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/)|[Java](../master/leetcode/GardenNoAdj.java)| Easy | Graph |
@@ -36,7 +35,6 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|3|[Minimal String](https://codeforces.com/contest/797/problem/C)|| Medium |  | |
 |2|[Hamburgers](https://codeforces.com/contest/371/problem/C)|[Java](../master/codeforces/371/C/Main.java)| Medium | Binary Search | [Codeforces](https://codeforces.com/blog/entry/9876)|
 |1|[Tokitsukaze and Enhancement](https://codeforces.com/problemset/problem/1191/A)|[Java](../master/codeforces/1191/A/Main.java)| Easy | Array |
 
