@@ -35,7 +35,8 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|2|[Hamburgers](https://codeforces.com/contest/371/problem/C)|[Java](../master/codeforces/371/C/Main.java)| Medium | Binary Search | [Codeforces](https://codeforces.com/blog/entry/9876)|
+|3|[Minimal string](https://codeforces.com/problemset/problem/797/C)|[Java](../master/codeforces/797/C/Main.java)| Medium | Stack | |
+|2|[Hamburgers](https://codeforces.com/problemset/problem/371/C)|[Java](../master/codeforces/371/C/Main.java)| Medium | Binary Search | [Blog](https://codeforces.com/blog/entry/9876)|
 |1|[Tokitsukaze and Enhancement](https://codeforces.com/problemset/problem/1191/A)|[Java](../master/codeforces/1191/A/Main.java)| Easy | Array |
 
 ## Implementation
