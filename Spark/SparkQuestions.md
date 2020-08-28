@@ -1,12 +1,8 @@
 # SPARK Questions
 
-## How to run spark application?
+## Resources
 
-```bash
-$ sbt compile
-$ sbt package
-$ spark-submit --classNames <Name> <Jar>.jar
-```
+1. [How to run a spark applicatoin](https://drive.google.com/file/d/1IUwQwdMQWlSZBG9ga402sDBLSzbu3Jg5/view?usp=sharing)
 
 ## Notes
 
