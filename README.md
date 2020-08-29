@@ -52,6 +52,8 @@ Coding Preparation
 
 ## Algorithms
 
+|#| Title | Implementation|
+|-|-------|-----------|
 |1| Binary Search | [Java](../master/algorithms/BinarySearch.java)|
 
 ## Interview Questions
