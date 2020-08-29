@@ -21,7 +21,7 @@ public class QueueDemo {
         //peek
         System.out.println("Front element in queue " + myQueue.peek());
 
-        //pop
+        //remove front element
         System.out.println("Remove front element " + myQueue.poll());
 
         //peek
