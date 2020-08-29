@@ -6,8 +6,19 @@
 |--|--|
 |Access | O(n) |
 |Search | O(n) |
-|Insert | O(1) |
-|Remove | O(1) |
+|Push | O(1) |
+|Pop | O(1) |
+|Peek | O(1) |
+
+## Queue
+
+| Operations | Big Oh|
+|--|--|
+|Access | O(n) |
+|Search | O(n) |
+|Enqueue | O(1) |
+|Dequeue | O(1) |
+|Peek | O(1) |
 
 ## Binary Search Tree
 
