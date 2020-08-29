@@ -439,3 +439,6 @@ class Test {
 ```
 
 **22. Difference between Linked lists vs. array lists?**
+
+**23. is ArrayDeque thread safe?**
+No
