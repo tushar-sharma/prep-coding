@@ -41,19 +41,22 @@ Coding Preparation
 |2|[Hamburgers](https://codeforces.com/problemset/problem/371/C)|[Java](../master/codeforces/371/C/Main.java)| Medium | Binary Search | [Blog](https://codeforces.com/blog/entry/9876)|
 |1|[Tokitsukaze and Enhancement](https://codeforces.com/problemset/problem/1191/A)|[Java](../master/codeforces/1191/A/Main.java)| Easy | Array |
 
-## Implementation
+## Abstract Data Type
 
-|#| Title | Solutions |
-|-|-------|-----------|
-|1| Stack | [Java](../master/implementation/CustomStack.java), [Python](../master/implementation/CustomStack.py)|
-|2| Binary Search | [Java](../master/binarySearch/BinarySearch.java)|
-|3| Binary Search Tree | [Java](../master/implementation/BinarySearchTree.java), [Python](../master/implementation/BinarySearchTree.py)|
-|4| Heap | [Java](../master/heap/Ex3.java) |
-|5| Trie | [Java](../master/implementation/Trie.java)|
+|#| Title | Implementation | API|
+|-|-------|-----------| |
+|1| Stack | [Java](../master/adt/CustomStack.java), [Python](../master/implementation/CustomStack.py)| |
+|2| Binary Search Tree | [Java](../master/implementation/BinarySearchTree.java), [Python](../master/implementation/BinarySearchTree.py)| |
+|3| Heap | [Java](../master/heap/Ex3.java) | |
+|4| Trie | [Java](../master/implementation/Trie.java)| |
+
+## Algorithms
+
+|1| Binary Search | [Java](../master/algorithms/BinarySearch.java)|
 
 ## Interview Questions
 
-|  #  | Languages/Stack/Concepts
+|  #  | Stack
 |-----|-------------
 |12|[Graph](https://drive.google.com/file/d/1uJTVbiArq7XoHnwnFdCAX6H-kMf88YnQ/view?usp=sharing)|
 |11|[Heap](../master/heap/HeapQuestions.md) |
