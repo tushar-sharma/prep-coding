@@ -1,5 +1,6 @@
 /**
  * Stack Demo
+ * Stack is LIFO
  */
 import java.util.ArrayDeque;
 import java.util.Deque;
