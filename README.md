@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|27|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)|[Java](../master/leetcode/QueueS.java)| Easy | Stack |
 |26|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](../master/leetcode/MinStack.java)| Easy | Stack |
 |25|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](../master/leetcode/FindKthLargest.java)| Easy | Array |
 |24|[Subsets](https://leetcode.com/problems/subsets/)|[Java](../master/leetcode/Subsets.java)| Medium | Array |
