@@ -46,9 +46,9 @@ Coding Preparation
 |#| Title | Implementation | API|
 |-|-------|-----------|----|
 |1| Stack | [Java](../master/adt/CustomStack.java), [Python](../master/adt/CustomStack.py)| [Java](../master/adt/StackDemo.java) |
-|2| Binary Search Tree | [Java](../master/implementation/BinarySearchTree.java), [Python](../master/implementation/BinarySearchTree.py)| |
+|2| Binary Search Tree | [Java](../master/adt/BinarySearchTree.java), [Python](../master/adt/BinarySearchTree.py)| |
 |3| Heap | [Java](../master/heap/Ex3.java) | |
-|4| Trie | [Java](../master/implementation/Trie.java)| |
+|4| Trie | [Java](../master/adt/Trie.java)| |
 
 ## Algorithms
 
