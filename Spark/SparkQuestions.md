@@ -13,3 +13,10 @@
 ```scala
 df = df.withColumn("duplicate_column", df.col("current_column"))
 ```
+
+## AWS GLue
+
+### Convert dataframe to Dynamic Frame
+```scala
+val dynamicFrame = DynamicFrame(df, glueContext)
+```
