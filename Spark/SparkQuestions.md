@@ -29,5 +29,7 @@ val df = data.toDF("EmpId","Salary")
 
 ### Convert dataframe to Dynamic Frame
 ```scala
+import com.amazonaws.services.glue.DynamicFrame
+
 val dynamicFrame = DynamicFrame(df, glueContext)
 ```
