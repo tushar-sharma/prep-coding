@@ -18,6 +18,12 @@ df = df.withColumn("duplicate_column", df.col("current_column"))
 ```scala
 val df = spark.emptyDataFrame
 ```
+### Add new column to dataframe
+
+```scala
+val data = Seq(("111",50000),("222",60000),("333",40000))
+val df = data.toDF("EmpId","Salary")
+```
 
 ## AWS Glue
 
