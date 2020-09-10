@@ -19,7 +19,7 @@ df = df.withColumn("duplicate_column", df.col("current_column"))
 val df = spark.emptyDataFrame
 ```
 
-## AWS GLue
+## AWS Glue
 
 ### Convert dataframe to Dynamic Frame
 ```scala
