@@ -13,6 +13,11 @@
 ```scala
 df = df.withColumn("duplicate_column", df.col("current_column"))
 ```
+### create empty dataframe without schema
+
+```scala
+val df = spark.emptyDataFrame
+```
 
 ## AWS GLue
 
