@@ -33,3 +33,8 @@ import com.amazonaws.services.glue.DynamicFrame
 
 val dynamicFrame = DynamicFrame(df, glueContext)
 ```
+
+### Crawler
+
+It's used to populate metadata about the table in the AWS Glue Data Catalog.
+
