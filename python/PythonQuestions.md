@@ -53,3 +53,10 @@ print(myFunc(arr))
 ```
 
 5. Implement function overloading in python?
+
+
+## Pandas
+
+### Axis in pandas mean?
+
+axis=0 means along the rows, axis=1 means long the columns. 
