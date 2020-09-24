@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|29|[Partition List](https://leetcode.com/problems/partition-list/)|[Java](../master/leetcode/PartitionList.java)| Medium | Linked List |
 |28|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Java](../master/leetcode/SummaryRanges.java)| Medium | Two pointer |
 |27|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)|[Java](../master/leetcode/QueueS.java)| Easy | Stack |
 |26|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](../master/leetcode/MinStack.java)| Easy | Stack |
