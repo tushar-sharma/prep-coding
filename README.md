@@ -5,7 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|31|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Java](../master/leetcode/RestoreIPAdresses.jav)| Medium | String  |
+|31|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Java](../master/leetcode/RestoreIPAdresses.java)| Medium | String  |
 |30|[Unique Binary Search Tree](https://leetcode.com/problems/unique-binary-search-trees)|[Java](../master/leetcode/UniqueBinarySearchTree.java)| Medium | Binary Search Tree, Dynamic Programming  |
 |29|[Partition List](https://leetcode.com/problems/partition-list/)|[Java](../master/leetcode/PartitionList.java)| Medium | Linked List |
 |28|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Java](../master/leetcode/SummaryRanges.java)| Medium | Two pointer |
