@@ -4,15 +4,11 @@
 class Solution {
 
   public static boolean isValid(String s) {
-
-
       if (s.length() > 1) {
           if(s.charAt(0) == '0') {
               return false;
           }
       }
-
-      //conver to integer
 
       int sum = 0, factor = 1;
 
@@ -44,29 +40,22 @@ class Solution {
       return false;
     }
 
-
-
     if (interim.isEmpty()){
         interim  = s.substring(left, right);
     } else
 
         interim = interim + "." + s.substring(left, right);
 
-
      if (limit == 3 && right == s.length()) {
 
-         output.add(interim);
-
-        return true;
+          output.add(interim);
+          return true;
     }
-
 
     int start = right;
 
     for (int i = 1; i <= 3 ; i++) {
-        if (!checkValidIP(s, start, start + i, limit + 1, interim, output)) {
-        }
-
+        checkValidIP(s, start, start + i, limit + 1, interim, output));
     }
 
     return false;
@@ -74,18 +63,13 @@ class Solution {
   }
 
   public static List<String> restoreIpAddresses(String s) {
-
-
       List<String> output = new ArrayList<>();
       String interm;
 
       int start = 0;
 
       for (int i = 1; i <= 3; i++) {
-
-          if (!checkValidIP(s, start, start + i, 0, "", output)) {
-          }
-
+          checkValidIP(s, start, start + i, 0, "", output));
       }
 
       return output;
