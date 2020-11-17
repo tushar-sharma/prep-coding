@@ -50,6 +50,13 @@ Coding Preparation
 |-----|----------------|---------------|-------------|----------
 |1|[First non-repeating character in a stream of characters](https://www.interviewbit.com/problems/first-non-repeating-character-in-a-stream-of-characters/)|[Java](../master/interviewbit/FirstNonRepeating.java)|  Queue | |
 
+## HackerRank
+
+|  #  |      Title     |   Solutions   |   Tag         | Hint
+|-----|----------------|---------------|-------------|----------
+|1|[Greedy Florist](https://www.hackerrank.com/challenges/greedy-florist)|[Java](../master/hackerank/GreedyFlorist.java)|  Greedy  | |
+
+
 ## Abstract Data Type
 
 |#| Title | Implementation | API|
