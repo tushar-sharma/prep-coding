@@ -15,7 +15,6 @@ public class Solution {
         int numberOfFlowers = c.length;
         int remFlowers = numberOfFlowers;
 
-
         int minimumCost = 0;
 
         if (c.length == k){
