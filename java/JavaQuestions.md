@@ -442,3 +442,9 @@ class Test {
 
 **23. is ArrayDeque thread safe?**
 No
+
+**24 Sort an Array?**
+```java
+int[] arr = {1, 55, 2, 7, 10};
+Arrays.sort(arr); 
+```
