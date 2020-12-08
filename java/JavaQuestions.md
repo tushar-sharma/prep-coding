@@ -451,3 +451,4 @@ Arrays.sort(arr);
 
 **25 Deep copy and shallow copy?**
 
+**26 Implement a singleton class ? How do you make it thread safe?**
