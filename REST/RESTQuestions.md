@@ -22,15 +22,18 @@ Methods can be ignored or repeated without side effects eg GET and HEAD
 Methods that can be repeated without side-effects eg PUT and DELETE
 ```
 
-4. If I have to update a password in a database, which HTTP request would I use?
+4. How will you send payload with GET Request?  Can you use Get API to create a resource? 
+
+
+
+5. If I have to update a password in a database, which HTTP request would I use?
 
 ```bash
 POST request
 ```
 
-5. Can you use Get API to create a resource? 
 
-5. What's the difference between POST & PUT request? Which is them is idempotent?
+6. What's the difference between POST & PUT request? Which is them is idempotent?
 
 6. Is REST a stateless or stateful API?
 
