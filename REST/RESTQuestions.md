@@ -28,7 +28,9 @@ Methods that can be repeated without side-effects eg PUT and DELETE
 POST request
 ```
 
-5. What's the difference between POST & PUT request?
+5. Can you use Get API to create a resource? 
+
+5. What's the difference between POST & PUT request? Which is them is idempotent?
 
 6. Is REST a stateless or stateful API?
 
