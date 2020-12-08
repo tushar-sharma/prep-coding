@@ -448,3 +448,6 @@ No
 int[] arr = {1, 55, 2, 7, 10};
 Arrays.sort(arr); 
 ```
+
+**25 Deep copy and shallow copy?**
+
