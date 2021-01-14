@@ -10,7 +10,7 @@ A Lambda Layer is a ZIP archive / file that contains code and can be imported by
 
 ## Why do we need task definition in Amazon ECS?
 
-A task definition is required to run Docker containers in Amazon ECS. 
+A task definition is required to run Docker containers in Amazon ECS. It's a blueprint that tells how a container should be launced. 
 
 ## How does one use task to run docker image in  Amazon ECS? 
 
