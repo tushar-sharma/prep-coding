@@ -5,7 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|31|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Java](../master/leetcode/ReverseListTwo.java|Medium|String|
+|31|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Java](../master/leetcode/ReverseListTwo.java)|Medium|String|
 |30|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Java](../master/leetcode/RestoreIPAdresses.java)| Medium | String  |
 |29|[Unique Binary Search Tree](https://leetcode.com/problems/unique-binary-search-trees)|[Java](../master/leetcode/UniqueBinarySearchTree.java)| Medium | Binary Search Tree, Dynamic Programming  |
 |28|[Partition List](https://leetcode.com/problems/partition-list/)|[Java](../master/leetcode/PartitionList.java)| Medium | Linked List |
