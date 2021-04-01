@@ -30,3 +30,7 @@ A task definition is required to run Docker containers in Amazon ECS. It's a blu
 3. **ECS Task Definition:** specifies application container image version and environment considerations
 
 4. **ECS Service:** specifies how task definition will be deployed onto underlying compute resources
+
+5. **What is a cold start?**
+
+A latency experienced when you trigger a function.
