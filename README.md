@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|32|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](../master/leetcode/PathSum.java)|Easy|Tree, Binary Tree|
 |31|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Java](../master/leetcode/ReverseListTwo.java)|Medium|Linked List|
 |30|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Java](../master/leetcode/RestoreIPAdresses.java)| Medium | String  |
 |29|[Unique Binary Search Tree](https://leetcode.com/problems/unique-binary-search-trees)|[Java](../master/leetcode/UniqueBinarySearchTree.java)| Medium | Binary Search Tree, Dynamic Programming  |
