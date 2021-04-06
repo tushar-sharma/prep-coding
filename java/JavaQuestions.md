@@ -446,9 +446,23 @@ No
 **24 Sort an Array?**
 ```java
 int[] arr = {1, 55, 2, 7, 10};
-Arrays.sort(arr); 
+Arrays.sort(arr);
 ```
 
 **25 Deep copy and shallow copy?**
 
 **26 Implement a singleton class ? How do you make it thread safe?**
+
+**27 How do you create a List of List in Java?**
+
+```java
+List<List<Integer>> paths = new ArrayList<>();
+```
+
+**28 How to pass array list as a copy and not reference ?**
+
+```java
+void foo(final ArrayList list) {
+    ArrayList listCopy = new ArrayList(list);
+}
+```
