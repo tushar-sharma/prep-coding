@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|38|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|  | Medium| | 
 |37|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)| | Hard |  |
 |36|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| | Easy| | 
 |35|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)| | Medium| | 
