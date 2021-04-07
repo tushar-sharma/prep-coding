@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|34|[LRU Cache](https://leetcode.com/problems/lru-cache)|[Java](../master/leetcode/LRUCache.java)|Medium|Design|
 |33|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](../master/leetcode/PathSumII.java)|Medium|Tree, Binary Tree|
 |32|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](../master/leetcode/PathSum.java), [Python](../master/leetcode/PathSum.py), [Javascript](../master/leetcode/PathSum.js), [Scala](../master/leetcode/PathSum.scala)|Easy|Tree, Binary Tree|
 |31|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Java](../master/leetcode/ReverseListTwo.java)|Medium|Linked List|
