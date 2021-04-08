@@ -466,3 +466,44 @@ void foo(final ArrayList list) {
     ArrayList listCopy = new ArrayList(list);
 }
 ```
+
+
+**29 Iterate over a hashmap ?**
+
+```java
+Map<String, List<String>> indexPath = new HashMap<>();
+
+for (Map.Entry<String, List<String>> entry : indexPath.entrySet()) {
+    System.out.println(entry.getValue());
+    System.out.println(entry.getKey())
+}
+
+```
+
+**30 Insert value into hashmap ? **
+
+```java
+Map<String, List<String>> indexPath = new HashMap<>();
+
+if (indexPath.containsKey(content)) {
+    indexPath.put(content, new ArrayList<>())
+} else {
+    List<String> temp = indexPath.get(content); 
+    temp.add(someString);
+    indexPath.put(content, temp);
+}
+```
+
+**31 Split a string into array?**
+
+```java
+String[] stringarr = somestring.split("\\s+");
+```
+
+**32 Extract a substring between two characters?**
+
+```java
+int firstpos = somestring.indexOf("("); 
+int lastpos = somestring.indexOf(")");
+String sub = somestring.substring(firstpos +1 , lastpos); 
+``
