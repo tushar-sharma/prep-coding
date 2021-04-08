@@ -5,7 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|35|Duplicate Path](https://leetcode.com/problems/find-duplicate-file-in-system/)|[Java](../master/leetcode/DuplicatePath.java)|Medium|String, HashMap|
+|35|[Duplicate Path](https://leetcode.com/problems/find-duplicate-file-in-system/)|[Java](../master/leetcode/DuplicatePath.java)|Medium|String, HashMap|
 |34|[LRU Cache](https://leetcode.com/problems/lru-cache)|[Java](../master/leetcode/LRUCache.java)|Medium|Design|
 |33|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](../master/leetcode/PathSumII.java)|Medium|Tree, Binary Tree|
 |32|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](../master/leetcode/PathSum.java), [Python](../master/leetcode/PathSum.py), [Javascript](../master/leetcode/PathSum.js), [Scala](../master/leetcode/PathSum.scala)|Easy|Tree, Binary Tree|
