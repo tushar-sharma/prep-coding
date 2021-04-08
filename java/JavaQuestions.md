@@ -480,7 +480,7 @@ for (Map.Entry<String, List<String>> entry : indexPath.entrySet()) {
 
 ```
 
-**30 Insert value into hashmap ? **
+**30 Insert value into hashmap ?**
 
 ```java
 Map<String, List<String>> indexPath = new HashMap<>();
