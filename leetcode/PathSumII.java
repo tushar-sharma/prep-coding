@@ -45,9 +45,7 @@ class Solution {
 
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
 
-        //prep-coding add
         List<List<Integer>> paths = new ArrayList<>();
-
 
         if (root == null) {
 
