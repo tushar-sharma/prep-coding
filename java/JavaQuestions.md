@@ -507,3 +507,11 @@ int firstpos = somestring.indexOf("(");
 int lastpos = somestring.indexOf(")");
 String sub = somestring.substring(firstpos +1 , lastpos); 
 ```
+
+**32 reverse a string?**
+
+```java
+String s; 
+
+String rev = new StringBuilder(s).reverse().toString();
+```
