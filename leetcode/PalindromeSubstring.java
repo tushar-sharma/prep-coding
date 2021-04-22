@@ -15,8 +15,8 @@ class Solution {
         int start = 0, end = 0; 
         
         for (int i = 0; i < s.length(); i++) {
-            int len1 = expandAroundCenter(s, i, i);
-            int len2 = expandAroundCenter(s, i, i + 1);
+            int len1 = expandAroundCenter(s, i, i); // odd  case
+            int len2 = expandAroundCenter(s, i, i + 1); // even case
             
             int len = Math.max(len1, len2);
             
