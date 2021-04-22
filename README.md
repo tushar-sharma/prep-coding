@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|36|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](../master/leetcode/PalindromeSubstring.java)|Medium| DP | 
 |35|[Duplicate Path](https://leetcode.com/problems/find-duplicate-file-in-system/)|[Java](../master/leetcode/DuplicatePath.java)|Medium|String, HashMap|
 |34|[LRU Cache](https://leetcode.com/problems/lru-cache)|[Java](../master/leetcode/LRUCache.java)|Medium|Design|
 |33|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](../master/leetcode/PathSumII.java), [Python](../master/leetcode/PathSumII.py)|Medium|Tree, Binary Tree|
