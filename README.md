@@ -65,13 +65,13 @@ Coding Preparation
 
 ## Abstract Data Type
 
-|#| Title | Implementation | API| Tutorial |
-|-|-------|-----------|----|--|
-|1| Stack | [Java](../master/adt/CustomStack.java), [Python](../master/adt/CustomStack.py)| [Java](../master/adt/StackDemo.java) | |
-|2| Queue | | [Java](../master/adt/QueueDemo.java) | |
-|3| Binary Search Tree | [Java](../master/adt/BinarySearchTree.java), [Python](../master/adt/BinarySearchTree.py)| | 
-|4| Heap | [Java](../master/adt/Heap.java) | [Java](../master/adt/HeapDemo.java), [Python](../master/adt/HeapDemo.py) | [AlgsDS07](https://drive.google.com/file/d/1Y3ucx5QGoJbvAxcNy9L1PkNV7v0l_aFZ/view?usp=sharing) |
-|5| Trie | [Java](../master/adt/Trie.java)| | |
+|#| Title | Implementation | API|
+|-|-------|-----------|----|
+|1| Stack | [Java](../master/adt/CustomStack.java), [Python](../master/adt/CustomStack.py)| [Java](../master/adt/StackDemo.java) |
+|2| Queue | | [Java](../master/adt/QueueDemo.java) |
+|3| Binary Search Tree | [Java](../master/adt/BinarySearchTree.java), [Python](../master/adt/BinarySearchTree.py)| |
+|4| Heap | [Java](../master/adt/Heap.java) | [Java](../master/adt/HeapDemo.java), [Python](../master/adt/HeapDemo.py) |
+|5| Trie | [Java](../master/adt/Trie.java)| |
 
 ## Algorithms
 
