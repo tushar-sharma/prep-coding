@@ -70,7 +70,7 @@ Coding Preparation
 |1| Stack | [Java](../master/adt/CustomStack.java), [Python](../master/adt/CustomStack.py)| [Java](../master/adt/StackDemo.java) |
 |2| Queue | | [Java](../master/adt/QueueDemo.java) |
 |3| Binary Search Tree | [Java](../master/adt/BinarySearchTree.java), [Python](../master/adt/BinarySearchTree.py)| |
-|4| Heap | [Java](../master/adt/Heap.java) | |
+|4| Heap | [Java](../master/adt/Heap.java) | [Python](../master/adt/HeapDemo.py) |
 |5| Trie | [Java](../master/adt/Trie.java)| |
 
 ## Algorithms
