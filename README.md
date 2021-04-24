@@ -5,7 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|36|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](../master/leetcode/PalindromeSubstring.java)|Medium| Dynamic Programming | 
+|36|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](../master/leetcode/PalindromeSubstring.java)|Medium| Dynamic Programming |
 |35|[Duplicate Path](https://leetcode.com/problems/find-duplicate-file-in-system/)|[Java](../master/leetcode/DuplicatePath.java)|Medium|String, HashMap|
 |34|[LRU Cache](https://leetcode.com/problems/lru-cache)|[Java](../master/leetcode/LRUCache.java)|Medium|Design|
 |33|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](../master/leetcode/PathSumII.java), [Python](../master/leetcode/PathSumII.py)|Medium|Tree, Binary Tree|
@@ -70,7 +70,7 @@ Coding Preparation
 |1| Stack | [Java](../master/adt/CustomStack.java), [Python](../master/adt/CustomStack.py)| [Java](../master/adt/StackDemo.java) |
 |2| Queue | | [Java](../master/adt/QueueDemo.java) |
 |3| Binary Search Tree | [Java](../master/adt/BinarySearchTree.java), [Python](../master/adt/BinarySearchTree.py)| |
-|4| Heap | [Java](../master/heap/Heap.java) | |
+|4| Heap | [Java](../master/adt/Heap.java) | |
 |5| Trie | [Java](../master/adt/Trie.java)| |
 
 ## Algorithms
