@@ -9,14 +9,20 @@ class Solution:
 
         count = Counter(nums)
 
-        maxHeap = []
+        print(count)
+
+        heap = []
         for key, value in count.items():
-            heapq.heappush(maxHeap, (-value, key))
+            heapq.heappush(heap, (value, key))
+
+            if (len(heap) > k):
+                heapq.heappop(heap)
+
 
         output = []
 
         while k > 0:
-            output.append(heapq.heappop(maxHeap)[1])
+            output.append(heapq.heappop(heap)[1])
             k-=1
 
         return output
