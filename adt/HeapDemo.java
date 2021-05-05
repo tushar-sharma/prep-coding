@@ -23,7 +23,7 @@ public class HeapDemo {
 
         System.out.println("Max heap");
         
-        PriorityQueue<Integer> pqMax = new PriorityQueue<>( (a,b) -> b -a);
+        PriorityQueue<Integer> pqMax = new PriorityQueue<>( (a,b) -> b.compareTo(a));
 
         for (int num : nums) {
             pqMax.add(num);
