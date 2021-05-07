@@ -515,3 +515,12 @@ String s;
 
 String rev = new StringBuilder(s).reverse().toString();
 ```
+**33 How to print? **
+
+**Arrays**
+
+```java
+int[] nums = {1, 2, 3, 4};
+
+System.out.pritnln(Arrays.toString(nums));
+```
