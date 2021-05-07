@@ -515,7 +515,8 @@ String s;
 
 String rev = new StringBuilder(s).reverse().toString();
 ```
-**33 How to print? **
+
+**33 How to print?**
 
 **Arrays**
 
