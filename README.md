@@ -5,7 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|39|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/submissions/)| | Medium | |
+|39|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/submissions/)|[Java](../master/leetcode/Wiggle.java) | Medium | Dynamic Programming|
 |38|[Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/)|[Java](../master/leetcode/MaxAvgPassRatio.java) | Medium | Heap|
 |37|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Java](../master/leetcode/FrequentElements.java), [Python](../master/leetcode/FrequentElements.py) |  Medium | Heap, Hash Map |
 |36|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](../master/leetcode/PalindromeSubstring.java)|Medium| Dynamic Programming |
