@@ -71,7 +71,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   |   Tag         | Hint
 |-----|----------------|---------------|-------------|----------
-|1|[Returning Strings](https://www.codewars.com/kata/55a70521798b14d4750000a4/train/sql)|   | |
+|1|[Returning Strings](https://www.codewars.com/kata/55a70521798b14d4750000a4/sql)|   | |
 
 [comment]: # (https://www.youtube.com/watch?v=sdTubUR99OA)
 
