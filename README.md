@@ -65,7 +65,7 @@ Coding Preparation
 |-----|----------------|---------------|-------------|----------
 |1|[Ones and Zeros](https://www.spoj.com/problems/ONEZERO/)||  BFS  | |
 
-[comment]: # (This actually is the most platform independent comment)
+[comment]: # (https://www.youtube.com/watch?v=sdTubUR99OA)
 
 ## HackerRank
 
