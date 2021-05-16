@@ -59,6 +59,14 @@ Coding Preparation
 |-----|----------------|---------------|-------------|----------
 |1|[First non-repeating character in a stream of characters](https://www.interviewbit.com/problems/first-non-repeating-character-in-a-stream-of-characters/)|[Java](../master/interviewbit/FirstNonRepeating.java)|  Queue | |
 
+## SPOJ
+
+|  #  |      Title     |   Solutions   |   Tag         | Hint
+|-----|----------------|---------------|-------------|----------
+|1|[Ones and Zeros](https://www.spoj.com/problems/ONEZERO/)||  BFS  | |
+
+[comment]: # (This actually is the most platform independent comment)
+
 ## HackerRank
 
 |  #  |      Title     |   Solutions   |   Tag         | Hint
