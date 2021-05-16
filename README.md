@@ -72,6 +72,7 @@ Coding Preparation
 |  #  |      Title     |   Solutions   |   Tag         | Hint
 |-----|----------------|---------------|-------------|----------
 |1|[Returning Strings](https://www.codewars.com/kata/55a70521798b14d4750000a4/sql)|   | |
+|1|[Simple table totaling](https://www.codewars.com/kata/5809575e166583acfa000083/sql)|   | |
 
 [comment]: # (https://www.youtube.com/watch?v=sdTubUR99OA)
 
