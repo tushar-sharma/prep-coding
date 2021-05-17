@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|42|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|| Easy|  Sliding Window|
 |41|[Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/)|| Medium|  Database|
 |40|[Second Highest Salary](https://leetcode.com/problems/second-highest-salary/)|[Mysql](../master/leetcode/SecondHighestSalary.sql)| Easy|  Database|
 |39|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/submissions/)|[Java](../master/leetcode/Wiggle.java) | Medium | Dynamic Programming|
