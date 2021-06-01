@@ -5,7 +5,8 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|49|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Java](../master/leetcode/TreeZigzag.java)  | Medium | |
+|50|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)| [Java](../master/leetcode/MinimumDepthBinaryTree.java)  | Medium | BFS |
+|49|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Java](../master/leetcode/TreeZigzag.java)  | Medium | BFS, Stack, Queue |
 |48|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [Java](../master/leetcode/BinaryTreeLevelOrder.java)| Medium | BFS |
 |47|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)| [Java](../master/leetcode/FindClosestElements.java)| Medium | Binary Search |
 |46|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)| | Medium | |
