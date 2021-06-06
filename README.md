@@ -9,7 +9,7 @@ Coding Preparation
 |47|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Java](../master/leetcode/TreeZigzag.java)  | Medium | BFS, Stack, Queue |
 |46|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [Java](../master/leetcode/BinaryTreeLevelOrder.java)| Medium | BFS |
 |45|[Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)| [Java](../master/leetcode/FindClosestElements.java)| Medium | Binary Search |
-|44|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)| | Medium | |
+|44|[Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)| [Java](../master/leetcode/LongestSubstringKRepeatingCharacters.java) | Medium | |
 |43|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)| [Java](../master/leetcode/DistanceK.java) | Medium | Binary Tree, DFS |
 |42|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)| [Java](../master/leetcode/MinimumSizeSubarraySum.java) | Medium | Sliding Window |
 |41|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)| [Java](../master/leetcode/MaximumAverageSubArrayI.java) | Easy|  Sliding Window|
