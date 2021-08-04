@@ -5,8 +5,8 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|50|[Clone Graph](https://leetcode.com/problems/clone-graph/)| [Java](../master/leetcode/CloneGraph.java)  | Medium | DP |
-|49|[Jump Game](https://leetcode.com/problems/jump-game/)| [Java](../master/leetcode/JumpGame.java)  | Medium | DFS |
+|50|[Clone Graph](https://leetcode.com/problems/clone-graph/)| [Java](../master/leetcode/CloneGraph.java)  | Medium | BFS |
+|49|[Jump Game](https://leetcode.com/problems/jump-game/)| [Java](../master/leetcode/JumpGame.java)  | Medium | DP |
 |48|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)| [Java](../master/leetcode/MinimumDepthBinaryTree.java)  | Medium | BFS |
 |47|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [Java](../master/leetcode/TreeZigzag.java)  | Medium | BFS, Stack, Queue |
 |46|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)| [Java](../master/leetcode/BinaryTreeLevelOrder.java)| Medium | BFS |
