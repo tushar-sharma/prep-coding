@@ -1,35 +1,27 @@
 class Solution {
-
-    public static boolean dfs(int start, int[] nums, Set<Integer> visited){
-
-        if (start >= nums.length){
+    public boolean canJump(int[] nums) {
+        
+        if (nums.length < 1 ){
             return false;
         }
-
-        if (start == nums.length - 1){
+        
+        if (nums.length == 1){
             return true;
         }
-
-        visited.add(start);
-
-        boolean output = false;
-
-        for (int i = nums[start]; i > 0 ; i--) {
-            if (!visited.contains(start + i) && start < nums.length){
-                output = dfs(start + i, nums, visited);
-            }
-            if (output == true){
-                return output;
+        
+        int lastPos = nums.length - 1;
+        
+        for (int i = nums.length -2; i >= 0; i--){
+            if (nums[i] + i >= lastPos){
+                lastPos = i;
             }
         }
-
-        return output;
-
-    }
-
-    public boolean canJump(int[] nums) {
-        Set<Integer> visited = new HashSet<>();
-        return dfs(0, nums, visited);
-
+        
+        if (lastPos == 0){
+            return true;
+        } else {
+            return false;
+        }
+        
     }
 }
