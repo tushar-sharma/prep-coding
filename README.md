@@ -23,7 +23,7 @@ Coding Preparation
 |35|[Duplicate Path](https://leetcode.com/problems/find-duplicate-file-in-system/)|[Java](../master/leetcode/DuplicatePath.java)|Medium|String, HashMap|
 |34|[LRU Cache](https://leetcode.com/problems/lru-cache)|[Java](../master/leetcode/LRUCache.java)|Medium|Design|
 |33|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](../master/leetcode/PathSumII.java), [Python](../master/leetcode/PathSumII.py)|Medium|Tree, Binary Tree|
-|32|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](../master/leetcode/PathSum.java), [Python](../master/leetcode/PathSum.py), [Javascript](../master/leetcode/PathSum.js), [Scala](../master/leetcode/PathSum.scala)|Easy|Tree, Binary Tree|
+|32|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](../master/leetcode/PathSum.java), [Python](../master/leetcode/PathSum.py), [JS](../master/leetcode/PathSum.js), [Scala](../master/leetcode/PathSum.scala)|Easy|Tree, Binary Tree|
 |31|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Java](../master/leetcode/ReverseListTwo.java)|Medium|Linked List|
 |30|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Java](../master/leetcode/RestoreIPAdresses.java)| Medium | String  |
 |29|[Unique Binary Search Tree](https://leetcode.com/problems/unique-binary-search-trees)|[Java](../master/leetcode/UniqueBinarySearchTree.java)| Medium | Binary Search Tree, Dynamic Programming  |
@@ -46,7 +46,7 @@ Coding Preparation
 |12|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)| [Java](../master/leetcode/GroupAnagram.java) | Medium | String, Hashmap |
 |11|[Best Time to Buy & Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Java](../master/leetcode/BestTimeStock2.java) | Easy | Array |
 |10|[Best Time to Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java](../master/leetcode/BestTimeStock.java) | Easy | Array |
-|9|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Java](../master/leetcode/ValidParenth.java), [Javascript](../master/leetcode/ValidParenth.js) | Easy | Stack |
+|9|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Java](../master/leetcode/ValidParenth.java), [JS](../master/leetcode/ValidParenth.js) | Easy | Stack |
 |8|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Java](../master/leetcode/RemoveDupSortArr.java) | Easy | Array |
 |7|[Permutations](https://leetcode.com/problems/permutations)| [Java](../master/leetcode/Permutations.java) | Medium | Backtracking | [Topcoder](https://drive.google.com/open?id=1J7XiH1ZyCjoHO4loO4ppkK46I6kMEoFV)
 |6|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[Java](../master/leetcode/LettersCombinations.java)| Medium | String, Backtracking |
