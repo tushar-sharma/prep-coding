@@ -70,3 +70,11 @@ $ docker run --entrypoint=python $Docker_Image $script
 ## Kubernetes
 
 1. Difference between container vs pods?
+
+# Issues
+
+## Build specific docker image
+
+```bash
+$ docker build -t <tagname> -f <filename> . 
+```
