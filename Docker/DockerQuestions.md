@@ -33,6 +33,14 @@
 
 `docker build (--tag={tag})` creates image from Dockerfile
 
+# Issues
+
+## Build docker image with specific dockerfile
+
+```bash
+$ dockerbuild -t <tag> -f <filename> .
+```
+
 `docker rmi` removes an image
 
 `docker rmi $(docker images -q)` remove all images
