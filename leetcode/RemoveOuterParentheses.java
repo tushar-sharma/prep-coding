@@ -15,13 +15,9 @@ class Solution {
             if(st.size() == 0){
                 st.push(ch);
             } else {
-                
                 if (ch == ')'){
-                
                     st.pop();
-                    
                 } else{
-                    
                     st.push(ch);
                 }
                 
