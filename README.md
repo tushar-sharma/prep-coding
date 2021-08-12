@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|51|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)| [Java](../master/leetcode/RemoveOuterParentheses.java)  | Easy | Stack |
 |50|[Clone Graph](https://leetcode.com/problems/clone-graph/)| [Java](../master/leetcode/CloneGraph.java)  | Medium | BFS |
 |49|[Jump Game](https://leetcode.com/problems/jump-game/)| [Java](../master/leetcode/JumpGame.java), [Python](../master/leetcode/JumpGame.py), [JS](../master/leetcode/JumpGame.js)  | Medium | Greedy |
 |48|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)| [Java](../master/leetcode/MinimumDepthBinaryTree.java)  | Medium | BFS |
