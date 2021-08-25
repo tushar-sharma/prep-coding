@@ -5,7 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|52|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| [Java](../master/leetcode/MaxArea.java), [Python](../master/leetcode/max_area.py)  | Medium | Two pointer |
+|52|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| [Java](../master/leetcode/MaxArea.java), [Python](../master/leetcode/max_area.py), [JS](../master/leetcode/maxArea.js)  | Medium | Two pointer |
 |51|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)| [Java](../master/leetcode/RemoveOuterParentheses.java)  | Easy | Stack |
 |50|[Clone Graph](https://leetcode.com/problems/clone-graph/)| [Java](../master/leetcode/CloneGraph.java)  | Medium | BFS |
 |49|[Jump Game](https://leetcode.com/problems/jump-game/)| [Java](../master/leetcode/JumpGame.java), [Python](../master/leetcode/JumpGame.py), [JS](../master/leetcode/JumpGame.js)  | Medium | Greedy |
