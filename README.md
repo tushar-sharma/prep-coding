@@ -5,7 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|54|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)| | | |
+|54|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)| | Medium | |
 |53|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)| [Java](../master/leetcode/CountSubString.java) | Medium | DP |
 |52|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| [Java](../master/leetcode/MaxArea.java), [Python](../master/leetcode/max_area.py), [JS](../master/leetcode/maxArea.js), [Scala](../master/leetcode/MaxArea.scala)  | Medium | Two pointer |
 |51|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)| [Java](../master/leetcode/RemoveOuterParentheses.java)  | Easy | Stack |
