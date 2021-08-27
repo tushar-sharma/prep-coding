@@ -1,4 +1,4 @@
-# prep-codingC
+# prep-coding
 Coding Preparation
 
 ## Leetcode
