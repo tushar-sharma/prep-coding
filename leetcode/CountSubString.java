@@ -19,8 +19,7 @@ class Solution {
         boolean[][] dp = new boolean[s.length()][s.length()];
         
         for (int g = 0; g < s.length(); g++) {
-            
-            
+             
             for (int i = 0; (i + g) < s.length() ; i++) {
                 
                 if  (g == 0){
@@ -36,7 +35,6 @@ class Solution {
                         dp[i][i + g] = true;
                         
                     }
-                    
                 }
                 
                 if (dp[i][i + g] == true){
@@ -45,9 +43,6 @@ class Solution {
                 
             }
         }
-        
-
-      
 
         return count;
         
