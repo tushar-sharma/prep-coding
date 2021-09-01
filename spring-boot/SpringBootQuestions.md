@@ -12,3 +12,30 @@ Servlet is a technology/API/class that is used to create handle requests in web 
 - Use @ServletComponentScan annotation.
 - Use @Bean annotation.
 
+
+** collectMap() **
+
+ The function converts sequence into a Mono<Map>. Example 
+ 
+  Lets say you have a request that returns Map
+  
+  ```bash
+  @GetMapping("test") 
+  public Mono<Map<String, String>> test() {
+      reuturn this.someService.test();
+  }
+  ```
+  
+  And then you can return hashmap values like
+  
+  ```bash
+   public Mono<Map<String, String>> test() {
+        Map<String, String> map = new HashMap<>();
+        map.put("key1", "key1");
+        map.put("key2", "key2");
+  
+        return Flux.fromIterable( () -> map.entrySet().iterator()).collectMap(entry -> entry.getKey(), entry -> entry.getValue());
+   }
+  ```
+  
+
