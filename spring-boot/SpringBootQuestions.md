@@ -17,7 +17,7 @@ Servlet is a technology/API/class that is used to create handle requests in web 
 
  The function converts sequence into a `Mono<Map>`. Example 
  
-  Lets say you have a request that returns Map
+  Lets say you have an API request that returns Map
   
   ```bash
   @GetMapping("test") 
