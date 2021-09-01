@@ -13,7 +13,7 @@ Servlet is a technology/API/class that is used to create handle requests in web 
 - Use @Bean annotation.
 
 
-** collectMap() **
+**3. What is use of collectMap()?**
 
  The function converts sequence into a Mono<Map>. Example 
  
