@@ -19,7 +19,7 @@ Servlet is a technology/API/class that is used to create handle requests in web 
  
   Lets say you have an API request that returns Map
   
-  ```bash
+  ```java
   @GetMapping("test") 
   public Mono<Map<String, String>> test() {
       reuturn this.someService.test();
@@ -28,7 +28,7 @@ Servlet is a technology/API/class that is used to create handle requests in web 
   
   And then you can return hashmap values like
   
-  ```bash
+  ```java
    public Mono<Map<String, String>> test() {
         Map<String, String> map = new HashMap<>();
         map.put("key1", "key1");
@@ -38,4 +38,13 @@ Servlet is a technology/API/class that is used to create handle requests in web 
    }
   ```
   
+**4.  Flux Instance From Iterable**
 
+Flux#fromIterable() method can be used to create a Flux that emits the items contained in the provided Iterable. Example
+
+```java
+List<Integer> list = Arrays.asList(1, 2, 3); 
+
+Flux.fromIterable(list)
+.subscribe(System.out::println);
+```
