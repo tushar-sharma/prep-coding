@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|64|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)| | Medium| | 
 |63|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | [Java](../master/leetcode/DuplicatePath.java) | Medium| HashMap| 
 |62|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)| | Medium| | 
 |61|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)| | Easy| |
