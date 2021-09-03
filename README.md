@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|68|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)| | Medium | |
 |67|[Pow(x, n)](https://leetcode.com/problems/powx-n/) | | Medium| | 
 |66|[Combination Sum](https://leetcode.com/problems/combination-sum/) | | Medium| | 
 |65|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| | Medium | | 
