@@ -2,7 +2,8 @@
 
 ## Coding Preparation
 
-| # | Title| 
+|  #  |      Title     | 
+|-----|----------------|
 | 1 | [leetcode](../master/docs/leetcode.md) |
 
 ## Codeforces
