@@ -5,6 +5,14 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|78|[Task Scheduler](https://leetcode.com/problems/task-scheduler/) | | Medium | | 
+|77|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | | Medium |  | 
+|76|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) |  | Medium | | 
+|75|[Target Sum](https://leetcode.com/problems/target-sum/) | | Medium | | 
+|74|[Add Strings](https://leetcode.com/problems/add-strings/) | | Easy | | 
+|73|[Nth Digit](https://leetcode.com/problems/nth-digit/) | | Medium | | 
+|72|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) |  | Medium | | 
+|71|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)| | Medium | | 
 |70|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | | Medium | | 
 |69|[Word Break](https://leetcode.com/problems/word-break/) | | Medium | | 
 |68|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)| | Medium | |
