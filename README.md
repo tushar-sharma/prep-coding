@@ -5,6 +5,8 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|70|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | | Medium | | 
+|69|[Word Break](https://leetcode.com/problems/word-break/) | | Medium | | 
 |68|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)| | Medium | |
 |67|[Pow(x, n)](https://leetcode.com/problems/powx-n/) | | Medium| | 
 |66|[Combination Sum](https://leetcode.com/problems/combination-sum/) | | Medium| | 
