@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|67|[Pow(x, n)](https://leetcode.com/problems/powx-n/) | | Medium| | 
 |66|[Combination Sum](https://leetcode.com/problems/combination-sum/) | | Medium| | 
 |65|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| | Medium | | 
 |64|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)| | Medium| | 
