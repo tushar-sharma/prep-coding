@@ -5,6 +5,7 @@
 |  #  |      Title     | 
 |-----|----------------|
 | 1 | [leetcode](../master/docs/leetcode.md) |
+| 2 | [Codeforces](../master/docs/codeforces.md) |
 
 ## Codeforces
 
