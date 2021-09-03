@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|63|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | | Medium| HashMap| 
 |62|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)| | Medium| | 
 |61|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)| | Easy| |
 |60|[ License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | | Easy| | 
