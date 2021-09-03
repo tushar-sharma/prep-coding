@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|79|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)| | Medium |  |
 |78|[Task Scheduler](https://leetcode.com/problems/task-scheduler/) | | Medium | | 
 |77|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | | Medium |  | 
 |76|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) |  | Medium | | 
