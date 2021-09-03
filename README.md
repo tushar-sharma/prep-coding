@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|60|[ License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | | Easy| | 
 |59|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)| |Medium| | 
 |58|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | | Medium | | 
 |57|[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | | Easy| | 
