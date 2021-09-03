@@ -7,7 +7,7 @@
 | 1 | [Leetcode](../master/docs/leetcode.md) |
 | 2 | [Codeforces](../master/docs/codeforces.md) |
 | 3 | [InterviewBit](../master/docs/interviewbit.md) |
-| 4 | [HackerRank](../master/docs/hackerank.md) |
+| 4 | [HackerRank](../master/docs/hackerrank.md) |
 
 
 ## Abstract Data Type
