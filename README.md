@@ -4,10 +4,10 @@
 
 |  #  |      Title     | 
 |-----|----------------|
-| 1 | [leetcode](../master/docs/leetcode.md) |
+| 1 | [Leetcode](../master/docs/leetcode.md) |
 | 2 | [Codeforces](../master/docs/codeforces.md) |
 | 3 | [InterviewBit](../master/docs/interviewbit.md) |
-| 3 | [HackerRank](../master/docs/hackerank.md) |
+| 4 | [HackerRank](../master/docs/hackerank.md) |
 
 
 ## Abstract Data Type
