@@ -7,21 +7,7 @@
 | 1 | [leetcode](../master/docs/leetcode.md) |
 | 2 | [Codeforces](../master/docs/codeforces.md) |
 | 3 | [InterviewBit](../master/docs/interviewbit.md) |
-
-## InterviewBit
-
-|  #  |      Title     |   Solutions   |   Tag         | Hint
-|-----|----------------|---------------|-------------|----------
-|1|[First non-repeating character in a stream of characters](https://www.interviewbit.com/problems/first-non-repeating-character-in-a-stream-of-characters/)|[Java](../master/interviewbit/FirstNonRepeating.java)|  Queue | |
-
-
-[comment]: # (https://www.youtube.com/watch?v=sdTubUR99OA)
-
-## HackerRank
-
-|  #  |      Title     |   Solutions   |   Tag         | Hint
-|-----|----------------|---------------|-------------|----------
-|1|[Greedy Florist](https://www.hackerrank.com/challenges/greedy-florist)|[Java](../master/hackerank/GreedyFlorist.java)|  Greedy  | |
+| 3 | [HackerRank](../master/docs/hackerank.md) |
 
 
 ## Abstract Data Type
