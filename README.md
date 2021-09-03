@@ -62,7 +62,7 @@ Coding Preparation
 |13|[Number of Islands](https://leetcode.com/problems/number-of-islands/)| [Java](../master/leetcode/NumberOfIslands.java) | Medium | Array, DFS | [DFS](https://www.coursera.org/lecture/algorithms-graphs-data-structures/depth-first-search-dfs-the-basics-pKr0Y)
 |12|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)| [Java](../master/leetcode/GroupAnagram.java) | Medium | String, Hashmap |
 |11|[Best Time to Buy & Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Java](../master/leetcode/BestTimeStock2.java) | Easy | Array |
-|10|[Best Time to Buy & Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java](../master/leetcode/BestTimeStock.java) | Easy | Array |
+|10|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Java](../master/leetcode/BestTimeStock.java) | Easy | Array |
 |9|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [Java](../master/leetcode/ValidParenth.java), [JS](../master/leetcode/ValidParenth.js) | Easy | Stack |
 |8|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Java](../master/leetcode/RemoveDupSortArr.java) | Easy | Array |
 |7|[Permutations](https://leetcode.com/problems/permutations)| [Java](../master/leetcode/Permutations.java) | Medium | Backtracking | [Topcoder](https://drive.google.com/open?id=1J7XiH1ZyCjoHO4loO4ppkK46I6kMEoFV)
