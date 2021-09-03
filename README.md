@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|80|[Accounts Merge](https://leetcode.com/problems/accounts-merge/) | | Medium| | 
 |79|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)| | Medium |  |
 |78|[Task Scheduler](https://leetcode.com/problems/task-scheduler/) | | Medium | | 
 |77|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | | Medium |  | 
