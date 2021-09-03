@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|56|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)| | Medium| | 
 |55|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | | Medium | | 
 |54|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)| | Medium | |
 |53|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)| [Java](../master/leetcode/CountSubString.java) | Medium | DP |
