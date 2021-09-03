@@ -6,6 +6,7 @@
 |-----|----------------|
 | 1 | [leetcode](../master/docs/leetcode.md) |
 | 2 | [Codeforces](../master/docs/codeforces.md) |
+| 3 | [InterviewBit](../master/docs/interviewbit.md) |
 
 ## InterviewBit
 
