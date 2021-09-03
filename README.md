@@ -5,6 +5,9 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|59|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)| |Medium| | 
+|58|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | | Medium | | 
+|57|[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | | Easy| | 
 |56|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)| | Medium| | 
 |55|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | | Medium | | 
 |54|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)| | Medium | |
