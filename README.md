@@ -5,6 +5,7 @@ Coding Preparation
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|62|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)| | Medium| | 
 |61|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)| | Easy| |
 |60|[ License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | | Easy| | 
 |59|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)| |Medium| | 
