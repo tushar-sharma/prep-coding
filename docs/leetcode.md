@@ -2,6 +2,7 @@
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|55|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) |  | [Java](../leetcode/CircularQueue.java) | Medium | Design | 
 |54|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | [Java](../leetcode/DuplicatePath.java) | Medium| HashMap| 
 |53|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)| [Java](../leetcode/CountSubString.java) | Medium | DP |
 |52|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| [Java](../leetcode/MaxArea.java), [Python](../leetcode/max_area.py), [JS](../leetcode/maxArea.js), [Scala](../leetcode/MaxArea.scala)  | Medium | Two pointer |
