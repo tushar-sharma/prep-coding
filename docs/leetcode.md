@@ -2,35 +2,7 @@
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|82|[Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | | Medium | | 
-|81|[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | | Medium |  | 
-|80|[Accounts Merge](https://leetcode.com/problems/accounts-merge/) | | Medium| | 
-|79|[Maximum Swap](https://leetcode.com/problems/maximum-swap/)| | Medium |  |
-|78|[Task Scheduler](https://leetcode.com/problems/task-scheduler/) | | Medium | | 
-|77|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | | Medium |  | 
-|76|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) |  | Medium | | 
-|75|[Target Sum](https://leetcode.com/problems/target-sum/) | | Medium | | 
-|74|[Add Strings](https://leetcode.com/problems/add-strings/) | | Easy | | 
-|73|[Nth Digit](https://leetcode.com/problems/nth-digit/) | | Medium | | 
-|72|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) |  | Medium | | 
-|71|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)| | Medium | | 
-|70|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | | Medium | | 
-|69|[Word Break](https://leetcode.com/problems/word-break/) | | Medium | | 
-|68|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)| | Medium | |
-|67|[Pow(x, n)](https://leetcode.com/problems/powx-n/) | | Medium| | 
-|66|[Combination Sum](https://leetcode.com/problems/combination-sum/) | | Medium| | 
-|65|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)| | Medium | | 
-|64|[Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string/)| | Medium| | 
-|63|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | [Java](../leetcode/DuplicatePath.java) | Medium| HashMap| 
-|62|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)| | Medium| | 
-|61|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)| | Easy| |
-|60|[ License Key Formatting](https://leetcode.com/problems/license-key-formatting/) | | Easy| | 
-|59|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)| |Medium| | 
-|58|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/) | | Medium | | 
-|57|[Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) | | Easy| | 
-|56|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)| | Medium| | 
-|55|[Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | | Medium | | 
-|54|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)| | Medium | |
+|64|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | [Java](../leetcode/DuplicatePath.java) | Medium| HashMap| 
 |53|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)| [Java](../leetcode/CountSubString.java) | Medium | DP |
 |52|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| [Java](../leetcode/MaxArea.java), [Python](../leetcode/max_area.py), [JS](../leetcode/maxArea.js), [Scala](../leetcode/MaxArea.scala)  | Medium | Two pointer |
 |51|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)| [Java](../leetcode/RemoveOuterParentheses.java)  | Easy | Stack |
