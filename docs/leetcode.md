@@ -2,6 +2,7 @@
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|56|[Longest Common SubSequence](https://leetcode.com/problems/longest-common-subsequence/) | [Java](../leetcode/LongestCommonSubsequence.java) | Medium | DP |  |
 |55|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Java](../leetcode/CircularQueue.java) | Medium | Design |  |
 |54|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | [Java](../leetcode/DuplicatePath.java) | Medium| HashMap| 
 |53|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)| [Java](../leetcode/CountSubString.java) | Medium | DP |
