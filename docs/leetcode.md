@@ -1,8 +1,18 @@
 # Leetcode
 
+<!---
+TODO problems
+https://leetcode.com/problems/binary-tree-right-side-view/
+https://leetcode.com/problems/shortest-bridge/
+https://leetcode.com/discuss/interview-question/675445/facebook-interview-experiences-all-combined-from-lc-till-date-07-jun-2020
+https://leetcode.com/list/xyvbjku7/
+https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
+https://leetcode.com/discuss/interview-question/910825/
+https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-by-common-patterns.
+-->
+
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-[comment]: <> |58|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Java](../leetcode/InvertTree.java) | Easy | Tree |  | 
 |58|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Java](../leetcode/InvertTree.java) | Easy | Tree |  |
 |57|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](../leetcode/HasCycle.java) | Easy | Two Pointers |  |
 |56|[Longest Common SubSequence](https://leetcode.com/problems/longest-common-subsequence/) | [Java](../leetcode/LongestCommonSubSequence.java) | Medium | DP |  |
