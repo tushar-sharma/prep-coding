@@ -34,7 +34,7 @@
 |28|[Partition List](https://leetcode.com/problems/partition-list/)|[Java](../leetcode/PartitionList.java)| Medium | Linked List |
 |27|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Java](../leetcode/SummaryRanges.java)| Medium | Two pointer |
 |26|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)|[Java](../leetcode/QueueS.java)| Easy | Stack |
-|25|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](../leetcode/MinStack.java)| Easy | Stack |
+|25|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](../leetcode/MinStack.java)| Easy | Design |
 |24|[Subsets](https://leetcode.com/problems/subsets/)|[Java](../leetcode/Subsets.java)| Medium | Array |
 |23|[Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/)|[Java](../leetcode/GardenNoAdj.java)| Easy | Graph |
 |22|[Find K Closest Element](https://leetcode.com/problems/find-k-closest-elements/)|[Java](../leetcode/FindClosestElements.java) | Medium | Binary Search, Two pointer |
