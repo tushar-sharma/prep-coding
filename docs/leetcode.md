@@ -13,6 +13,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|59|[Maximum Subarray][https://leetcode.com/problems/maximum-subarray/) | [Java](../leetcode/MaxSubArray.java) | Easy | DP |  |
 |58|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Java](../leetcode/InvertTree.java) | Easy | Tree |  |
 |57|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](../leetcode/HasCycle.java) | Easy | Two Pointers |  |
 |56|[Longest Common SubSequence](https://leetcode.com/problems/longest-common-subsequence/) | [Java](../leetcode/LongestCommonSubSequence.java) | Medium | DP |  |
