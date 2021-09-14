@@ -525,3 +525,12 @@ int[] nums = {1, 2, 3, 4};
 
 System.out.pritnln(Arrays.toString(nums));
 ```
+
+**34 read the std in**
+
+```java
+Scanner scan = new Scanner(System.in);
+String firstArg = scan.next();
+int secondArg = scan.nextInt();
+scan.close();
+```
