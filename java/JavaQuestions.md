@@ -530,7 +530,8 @@ System.out.pritnln(Arrays.toString(nums));
 
 ```java
 Scanner scan = new Scanner(System.in);
-String firstArg = scan.next();
-int secondArg = scan.nextInt();
+int firstArg = scan.nextInt();
+Scanner.nextLine(); // need this to flush values
+String secondArg = scan.nextLine();
 scan.close();
 ```
