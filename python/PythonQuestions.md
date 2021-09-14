@@ -56,6 +56,15 @@ print(myFunc(arr))
 
 6. What is pickling and unpickling? 
 
+**7. Create 2D array in python**
+
+```python
+m = 3 
+n = 2
+# create m X n array
+arr = [[0] * n for i in range(m)]
+```
+
 ## Pandas
 
 ### Axis in pandas mean?
