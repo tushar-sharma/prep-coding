@@ -1,6 +1,7 @@
 /**
  * Remember: 
-   
+   1. Initialize the 2d array with 1
+   2. start with 1,1
  */
 class Solution {
     public int uniquePaths(int m, int n) {
