@@ -4,6 +4,42 @@
 
 2. What's the difference between return and yield in python?
 
+`return` statement returns only a single value to the caller. 'yield' statement returns a generator object.
+
+```python
+# return example
+
+myList = [1, 2, 3, 4, 8]
+def test(myList):
+    for value in myList:
+        if (i % 2 == 0):
+	    return i
+	    
+print(test(myList))
+
+print(test(myList))
+# print 2
+# print 2
+
+# yield example
+
+def testY(myList):
+    for e in myList:
+        if e % 2 == 0:
+	        yield e
+
+obj = testY(myList)
+
+print(next(obj))
+
+print(next(obj))
+
+# print 2
+
+# print 4
+
+```
+
 3. What's the output?
 
 ```python
