@@ -1,6 +1,7 @@
 """
 Remember:
-1. How to declare 2d array in python
+1. How to declare 2d array
+2. Iterate 2D array
 """
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
