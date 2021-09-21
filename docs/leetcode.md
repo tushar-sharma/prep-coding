@@ -13,6 +13,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|62|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Java](../leetcode/ContainsDuplicate.java) | Easy | HashMap |  |
 |61|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Java](../leetcode/ClimbStairs.java) | Easy | DP |  |
 |60|[Unique Paths](https://leetcode.com/problems/unique-paths) | [Java](../leetcode/UniquePaths.java), [Python](../leetcode/UniquePaths.py), [JS](../leetcode/UniquePaths.js) | Medium | DP |  |
 |59|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Java](../leetcode/MaxSubArray.java) | Easy | DP |  |
