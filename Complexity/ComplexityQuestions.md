@@ -52,8 +52,6 @@ CopyOnWriteArrayList | O(n) |  O(n)  | O(1) |   O(n)   | O(1) | Array
 
 \
 &nbsp;
-\
-&nbsp;
 
 Set                   |    Add   |  Remove  | Contains |   Next   | Size | Data Structure
 ----------------------|----------|----------|----------|----------|------|-------------------------
