@@ -12,11 +12,9 @@ console.log(map1.get("a"));
 
 console.log(map1.get("z"));
 
-
 console.log(map1.has("c"));
 
 console.log(map1.has("3"));
-
 
 map1.set("c", 900);
 
