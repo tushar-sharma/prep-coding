@@ -1,10 +1,13 @@
 #include <stack>
 #include <iostream>
+using namespace std;
+
 /*
  * Remember
- * . In C++, stack:: pop() only pops the top element but does not return it.
+ * 1. In C++, stack:: pop() only pops the top element but does not return it.
+ * 2. printing the array
+ * 3. st.empty()
  */
-using namespace std;
 
 int main() {
 
