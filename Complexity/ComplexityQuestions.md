@@ -63,8 +63,7 @@ CopyOnWriteArraySet   | O(n)     | O(n)     | O(n)     | O(1)     | O(1) | Array
 ConcurrentSkipListSet | O(log n) | O(log n) | O(log n) | O(1)     | O(n) | Skip List
 
 
-\
-&nbsp;
+
 \
 &nbsp;
 
@@ -81,8 +80,7 @@ DelayQueue              | O(log n) | O(1) | O(log n) |  O(n)  | O(1) | Priority 
 LinkedBlockingQueue     | O(1)     | O(1) | O(1)     |  O(n)  | O(1) | Linked List
 
 
-\
-&nbsp;
+
 \
 &nbsp;
 
