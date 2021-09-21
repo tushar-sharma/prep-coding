@@ -30,7 +30,7 @@ int main() {
 	cout<<"\nPop element "<<st.top();
 	st.pop();
 
-    cout<<"\nTop element is "<<st.top();
+        cout<<"\nTop element is "<<st.top();
 
 	cout<<"\nPushing element 100";
 	st.push(100);
