@@ -50,7 +50,10 @@ ArrayList            | O(1) |  O(n)  | O(1) |   O(n)   | O(1) | Array
 LinkedList           | O(1) |  O(1)  | O(n) |   O(n)   | O(1) | Linked List
 CopyOnWriteArrayList | O(n) |  O(n)  | O(1) |   O(n)   | O(1) | Array
 
-
+\
+&nbsp;
+\
+&nbsp;
 
 Set                   |    Add   |  Remove  | Contains |   Next   | Size | Data Structure
 ----------------------|----------|----------|----------|----------|------|-------------------------
@@ -62,6 +65,10 @@ CopyOnWriteArraySet   | O(n)     | O(n)     | O(n)     | O(1)     | O(1) | Array
 ConcurrentSkipListSet | O(log n) | O(log n) | O(log n) | O(1)     | O(n) | Skip List
 
 
+\
+&nbsp;
+\
+&nbsp;
 
 Queue                   |  Offer   | Peak |   Poll   | Remove | Size | Data Structure
 ------------------------|----------|------|----------|--------|------|---------------
@@ -75,6 +82,11 @@ SynchronousQueue        | O(1)     | O(1) | O(1)     |  O(n)  | O(1) | None!
 DelayQueue              | O(log n) | O(1) | O(log n) |  O(n)  | O(1) | Priority Heap
 LinkedBlockingQueue     | O(1)     | O(1) | O(1)     |  O(n)  | O(1) | Linked List
 
+
+\
+&nbsp;
+\
+&nbsp;
 
 
 Map                   |   Get    | ContainsKey |   Next   | Data Structure
