@@ -16,7 +16,7 @@
 |-|-------|-----------|----|
 |1| Stack | [Java](../master/adt/CustomStack.java), [Python](../master/adt/CustomStack.py)| [Java](../master/adt/StackDemo.java), [Python](../master/adt/stack.py), [JS](../master/adt/stack.js), [Scala](../master/adt/stack.scala), [Perl](../master/adt/stack.pl), [C++](../master/adt/stack.cpp)  |
 |2| Queue | | [Java](../master/adt/QueueDemo.java) |
-|3| HashMap | | [Java](../master/adt/TestHasMap.java) |
+|3| HashMap | | [Java](../master/adt/TestHashMap.java) |
 |4| Binary Search Tree | [Java](../master/adt/BinarySearchTree.java), [Python](../master/adt/BinarySearchTree.py)| |
 |5| Heap | [Java](../master/adt/Heap.java) | [Java](../master/adt/HeapDemo.java), [Python](../master/adt/HeapDemo.py) |
 |6| Trie | [Java](../master/adt/Trie.java)| |
