@@ -1,5 +1,6 @@
+#!/usr/bin/perl
+use warnings;
 use strict;
-# Using stack in Perl
 
 my @st;
 
