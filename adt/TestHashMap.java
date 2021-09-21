@@ -15,7 +15,6 @@ public class TestHashMap {
         map.put("c", 300);
 
         //get key
-        //O(1) complexity
         System.out.println("key for b is " + map.getOrDefault("b", 0));
 
         System.out.println("key for z is " + map.getOrDefault("z", 0));
