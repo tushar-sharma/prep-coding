@@ -27,7 +27,7 @@ print("Top element in stack is %s" % st[-1])
 assert st[-1] == 20
 
 
-print("Pusing element in stack 100")
+print("Pushing element in stack 100")
 st.append(100)
 
 print("print the stack %s" % st)

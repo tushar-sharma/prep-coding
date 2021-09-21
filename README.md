@@ -14,7 +14,7 @@
 
 |#| Title | Implementation | API|
 |-|-------|-----------|----|
-|1| Stack | [Java](../master/adt/CustomStack.java), [Python](../master/adt/CustomStack.py)| [Java](../master/adt/StackDemo.java), [Python](../master/adt/stack.py) |
+|1| Stack | [Java](../master/adt/CustomStack.java), [Python](../master/adt/CustomStack.py)| [Java](../master/adt/StackDemo.java), [Python](../master/adt/stack.py), [JS](../master/adt/stack.js) |
 |2| Queue | | [Java](../master/adt/QueueDemo.java) |
 |3| Binary Search Tree | [Java](../master/adt/BinarySearchTree.java), [Python](../master/adt/BinarySearchTree.py)| |
 |4| Heap | [Java](../master/adt/Heap.java) | [Java](../master/adt/HeapDemo.java), [Python](../master/adt/HeapDemo.py) |
