@@ -13,6 +13,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|64|[Coin Change](https://leetcode.com/problems/coin-change/)| [Java](../leetcode/CoinChange.java) | Medium  | DP |  |
 |63|[Open the Lock](https://leetcode.com/problems/open-the-lock/)| [Java](../leetcode/OpenLock.java) | Medium  | BFS |  |
 |62|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Java](../leetcode/ContainsDuplicate.java), [Python](../leetcode/ContainsDuplicate.py),  [JS](../leetcode/ContainsDuplicate.js) | Easy | HashMap |  |
 |61|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Java](../leetcode/ClimbStairs.java) | Easy | DP |  |
