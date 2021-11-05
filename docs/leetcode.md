@@ -13,6 +13,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|69|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)| [Mysql](../leetcode/DuplicateEmails.sql)| Easy  | Database |   |
 |68|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)| [Mysql](../leetcode/CustomerWhoNeverOrder.sql)| Easy  | Database |   |
 |67|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [Java](../leetcode/MaximumDepth.java)| Easy  | BFS |   |
 |66|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| [Java](../leetcode/LowestCommonAncestor.java), [JS](../leetcode/lowestCommonAncestor.js)| Easy  | Tree |  |
