@@ -13,6 +13,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|70|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)| [Mysql](../leetcode/EmployeesEarningMoreThanTheirManager.sql)| Easy  | Database |   |
 |69|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)| [Mysql](../leetcode/DuplicateEmails.sql)| Easy  | Database |   |
 |68|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)| [Mysql](../leetcode/CustomerWhoNeverOrder.sql)| Easy  | Database |   |
 |67|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [Java](../leetcode/MaximumDepth.java)| Easy  | BFS |   |
