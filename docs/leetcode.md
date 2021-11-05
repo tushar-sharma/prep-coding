@@ -13,6 +13,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|67|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [Java](../leetcode/MaximumDepth.java)| Easy  | Tree |  BFS |
 |66|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| [Java](../leetcode/LowestCommonAncestor.java), [JS](../leetcode/lowestCommonAncestor.js)| Easy  | Tree |  |
 |65|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)| [Java](../leetcode/KthSmallest.java)| Medium  | Tree, DFS |  |
 |64|[Coin Change](https://leetcode.com/problems/coin-change/)| [Java](../leetcode/CoinChange.java), [Python](../leetcode/coin_change.py) | Medium  | DP |  |
