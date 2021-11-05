@@ -9,6 +9,8 @@
 | 3 | [InterviewBit](../master/docs/interviewbit.md) |
 | 4 | [HackerRank](../master/docs/hackerrank.md) |
 | 5 | pgexercises | 
+| 6 |  exercism |
+| 7 | hackerrank | 
 
 
 ## Abstract Data Type
