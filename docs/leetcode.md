@@ -13,6 +13,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|65|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)| [Java](../leetcode/KthSmallest.java)| Medium  | Tree, DFS |  |
 |64|[Coin Change](https://leetcode.com/problems/coin-change/)| [Java](../leetcode/CoinChange.java), [Python](../leetcode/coin_change.py) | Medium  | DP |  |
 |63|[Open the Lock](https://leetcode.com/problems/open-the-lock/)| [Java](../leetcode/OpenLock.java) | Medium  | BFS |  |
 |62|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Java](../leetcode/ContainsDuplicate.java), [Python](../leetcode/ContainsDuplicate.py),  [JS](../leetcode/ContainsDuplicate.js) | Easy | HashMap |  |
