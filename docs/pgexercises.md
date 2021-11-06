@@ -1,7 +1,7 @@
 # pgexercises
 
 
-## [where3](https://pgexercises.com/questions/basic/where3.html) 
+### [where3](https://pgexercises.com/questions/basic/where3.html) 
 
 
 ```sql
@@ -16,7 +16,7 @@ where name like '%Tennis%';
 ```
 
 
-## [where4](https://pgexercises.com/questions/basic/where4.html) 
+### [where4](https://pgexercises.com/questions/basic/where4.html) 
 
 
 ```sql
@@ -30,7 +30,7 @@ from cd.facilities
 where facid IN (1, 5);
 ```
 
-## [classify](https://pgexercises.com/questions/basic/classify.html)
+### [classify](https://pgexercises.com/questions/basic/classify.html)
 
 
 ```sql
@@ -44,7 +44,7 @@ from cd.facilities;
 
 ```
 
-## [date](https://pgexercises.com/questions/basic/date.html)
+### [date](https://pgexercises.com/questions/basic/date.html)
 
 ```sql
 select memid,
