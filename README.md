@@ -36,7 +36,7 @@
 ## Patterns
 
 |#| Title | Implementation|
-|-|-------|
+|-|-------|----------------|
 |1| Temporary array | [Java](../master/leetcode/Rotate.java)|
 
 
