@@ -8,7 +8,7 @@
 | 2 | [Codeforces](../master/docs/codeforces.md) |
 | 3 | [InterviewBit](../master/docs/interviewbit.md) |
 | 4 | [HackerRank](../master/docs/hackerrank.md) |
-| 5 | pgexercises | 
+| 5 | [pgexercises](../master/docs/pgexercises.md) | 
 | 6 |  exercism |
 | 7 | hackerrank | 
 
