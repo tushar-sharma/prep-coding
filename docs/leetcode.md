@@ -13,6 +13,8 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|72|[Word Break](https://leetcode.com/problems/word-break/)| | Medium  |  |   |
+|73|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)| [Java](../leetcode/ImplementTrie.java) | Medium  | Design |   |
 |71|[Rotate Array](https://leetcode.com/problems/rotate-array/)| [Java](../leetcode/Rotate.java)| Medium  | Temporary Array |   |
 |70|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)| [Mysql](../leetcode/EmployeesEarningMoreThanTheirManager.sql)| Easy  | Database |   |
 |69|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)| [Mysql](../leetcode/DuplicateEmails.sql)| Easy  | Database |   |
