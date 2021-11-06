@@ -73,3 +73,18 @@ union
 select surname 
 from cd.members;
 ``` 
+
+### [agg](https://pgexercises.com/questions/basic/agg.html)
+
+```sql 
+select joindate as latest from 
+cd.members 
+order by  joindate desc
+```
+
+Similar query
+
+```sql 
+select max(joindate) as lateset 
+from cd.members;
+```
