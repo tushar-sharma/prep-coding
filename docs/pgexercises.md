@@ -1,7 +1,7 @@
 # pgexercises
 
 
-### [where3](https://pgexercises.com/questions/basic/where3.html) 
+### [Basic string searches](https://pgexercises.com/questions/basic/where3.html) 
 
 
 ```sql
@@ -16,7 +16,7 @@ where name like '%Tennis%';
 ```
 
 
-### [where4](https://pgexercises.com/questions/basic/where4.html) 
+### [Matching against multiple possible values](https://pgexercises.com/questions/basic/where4.html) 
 
 
 ```sql
@@ -30,7 +30,7 @@ from cd.facilities
 where facid IN (1, 5);
 ```
 
-### [classify](https://pgexercises.com/questions/basic/classify.html)
+### [Classify results into buckets](https://pgexercises.com/questions/basic/classify.html)
 
 
 ```sql
@@ -44,7 +44,7 @@ from cd.facilities;
 
 ```
 
-### [date](https://pgexercises.com/questions/basic/date.html)
+### [Working with dates](https://pgexercises.com/questions/basic/date.html)
 
 ```sql
 select memid,
@@ -55,7 +55,7 @@ from cd.members
 where (joindate) > '2012-09-01'
 ```
 
-### [unique](https://pgexercises.com/questions/basic/unique.html)
+### [Removing duplicates, and ordering results](https://pgexercises.com/questions/basic/unique.html)
 
 ```sql
 select distinct surname
@@ -64,7 +64,7 @@ order by surname
 limit 10;
 ```
 
-### [union](https://pgexercises.com/questions/basic/union.html)
+### [Combining results from multiple queries](https://pgexercises.com/questions/basic/union.html)
 
 ```sql
 select name as surname
@@ -74,7 +74,7 @@ select surname
 from cd.members;
 ``` 
 
-### [agg](https://pgexercises.com/questions/basic/agg.html)
+### [Simple aggregation](https://pgexercises.com/questions/basic/agg.html)
 
 ```sql 
 select joindate as latest from 
@@ -87,4 +87,14 @@ Similar query
 ```sql 
 select max(joindate) as lateset 
 from cd.members;
+```
+
+### [More Aggregation](https://pgexercises.com/questions/basic/agg2.html)
+
+```sql
+select firstname,
+       surname,
+	   joindate
+from cd.members
+where joindate = (select max(joindate) from cd.members)
 ```
