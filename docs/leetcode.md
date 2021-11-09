@@ -13,6 +13,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|76|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| | Easy  |  |   |
 |75|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| [Java](../leetcode/SymmetricTree.java) | Easy  | Tree |   |
 |74|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)| | Easy  |  |   |
 |73|[Word Break](https://leetcode.com/problems/word-break/)| | Medium  |  |   |
