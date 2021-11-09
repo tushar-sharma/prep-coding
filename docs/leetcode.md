@@ -13,6 +13,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|74|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)| | Easy  |  |   |
 |73|[Word Break](https://leetcode.com/problems/word-break/)| | Medium  |  |   |
 |72|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)| [Java](../leetcode/ImplementTrie.java) | Medium  | Design |   |
 |71|[Rotate Array](https://leetcode.com/problems/rotate-array/)| [Java](../leetcode/Rotate.java)| Medium  | Temporary Array |   |
