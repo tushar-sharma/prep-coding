@@ -527,3 +527,12 @@ Scanner.nextLine(); // need this to flush values
 String secondArg = scan.nextLine();
 scan.close();
 ```
+
+**35 lambda expression** 
+
+They are anonymous function that has list of parameters, a body and a return type.
+
+**36 Iteration **
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Example](../java/Iterations.md)
+
