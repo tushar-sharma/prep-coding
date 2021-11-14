@@ -532,7 +532,7 @@ scan.close();
 
 They are anonymous function that has list of parameters, a body and a return type.
 
-**36 Iteration **
+**36 Iteration**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Example](../java/Iterations.md)
 
