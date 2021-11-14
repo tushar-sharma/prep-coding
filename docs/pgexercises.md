@@ -98,3 +98,26 @@ select firstname,
 from cd.members
 where joindate = (select max(joindate) from cd.members)
 ```
+
+## [Simple Join](https://pgexercises.com/questions/joins/simplejoin.html)
+
+```sql 
+select t2.starttime
+from cd.bookings as t2
+INNER JOIN cd.members as t1
+ON t1.memid = t2.memid  
+where t1.firstname = 'David' and  t1.surname = 'Farrell'
+```
+
+## [Simple Join2](https://pgexercises.com/questions/joins/simplejoin2.html)
+
+```sql 
+select t1.starttime as start, 
+       t2.name
+from cd.bookings as t1 
+INNER JOIN cd.facilities as t2 
+ON t1.facid = t2.facid 
+where t2.name like 'Tennis Court%' 
+and date(t1.starttime) =  '2012-09-21'
+order by t1.starttime
+```
