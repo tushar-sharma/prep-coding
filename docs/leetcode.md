@@ -16,7 +16,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 |76|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| | Easy  |  |   |
 |75|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| [Java](../leetcode/SymmetricTree.java) | Easy  | Tree |   |
 |74|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)| | Easy  |  |   |
-|73|[Word Break](https://leetcode.com/problems/word-break/)| | Medium  |  |   |
+|73|[Word Break](https://leetcode.com/problems/word-break/)| [Java](../leetcode/WordBreak.java) | Medium  | Trie, DP  |   |
 |72|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)| [Java](../leetcode/ImplementTrie.java) | Medium  | Design |   |
 |71|[Rotate Array](https://leetcode.com/problems/rotate-array/)| [Java](../leetcode/Rotate.java)| Medium  | Temporary Array |   |
 |70|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)| [Mysql](../leetcode/EmployeesEarningMoreThanTheirManager.sql)| Easy  | Database |   |
@@ -35,7 +35,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 |57|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](../leetcode/HasCycle.java) | Easy | Two Pointers |  |
 |56|[Longest Common SubSequence](https://leetcode.com/problems/longest-common-subsequence/) | [Java](../leetcode/LongestCommonSubSequence.java) | Medium | DP |  |
 |55|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Java](../leetcode/CircularQueue.java) | Medium | Design |  |
-|54|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | [Java](../leetcode/DuplicatePath.java) | Medium| HashMap| 
+|54|[Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/) | [Java](../leetcode/DuplicatePath.java) | Medium| HashMap|
 |53|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)| [Java](../leetcode/CountSubString.java) | Medium | DP |
 |52|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)| [Java](../leetcode/MaxArea.java), [Python](../leetcode/max_area.py), [JS](../leetcode/maxArea.js), [Scala](../leetcode/MaxArea.scala)  | Medium | Two pointer |
 |51|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)| [Java](../leetcode/RemoveOuterParentheses.java)  | Easy | Stack |
