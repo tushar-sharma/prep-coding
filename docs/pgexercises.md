@@ -1,7 +1,7 @@
 # pgexercises
 
 
-### [Basic string searches](https://pgexercises.com/questions/basic/where3.html) 
+### [Basic string searches](https://pgexercises.com/questions/basic/where3.html)
 
 
 ```sql
@@ -11,12 +11,12 @@ select facid,
 	   guestcost,
 	   initialoutlay,
 	   monthlymaintenance
-from cd.facilities 
+from cd.facilities
 where name like '%Tennis%';
 ```
 
 
-### [Matching against multiple possible values](https://pgexercises.com/questions/basic/where4.html) 
+### [Matching against multiple possible values](https://pgexercises.com/questions/basic/where4.html)
 
 
 ```sql
@@ -26,7 +26,7 @@ select facid,
 	   guestcost,
 	   initialoutlay,
 	   monthlymaintenance
-from cd.facilities 
+from cd.facilities
 where facid IN (1, 5);
 ```
 
@@ -35,7 +35,7 @@ where facid IN (1, 5);
 
 ```sql
 select name,
- case when (monthlymaintenance > 100) then 
+ case when (monthlymaintenance > 100) then
          'expensive'
       else
 	     'cheap'
@@ -49,7 +49,7 @@ from cd.facilities;
 ```sql
 select memid,
        surname,
-	   firstname, 
+	   firstname,
 	   joindate
 from cd.members
 where (joindate) > '2012-09-01'
@@ -69,23 +69,23 @@ limit 10;
 ```sql
 select name as surname
 from cd.facilities
-union 
-select surname 
+union
+select surname
 from cd.members;
-``` 
+```
 
 ### [Simple aggregation](https://pgexercises.com/questions/basic/agg.html)
 
-```sql 
-select joindate as latest from 
-cd.members 
+```sql
+select joindate as latest from
+cd.members
 order by  joindate desc
 ```
 
 Similar query
 
-```sql 
-select max(joindate) as lateset 
+```sql
+select max(joindate) as lateset
 from cd.members;
 ```
 
@@ -99,25 +99,36 @@ from cd.members
 where joindate = (select max(joindate) from cd.members)
 ```
 
-## [Simple Join](https://pgexercises.com/questions/joins/simplejoin.html)
+### [Retrieve the start times of members' bookings](https://pgexercises.com/questions/joins/simplejoin.html)
 
-```sql 
+```sql
 select t2.starttime
 from cd.bookings as t2
 INNER JOIN cd.members as t1
-ON t1.memid = t2.memid  
+ON t1.memid = t2.memid
 where t1.firstname = 'David' and  t1.surname = 'Farrell'
 ```
 
-## [Simple Join2](https://pgexercises.com/questions/joins/simplejoin2.html)
+### [Work out the start times of bookings for tennis courts](https://pgexercises.com/questions/joins/simplejoin2.html)
 
-```sql 
-select t1.starttime as start, 
+```sql
+select t1.starttime as start,
        t2.name
-from cd.bookings as t1 
-INNER JOIN cd.facilities as t2 
-ON t1.facid = t2.facid 
-where t2.name like 'Tennis Court%' 
+from cd.bookings as t1
+INNER JOIN cd.facilities as t2
+ON t1.facid = t2.facid
+where t2.name like 'Tennis Court%'
 and date(t1.starttime) =  '2012-09-21'
 order by t1.starttime
+```
+
+
+### [Produce a list of all members who have recommended another member](https://pgexercises.com/questions/joins/self.html)
+
+```sql
+select firstname, surname
+from cd.members t2
+where memid IN (select distinct recommendedby
+from cd.members  t1)
+order by surname, firstname
 ```
