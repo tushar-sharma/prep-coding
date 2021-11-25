@@ -17,7 +17,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 |75|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| [Java](../leetcode/SymmetricTree.java) | Easy  | Tree |   |
 |74|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)| | Easy  |  |   |
 |73|[Word Break](https://leetcode.com/problems/word-break/)| [Java](../leetcode/WordBreak.java) | Medium  | Trie, DP  |   |
-|72|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)| [Java](../leetcode/ImplementTrie.java) | Medium  | Design |   |
+|72|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)| [Java](../leetcode/ImplementTrie.java), [Python](../leetcode/implement_trie.py) | Medium  | Design |   |
 |71|[Rotate Array](https://leetcode.com/problems/rotate-array/)| [Java](../leetcode/Rotate.java)| Medium  | Temporary Array |   |
 |70|[Employees Earning More Than Their Managers](https://leetcode.com/problems/employees-earning-more-than-their-managers/)| [Mysql](../leetcode/EmployeesEarningMoreThanTheirManager.sql)| Easy  | Database |   |
 |69|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails/)| [Mysql](../leetcode/DuplicateEmails.sql)| Easy  | Database |   |
