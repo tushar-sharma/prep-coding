@@ -25,7 +25,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 |67|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)| [Java](../leetcode/MaximumDepth.java)| Easy  | BFS |   |
 |66|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| [Java](../leetcode/LowestCommonAncestor.java), [JS](../leetcode/lowestCommonAncestor.js)| Easy  | Tree |  |
 |65|[Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)| [Java](../leetcode/KthSmallest.java)| Medium  | Tree, DFS |  |
-|64|[Coin Change](https://leetcode.com/problems/coin-change/)| [Java](../leetcode/CoinChange.java), [Python](../leetcode/coin_change.py) | Medium  | DP | [randomwits.com](https://randomwits.com/blog/coin-change-leetcode-solution)  |
+|64|[Coin Change](https://leetcode.com/problems/coin-change/)| [Java](../leetcode/CoinChange.java), [Python](../leetcode/coin_change.py) | Medium  | DP | [Solution](https://randomwits.com/blog/coin-change-leetcode-solution)  |
 |63|[Open the Lock](https://leetcode.com/problems/open-the-lock/)| [Java](../leetcode/OpenLock.java) | Medium  | BFS |  |
 |62|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Java](../leetcode/ContainsDuplicate.java), [Python](../leetcode/ContainsDuplicate.py),  [JS](../leetcode/ContainsDuplicate.js) | Easy | HashMap |  |
 |61|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Java](../leetcode/ClimbStairs.java) | Easy | DP |  |
