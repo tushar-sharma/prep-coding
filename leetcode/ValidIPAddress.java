@@ -3,6 +3,7 @@ Things to remember:
 1. Spilt a string by dot requires double slash
 2. Get actual value of a number from character
    int val = (int) c - 48;
+3. Split function needs -1 to return trailing empty strings
 */
 class Solution {
 
@@ -49,7 +50,7 @@ class Solution {
     }
 
     public boolean checkIPv6(String queryIP) {
-        String[] queryIPArray = queryIP.split(":", -1);
+        String[] queryIPArray = queryIP.split("\\:", -1);
 
 
         if (queryIPArray.length != 8) {
