@@ -13,6 +13,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|77|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [Java](../leetcode/CanPartition.java)  | Medium  | HashSet |   |
 |76|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| | Easy  |  |   |
 |75|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)| [Java](../leetcode/SymmetricTree.java) | Easy  | Tree |   |
 |74|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)| | Easy  |  |   |
