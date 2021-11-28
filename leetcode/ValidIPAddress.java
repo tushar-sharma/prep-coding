@@ -4,6 +4,10 @@ Things to remember:
 2. Get actual value of a number from character
    int val = (int) c - 48;
 3. Split function needs -1 to return trailing empty strings
+4. Inbuilt functions like
+  Character.isDigit()
+  Character.isLetter()
+  Character.isLetterOrDigit()
 */
 class Solution {
 
