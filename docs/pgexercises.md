@@ -132,3 +132,17 @@ where memid IN (select distinct recommendedby
 from cd.members  t1)
 order by surname, firstname
 ```
+
+### [Produce a list of all members, along with their recommender](https://pgexercises.com/questions/joins/self2.html)
+
+```sql
+select t1.firstname as memfname,
+       t1.surname as memsname,
+	   t2.firstname as recfname,
+	   t2.surname as recsname
+from cd.members t1
+left outer join cd.members t2
+on t1.recommendedby = t2.memid
+order by memsname, memfname
+
+```
