@@ -13,6 +13,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|79|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)| [Java](../leetcode/UniqueBinarySearchTree.java)  | Medium  | Trees |   |
 |78|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)| [Java](../leetcode/ValidIPAddress.java)  | Medium  | String |   |
 |77|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)| [Java](../leetcode/CanPartition.java)  | Medium  | HashSet |   |
 |76|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| | Easy  |  |   |
