@@ -146,3 +146,20 @@ on t1.recommendedby = t2.memid
 order by memsname, memfname
 
 ```
+
+### [Produce a list of all members who have used a tennis court](https://pgexercises.com/questions/joins/threejoin.html)
+
+```sql
+select distinct t3.firstname || ' ' || t3.surname as member,
+      t4.name as facility
+from cd.members t3
+inner join (select t1.memid,
+       t2.name
+from cd.bookings t1
+inner join (select facid, name
+from cd.facilities
+where name like 'Tennis%') t2
+on t1.facid = t2.facid) t4
+on t4.memid = t3.memid
+order by member, facility
+```
