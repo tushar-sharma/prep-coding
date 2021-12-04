@@ -138,8 +138,8 @@ order by surname, firstname
 ```sql
 select t1.firstname as memfname,
        t1.surname as memsname,
-	   t2.firstname as recfname,
-	   t2.surname as recsname
+       t2.firstname as recfname,
+       t2.surname as recsname
 from cd.members t1
 left outer join cd.members t2
 on t1.recommendedby = t2.memid
