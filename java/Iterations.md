@@ -11,3 +11,14 @@ public void test(List<String> words ) {
 }
 
 ```
+
+2. Arrays
+
+```java
+public void dsp(int[]  nums) {
+    System.out.println(Arrays.toString(nums));
+    for (int num : nums) {
+        System.out.printn(num);
+    }
+}
+```
