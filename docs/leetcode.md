@@ -13,6 +13,9 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+| 92 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | | Medium | | | 
+|91| [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/) |  | Medium | | | 
+|90| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | | Medium | | |
 |89| [Design Twitter](https://leetcode.com/problems/design-twitter/) |  | Medium | | | 
 |88| [Design Browser History](https://leetcode.com/problems/design-browser-history/)| | Medium | | | 
 |87| [Minesweeper](https://leetcode.com/problems/minesweeper/) |  | Medium | | | 
