@@ -13,6 +13,9 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+| 95 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | | Medium | | |
+| 94 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | | Medium | | |
+| 93 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) | | Medium | | |
 | 92 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | | Medium | | | 
 |91| [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/) |  | Medium | | | 
 |90| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | | Medium | | |
