@@ -13,6 +13,8 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+| 97 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) |  | Medium | |  |
+| 96 | [Rotate String](https://leetcode.com/problems/rotate-string/) | | Easy | | | 
 | 95 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | | Medium | | |
 | 94 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | | Medium | | |
 | 93 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) | | Medium | | |
