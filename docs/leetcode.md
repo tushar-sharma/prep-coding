@@ -13,6 +13,15 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|89| [Design Twitter](https://leetcode.com/problems/design-twitter/) |  | Medium | | | 
+|88| [Design Browser History](https://leetcode.com/problems/design-browser-history/)| | Medium | | | 
+|87| [Minesweeper](https://leetcode.com/problems/minesweeper/) |  | Medium | | | 
+|86|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| | Easy| | | 
+|85|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | | Medium | | | 
+|84|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)| | Medium | | |
+|83|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)| | Medium | | | 
+|82|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)| | Easy | | | 
+|81|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|  | Medium | Trees | |
 |80|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)| [Java](../leetcode/KRadiusSubarray.java), [Python](../leetcode/k_radius_subarray.py)  | Medium  | Array |   |
 |79|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)| [Java](../leetcode/UniqueBinarySearchTree.java)  | Medium  | Trees |   |
 |78|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)| [Java](../leetcode/ValidIPAddress.java)  | Medium  | String |   |
