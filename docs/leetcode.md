@@ -13,6 +13,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+| 98 | [Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) |  | Medium |  | | 
 | 97 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) |  | Medium | |  |
 | 96 | [Rotate String](https://leetcode.com/problems/rotate-string/) | | Easy | | | 
 | 95 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | | Medium | | |
