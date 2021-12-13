@@ -1,40 +1,26 @@
 class Solution {
-    
-    private TreeNode lca; 
-    
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         
         if (root == null) {
-            return null; 
-        }
-      
-        TreeNode left = root; 
-        TreeNode right = root;     
-        
-        
-        while (left != null && right != null) {
-            
-            if (left == right ) 
-                lca = left; 
-            
-            if (left == p && right == q) {
-                break;
-            }
-            
-            if (p.val < left.val) {
-                left = left.left ;
-            } else if (p.val > left.val ) {
-                left = left.right; 
-            } 
-            
-            if (q.val < right.val) {
-                right = right.left;
-            } else if (q.val > right.val) {
-                right = right.right; 
-            }
-
+            return root;
         }
         
-        return lca; 
+        if (root == p || root == q) {
+            return root;
+        }
+        
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+                
+        if (left != null & right != null) {
+            return root;
+        }
+        
+        if (left == null && right == null) {
+            return null;
+        }
+        
+        return left != null ? left : right;
     }
 }
