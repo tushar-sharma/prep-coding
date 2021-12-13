@@ -22,3 +22,17 @@ public void dsp(int[]  nums) {
     }
 }
 ```
+
+3. Stack 
+
+```java
+Deque<Character> stack = new ArrayDeque<>();
+stack.push('a');
+stack.push('b');
+
+Iterator<Character> iter = stack.iterator();
+
+while(iter.hasNext()){
+    System.out.println(iter.next());
+}
+```
