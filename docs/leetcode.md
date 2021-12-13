@@ -32,7 +32,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
 |82|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)| | Medium | | | 
-|81|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Java](../leetcode/LowestCommonAncestor.java), [Python](../leetcode/lowestCommonAncestor.py), [JS](../leetcode/lowestCommonAncestor.js), [Scala](../leetcode/lowestCommonAncestor.scala)  | Medium | Trees | |
+|81|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Java](../leetcode/LowestCommonAncestor.java), [Python](../leetcode/lowestCommonAncestor.py), [JS](../leetcode/lowestCommonAncestor.js), [Scala](../leetcode/lowestCommonAncestor.scala)  | Medium | Trees | [Solution](https://randomwits.com/blog/leetcode-lca-binary-tree) |
 |80|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)| [Java](../leetcode/KRadiusSubarray.java), [Python](../leetcode/k_radius_subarray.py)  | Medium  | Array |   |
 |79|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)| [Java](../leetcode/UniqueBinarySearchTree.java)  | Medium  | Trees |   |
 |78|[Validate IP Address](https://leetcode.com/problems/validate-ip-address/)| [Java](../leetcode/ValidIPAddress.java)  | Medium  | String |   |
