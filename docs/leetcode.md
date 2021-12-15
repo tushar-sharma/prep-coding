@@ -10,28 +10,28 @@ https://leetcode.com/problems/all-elements-in-two-binary-search-trees/
 https://leetcode.com/discuss/interview-question/910825/
 https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-by-common-patterns.
 
-| 98 | [Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) |  | Medium |  | | 
+| 98 | [Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) |  | Medium |  | |
 | 97 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) |  | Medium | |  |
-| 96 | [Rotate String](https://leetcode.com/problems/rotate-string/) | | Easy | | | 
+| 96 | [Rotate String](https://leetcode.com/problems/rotate-string/) | | Easy | | |
 | 95 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | | Medium | | |
 | 94 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | | Medium | | |
 | 93 | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/) | | Medium | | |
-| 92 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | | Medium | | | 
-|91| [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/) |  | Medium | | | 
+| 92 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | | Medium | | |
+|91| [Invalid Transactions](https://leetcode.com/problems/invalid-transactions/) |  | Medium | | |
 |90| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | | Medium | | |
-|89| [Design Twitter](https://leetcode.com/problems/design-twitter/) |  | Medium | | | 
-|88| [Design Browser History](https://leetcode.com/problems/design-browser-history/)| | Medium | | | 
-|87| [Minesweeper](https://leetcode.com/problems/minesweeper/) |  | Medium | | | 
-|86|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| | Easy| | | 
-|85|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | | Medium | | | 
+|89| [Design Twitter](https://leetcode.com/problems/design-twitter/) |  | Medium | | |
+|88| [Design Browser History](https://leetcode.com/problems/design-browser-history/)| | Medium | | |
+|87| [Minesweeper](https://leetcode.com/problems/minesweeper/) |  | Medium | | |
+|86|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| | Easy| | |
+|85|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | | Medium | | |
 |84|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)| | Medium | | |
-|82|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)| | Easy | | | 
+|82|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)| | Easy | | |
 
 -->
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
-|82|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)| | Medium | | | 
+|82|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)| [Java](../leetcode/RemoveDuplicates.java) | Medium | | |
 |81|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Java](../leetcode/LowestCommonAncestor.java), [Python](../leetcode/lowestCommonAncestor.py), [JS](../leetcode/lowestCommonAncestor.js), [Scala](../leetcode/lowestCommonAncestor.scala)  | Medium | Trees | [Solution](https://randomwits.com/blog/leetcode-lca-binary-tree) |
 |80|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)| [Java](../leetcode/KRadiusSubarray.java), [Python](../leetcode/k_radius_subarray.py)  | Medium  | Array |   |
 |79|[Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)| [Java](../leetcode/UniqueBinarySearchTree.java)  | Medium  | Trees |   |
