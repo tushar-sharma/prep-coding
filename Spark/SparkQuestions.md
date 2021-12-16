@@ -75,6 +75,10 @@ data_frame.join(
 
 Both caching and persisting are used to save the Spark RDD, Dataframe, and Dataset’s. But, the difference is, RDD cache() method default saves it to memory (MEMORY_ONLY) whereas persist() method is used to store it to the user-defined storage level
 
+## repartition() vs coalesce()
+
+The repartition algorithm does a full shuffle of the data and creates equal sized partitions of data. coalesce combines existing partitions to avoid a full shuffle.
+
 ## Duplicate a column in spark dataframe & rename it (Scala)
 
 ```scala
