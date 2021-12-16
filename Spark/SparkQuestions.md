@@ -79,6 +79,14 @@ Both caching and persisting are used to save the Spark RDD, Dataframe, and Datas
 
 The repartition algorithm does a full shuffle of the data and creates equal sized partitions of data. coalesce combines existing partitions to avoid a full shuffle.
 
+## Groupbykey vs Reducebykey
+
+
+Both produce the same results.
+groupByKey shuffles the entire dataset across the network based on the key, while ReduceByKey will compute local sums for each key in each partition and combine those local sums into larger sums after shuffling.
+
+Avoid groupbykey,  calling groupByKey - all the key-value pairs are shuffled around. This is a lot of unnessary data to being transferred over the network.
+
 ## Duplicate a column in spark dataframe & rename it (Scala)
 
 ```scala
