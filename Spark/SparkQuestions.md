@@ -67,6 +67,10 @@ data_frame.join(
 
 ## Differnce between map and flatmap 
 
+1. **map**: It returns a new RDD by applying a function to each element of the RDD. Function in .map can return only one item.
+2. **flatMap**: Similar to map, it returns a new RDD by applying a function to each element of the RDD, but the output is flattened.
+
+
 ## Cache vs Perist
 
 Both caching and persisting are used to save the Spark RDD, Dataframe, and Dataset’s. But, the difference is, RDD cache() method default saves it to memory (MEMORY_ONLY) whereas persist() method is used to store it to the user-defined storage level
