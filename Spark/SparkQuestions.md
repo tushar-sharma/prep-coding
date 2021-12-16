@@ -19,6 +19,33 @@ cluster nodes.
 4. **Executor**. What actually does the
 work on each cluster node.
 
+## Three API of Spark
+
+1. **(Resilient Distributed Datasets**):  is a collection of records with distributed computing, which are fault tolerant, immutable in nature. 
+2. **DataFrames**: SQL-like structured datasets with query operations.
+3. **Datasets**: mixture of RDDs and DataFrames in terms of the
+operations that are available on them.
+
+## Operations on RDD
+
+1. **Transformation**: Return new RDDs as a result.They are lazy, their result RDD is not immediately computed.
+2. **Actions**. Compute a result based on an RDD, and either returned
+or saved to an external storage system (e.g., HDFS). They are eager, their result is immediately computed.
+
+## Transformation example
+
+1. **map** 
+2. **filter**
+3. **distinct**
+4. **flatmap**
+
+
+## Actions example
+
+1. **reduce**
+2. **take**
+3. **collect**
+
 ## Broadcast variable
 
 They are read-only shared variable which are cached on each worker nodes of Spark cluster.
@@ -37,6 +64,12 @@ data_frame.join(
     lookup_data_frame.key_column==data_frame.key_column
 )
 ```
+
+## Differnce between map and flatmap 
+
+## Cache vs Perist
+
+Both caching and persisting are used to save the Spark RDD, Dataframe, and Dataset’s. But, the difference is, RDD cache() method default saves it to memory (MEMORY_ONLY) whereas persist() method is used to store it to the user-defined storage level
 
 ## Duplicate a column in spark dataframe & rename it (Scala)
 
