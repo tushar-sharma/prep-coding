@@ -8,6 +8,17 @@
 
 [Notes 1](https://drive.google.com/open?id=13cvqV6X41p_h9Bea-fNa0CAtcteuWr2d)
 
+## Architecture of a Spark Job
+
+1. **Driver program**. Your application 
+2. **Context**. SparkContext or
+sqlContext. Your handle to your
+Spark cluster.
+3. **Worker program**. What runs on
+cluster nodes.
+4. **Executor**. What actually does the
+work on each cluster node.
+
 ## Broadcast variable
 
 They are read-only shared variable which are cached on each worker nodes of Spark cluster.
