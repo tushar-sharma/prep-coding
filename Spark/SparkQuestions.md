@@ -88,6 +88,69 @@ val data = Seq(("111",50000),("222",60000),("333",40000))
 val df = data.toDF("EmpId","Salary")
 ```
 
+## Joins
+
+```scala
+// common dataframes
+val df1 = Seq((0, "zero"), (1, "one"), (3, "three")).toDF("id", "df1")
+val df2 = Seq((0, "zero"), (1, "two"), (3, "four")).toDF("id", "df2")
+```
+### Inner Join 
+```
+df1.join(df2, "id").show
+
++---+----+----+                                                                 
+| id| df1| df2|
++---+----+----+
+|  0|zero|zero|
+|  1| one| two|
++---+----+----+
+
+```
+### Full Outer
+
+```scala
+df1.join(df2, Seq("id"), "fullouter").show
+
++---+-----+----+                                                                
+| id|  df1| df2|
++---+-----+----+
+|  1|  one| two|
+|  3|three|null|
+|  4| null|four|
+|  0| zero|zero|
++---+-----+----+
+```
+
+### Left Semi join 
+
+Returns only the data from the left side that has a match on the right side based on the condition provided for the join statement. It is essentially a filter on the left table based on the join condition:
+
+
+```scala
+df1.join(df2, Seq("id"), "leftsemi").show
+
++---+----+
+| id| df1|
++---+----+
+|  0|zero|
+|  1| one|
++---+----+
+```
+
+### Left-anti-Join
+
+Returns only the data from the left side that doesnot have match on the right side based on the condition provided for the join statement.
+
+```scala
+df1.join(df2, Seq("id"), "leftanti").show
+
++---+-----+
+| id|  df1|
++---+-----+
+|  3|three|
++---+-----+
+```
 
 ## AWS Glue
 
