@@ -31,6 +31,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|83|[Rotate String](https://leetcode.com/problems/rotate-string/)| | Easy | String, rotate, substring| |
 |82|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)| [Java](../leetcode/RemoveDuplicates.java) | Medium | | |
 |81|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Java](../leetcode/LowestCommonAncestor.java), [Python](../leetcode/lowestCommonAncestor.py), [JS](../leetcode/lowestCommonAncestor.js), [Scala](../leetcode/lowestCommonAncestor.scala)  | Medium | Trees | [Solution](https://randomwits.com/blog/leetcode-lca-binary-tree) |
 |80|[K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)| [Java](../leetcode/KRadiusSubarray.java), [Python](../leetcode/k_radius_subarray.py)  | Medium  | Array |   |
