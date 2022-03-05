@@ -67,6 +67,19 @@ int[][] nums = {
 };
 ```
 
+### Sort an array in ascending order
+
+```java
+import java.util.Arrays;
+
+Arrays.sort(nums, (b,a) -> Integer.compare(b[0], a[0]));
+```
+
+### Sort an array in ascending order
+
+```java
+Arrays.sort(nums, (b,a) -> Integer.compare(a[0], b[0]));
+```
 
 ### Print an array 
 
