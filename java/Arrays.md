@@ -46,3 +46,11 @@ for (int n : nums) {
     System.out.println(n);
 }
 </pre></code>
+
+
+### Length of an array
+
+```java
+int[] num = {5, 2, 3};
+int len = num.length;
+```
