@@ -39,14 +39,14 @@ Arrays.sort(nums);
 ### Print an array 
 
 ```java
+
+```
+
+<pre><code>
 int[] nums = {4, 5, 9, 1};
 <del>System.out.println(num)</del>;
 
 for (int n : nums) {
     System.out.println(n);
 }
-```
-
-<pre><code><del>some stricken code</del>
-<del>A second line of stricken code</del>
 </pre></code>
