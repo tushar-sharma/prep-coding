@@ -2,7 +2,7 @@
 
 ### Create an array 
 
-#### Defaul initialization
+#### Default initialization
 
 ```java
 int n = 5; // number of items
