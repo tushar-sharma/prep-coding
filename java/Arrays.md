@@ -46,3 +46,7 @@ for (int n : nums) {
     System.out.println(n);
 }
 ```
+
+<pre><code><del>some stricken code</del>
+<del>A second line of stricken code</del>
+</pre></code>
