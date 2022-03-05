@@ -1,6 +1,6 @@
-## Arrays
+# Arrays
 
-### Create an array 
+## 1D array
 
 #### Default initialization
 
@@ -53,4 +53,28 @@ for (int n : nums) {
 ```java
 int[] num = {5, 2, 3};
 int len = num.length;
+```
+
+## 2D array 
+
+### With fixed initial values
+
+```java
+int[][] nums = {
+    {1, 2},
+    {3, 4},
+    {5, 6}
+};
+```
+
+
+### Print an array 
+
+```java
+for (int[] num : nums){
+    for (int n : num){
+        System.out.print(n + " ");
+    }
+    System.out.println();
+}
 ```
