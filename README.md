@@ -32,6 +32,14 @@
 |1| Binary Search | [Java](../master/algorithms/BinarySearch.java)|
 
 
+## Languages
+
+|#| Title | 
+|-|-------|
+|1| [Java](../master/java/java.md)|
+
+
+
 ## Interview Questions
 
 |  #  | Stack
