@@ -38,10 +38,6 @@ Arrays.sort(nums);
 
 ### Print an array 
 
-```java
-
-```
-
 <pre><code>
 int[] nums = {4, 5, 9, 1};
 <del>System.out.println(num)</del>;
