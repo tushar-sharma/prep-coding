@@ -28,3 +28,10 @@ num.sort() # in place
 num = [5, 4, 3, 2]
 num.sort(reverse=True)
 ```
+
+### Print the list
+
+```python
+num = [1, 2, 3]
+print(num)
+```
