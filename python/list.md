@@ -35,3 +35,10 @@ num.sort(reverse=True)
 num = [1, 2, 3]
 print(num)
 ```
+
+### Length of list
+
+```python
+num = [1, 2, 3]
+n = len(num)
+```
