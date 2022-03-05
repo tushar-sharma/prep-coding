@@ -40,7 +40,7 @@ Arrays.sort(nums);
 
 ```java
 int[] nums = {4, 5, 9, 1};
-~~System.out.println(num);~~ 
+<del>System.out.println(num)</del>;
 
 for (int n : nums) {
     System.out.println(n);
