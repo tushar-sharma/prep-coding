@@ -15,3 +15,14 @@ for (int elem : arrayList) {
     System.out.println(elem);
 }
 ```
+## Sort in ascending order
+
+```java
+Collections.sort(arrayList);
+```
+
+## Sort in ascending order
+
+```java
+Collections.sort(arrayList, Collections.reverseOrder());
+```
