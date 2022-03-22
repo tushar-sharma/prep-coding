@@ -1,6 +1,6 @@
-# ArrayList
+## ArrayList
 
-## Initialization
+### Initialization
 
 ```java
 List<Integer> arrayList = new ArrayList<>();
@@ -8,21 +8,28 @@ List<Integer> arrayList = new ArrayList<>();
 List<Integer> arrayList = new ArrayList<>(Arrays.asList(1, 2, 3));
 ```
 
-## Print
+ 
+### Print
 
 ```java
 for (int elem : arrayList) {
     System.out.println(elem);
 }
 ```
-## Sort in ascending order
+### Sort in ascending order
 
 ```java
 Collections.sort(arrayList);
 ```
 
-## Sort in ascending order
+### Sort in ascending order
 
 ```java
 Collections.sort(arrayList, Collections.reverseOrder());
+```
+
+### List of List
+
+```java
+List<List<String>> myList = new ArrayList<>();
 ```
