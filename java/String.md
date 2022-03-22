@@ -1,8 +1,7 @@
 ## String
 
-### Operations
 
-| Command | Description |
+| **Operations** | Description |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| Find length of string | s.length() |
+| Get character at location i | s.charAt(i) |
