@@ -31,6 +31,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|85|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [Java](../leetcode/Partition.java), [Python](../leetcode/partition.py)| Medium | String | |
 |84|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)| [Java](../leetcode/FindKDistantIndices.java), [Python](../leetcode/findKDistantIndices.py)| Easy | Array| |
 |83|[Rotate String](https://leetcode.com/problems/rotate-string/)| [Java](../leetcode/RotateString.java) | Easy | String, rotate, substring| |
 |82|[Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)| [Java](../leetcode/RemoveDuplicates.java) | Medium | | |
