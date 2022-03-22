@@ -27,6 +27,12 @@ Collections.sort(arrayList);
 ```java
 Collections.sort(arrayList, Collections.reverseOrder());
 ```
+### Create a deep copy of a list
+
+```java
+List<String> oldList = new ArrayList<>();
+List<String> newList = new ArrayList<>(oldList);
+```
 
 ### List of List
 
