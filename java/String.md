@@ -2,7 +2,7 @@
 
 ### Operations
 
-| **Operations** |         |
-|----------------+---------|
-| Find Length | s.length() | 
-| Get character at a location i | s.charAt(i) | 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
