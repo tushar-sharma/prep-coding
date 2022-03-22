@@ -36,6 +36,13 @@ num = [1, 2, 3]
 print(num)
 ```
 
+### Substring of a list
+
+```python
+# Get elements form i to j
+truncList = oldList[i:j+1]
+```
+
 ### Length of list
 
 ```python
