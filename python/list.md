@@ -42,3 +42,11 @@ print(num)
 num = [1, 2, 3]
 n = len(num)
 ```
+
+### Make a deep copy 
+
+```python
+oldList = [] 
+newList = oldList[:]
+
+````
