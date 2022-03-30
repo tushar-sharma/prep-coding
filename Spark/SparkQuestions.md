@@ -8,20 +8,25 @@
 
 [Notes 1](https://drive.google.com/open?id=13cvqV6X41p_h9Bea-fNa0CAtcteuWr2d)
 
+## Limitation of Hadoop MapReduce
+
+1. Data is flushed to disk after each iteration
+
 ## Architecture of a Spark Job
 
-1. **Driver program**. Your application 
-2. **Context**. SparkContext or
+1. In Memory computation
+2. **Driver program**. Your application
+3. **Context**. SparkContext or
 sqlContext. Your handle to your
 Spark cluster.
-3. **Worker program**. What runs on
+4. **Worker program**. What runs on
 cluster nodes.
-4. **Executor**. What actually does the
+5. Executor**. What actually does the
 work on each cluster node.
 
 ## Three API of Spark
 
-1. **(Resilient Distributed Datasets**):  is a collection of records with distributed computing, which are fault tolerant, immutable in nature. 
+1. **(Resilient Distributed Datasets**):  is a collection of records with distributed computing, which are fault tolerant, immutable in nature.
 2. **DataFrames**: SQL-like structured datasets with query operations.
 3. **Datasets**: mixture of RDDs and DataFrames in terms of the
 operations that are available on them.
@@ -34,7 +39,7 @@ or saved to an external storage system (e.g., HDFS). They are eager, their resul
 
 ## Transformation example
 
-1. **map** 
+1. **map**
 2. **filter**
 3. **distinct**
 4. **flatmap**
@@ -65,7 +70,7 @@ data_frame.join(
 )
 ```
 
-## Differnce between map and flatmap 
+## Differnce between map and flatmap
 
 1. **map**: It returns a new RDD by applying a function to each element of the RDD. Function in .map can return only one item.
 2. **flatMap**: Similar to map, it returns a new RDD by applying a function to each element of the RDD, but the output is flattened.
@@ -111,11 +116,11 @@ val df = data.toDF("EmpId","Salary")
 val df1 = Seq((0, "zero"), (1, "one"), (3, "three")).toDF("id", "df1")
 val df2 = Seq((0, "zero"), (1, "two"), (3, "four")).toDF("id", "df2")
 ```
-### Inner Join 
+### Inner Join
 ```
 df1.join(df2, "id").show
 
-+---+----+----+                                                                 
++---+----+----+
 | id| df1| df2|
 +---+----+----+
 |  0|zero|zero|
@@ -128,7 +133,7 @@ df1.join(df2, "id").show
 ```scala
 df1.join(df2, Seq("id"), "fullouter").show
 
-+---+-----+----+                                                                
++---+-----+----+
 | id|  df1| df2|
 +---+-----+----+
 |  1|  one| two|
@@ -138,7 +143,7 @@ df1.join(df2, Seq("id"), "fullouter").show
 +---+-----+----+
 ```
 
-### Left Semi join 
+### Left Semi join
 
 Returns only the data from the left side that has a match on the right side based on the condition provided for the join statement. It is essentially a filter on the left table based on the join condition:
 
