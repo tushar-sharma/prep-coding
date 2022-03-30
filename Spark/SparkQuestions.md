@@ -82,7 +82,9 @@ Both caching and persisting are used to save the Spark RDD, Dataframe, and Datas
 
 ## repartition() vs coalesce()
 
-The repartition algorithm does a full shuffle of the data and creates equal sized partitions of data. coalesce combines existing partitions to avoid a full shuffle.
+The repartition algorithm does a full shuffle of the data and creates equal sized partitions of data. Change the number of partitions. 
+
+Coalesce combines existing partitions to avoid a full shuffle. Merge partitions. 
 
 ## Groupbykey vs Reducebykey
 
