@@ -8,9 +8,9 @@
 | 2 | [Codeforces](../master/docs/codeforces.md) |
 | 3 | [InterviewBit](../master/docs/interviewbit.md) |
 | 4 | [HackerRank](../master/docs/hackerrank.md) |
-| 5 | [pgexercises](../master/docs/pgexercises.md) | 
+| 5 | [pgexercises](../master/docs/pgexercises.md) |
 | 6 |  exercism |
-| 7 | hackerrank | 
+| 7 | hackerrank |
 
 
 ## Abstract Data Type
@@ -34,11 +34,11 @@
 
 ## Languages
 
-|#| Title | 
+|#| Title |
 |-|-------|
 |1| [Java](../master/java/java.md)|
 |2| [Python](../master/python/python.md)|
-
+|3| [SQL](../master/sql/SQLquestions.md)|
 
 
 ## Interview Questions
