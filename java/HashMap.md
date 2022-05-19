@@ -12,6 +12,6 @@ Map<Integer, Integer> foo = new HashMap<>();
 ```java
 foo.forEach((key, value) -> {
     System.out.println("key is" + key + " value is " + value);
-})
+});
         
 ```
