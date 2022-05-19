@@ -33,9 +33,6 @@
 
 
 
-## Keywords
-
-| 2d array | can it be graph? | 
 
 ## Languages
 
@@ -70,3 +67,10 @@
 |  #  |      Title     |   Solutions   |
 |-----|----------------|---------------|
 |1|Check if a string has unique characters|[Java](../master/ctci/UniqueString.java) |
+
+
+## Keywords
+
+|  #  |      Keywords     |   Solutions   |
+|-----|----------------|---------------|
+|1| 2d array | can it be graph? 
