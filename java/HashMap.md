@@ -6,6 +6,15 @@
 Map<Integer, Integer> foo = new HashMap<>();
 ```
 
+### Insertion
+
+```java
+
+Map<Integer, ArrayList> foo = new ArrayList<>(); 
+foo.computeIfAbsent(2, t -> new ArrayList<>()).add(4);
+```
+
+
 ### Printing
 
 
