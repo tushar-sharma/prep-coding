@@ -27,6 +27,14 @@ Collections.sort(arrayList);
 ```java
 Collections.sort(arrayList, Collections.reverseOrder());
 ```
+
+### Get a value at index i
+
+```java
+List<Integer> foo = new ArrayList<>();
+int bar = foo.get(0);
+```
+
 ### Create a deep copy of a list
 
 ```java
