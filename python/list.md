@@ -7,6 +7,7 @@
 ```python
 n = 5; # number of items
 num = [0] * n
+foo = [ i for i in range(5)]
 ```
 
 ### With fixed initial values
