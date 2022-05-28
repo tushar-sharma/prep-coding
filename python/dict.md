@@ -19,7 +19,7 @@ foo = defaultdict(list)
 foo[2].append(3)
 ```
 
-#### Iteration
+### Iteration
 
 ```python
 foo = defaultdict()
