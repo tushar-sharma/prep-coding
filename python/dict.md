@@ -9,3 +9,10 @@
  
  foo[3] = 4
  ```
+
+### Datatype as list
+
+```python
+foo = defaultdict(list)
+foo[2].append(3)
+```
