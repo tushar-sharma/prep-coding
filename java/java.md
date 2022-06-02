@@ -7,3 +7,4 @@
 | [String](String.md) |
 | [ArrayList](ArrayList.md) |
 | [HashMap](HashMap.md) |
+| [Miscellaneous](Misc.md) |
