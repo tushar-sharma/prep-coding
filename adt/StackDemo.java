@@ -1,43 +1,33 @@
-/**
- * Stack Demo
- * Stack is LIFO
- */
-import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Deque;
-import java.util.Iterator;
+import java.util.ArrayDeque;
 
-public class StackDemo {
-    public static void main(String[] args) {
-        Deque<Integer> myStack = new ArrayDeque<Integer>();
+// Create a stack
+Deque<Integer> stack = new ArrayDeque<>();
 
-        //insert values
-        System.out.println("Pushing element 20");
-        myStack.push(20);
-        System.out.println("Pushing element -2");
-        myStack.push(-2);
-        System.out.println("Pushing element 5");
-        myStack.push(5);
+// Push elements to stack
+stack.push(5);
+stack.push(3);
+stack.push(-1);
+stack.push(1);
+stack.push(20);
 
-        //peek
-        System.out.println("Top element in stack " + myStack.peek());
+// Get the top element in stock 
+int top = stack.pop();
+System.out.println("Top elment is " + top);
 
-        //pop
-        System.out.println("Pop latest element " + myStack.pop());
+// peek element 
+top = stack.peek();
+System.out.println("Peek Top elment is " + top);
 
-        //peek
-        System.out.println("Top element in stack " + myStack.peek());
+// print the size of stack
+System.out.println("Size of the stack is " + stack.size());
 
-        System.out.println("Pushing element 100");
-        myStack.push(100);
+// remove an element by value 
+stack.remove(3);
 
-        //access stack elements
-        //this iterator is fail safe
-        Iterator<Integer> iterator = myStack.iterator();
-        System.out.println("Printing elements of stack...");
-        while(iterator.hasNext()) {
-            System.out.print(iterator.next()+ " ");
-        }
-        System.out.println();
-
-    }
+// Iterate a stack 
+while (!stack.isEmpty()) {
+    System.out.println(stack.pop());
 }
