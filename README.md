@@ -69,8 +69,10 @@
 |1|Check if a string has unique characters|[Java](../master/ctci/UniqueString.java) |
 
 
-## Keywords
+## Patterns
 
-|  #  |      Keywords     |   Solutions   |
-|-----|----------------|---------------|
-|1| 2d array | can it be graph? 
+|        Keywords                          |   Solutions                |
+|------------------------------------------|----------------------------|
+| 2d array or 2d List                      | Can it be a graph problem? | 
+| If you see characters like ‘(‘, ‘)’, ‘*’ | Can we use stack ?         |
+
