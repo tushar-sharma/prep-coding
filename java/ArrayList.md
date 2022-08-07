@@ -6,6 +6,8 @@
 List<Integer> arrayList = new ArrayList<>();
 
 List<Integer> arrayList = new ArrayList<>(Arrays.asList(1, 2, 3));
+
+List<List<Integer>> listOfList = new ArrayList<>();
 ```
 
  
@@ -14,6 +16,12 @@ List<Integer> arrayList = new ArrayList<>(Arrays.asList(1, 2, 3));
 ```java
 for (int elem : arrayList) {
     System.out.println(elem);
+}
+
+for (List<Integer> list : listOfList) {
+    for (int elem : list) {
+        System.out.println(elem);
+    }
 }
 ```
 ### Sort in ascending order
