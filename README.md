@@ -73,4 +73,9 @@
 |------------------------------------------|----------------------------|
 | 2d array or 2d List                      | Can it be a graph problem? | 
 | If you see characters like ‘(‘, ‘)’, ‘*’ | Can we use stack ?         |
-
+| Shortest Path in an unweighted graph | BFS |
+| Cycle Detection              | |
+| Crawlers in Search Engine                | |
+| Social Networking Search                 | |
+| In Garbage Collection                    | |
+| Broadcasting                             | |
