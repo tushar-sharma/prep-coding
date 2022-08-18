@@ -43,10 +43,11 @@
 |3| [SQL](../master/sql/SQLquestions.md)|
 
 
-## Interview Questions
+## Additional Topics
 
 |  #  | Stack
 |-----|-------------
+|13|[Keywords](../master/patterns/keyword.md) |
 |12|[Graph](https://drive.google.com/file/d/1uJTVbiArq7XoHnwnFdCAX6H-kMf88YnQ/view?usp=sharing)|
 |11|[Heap](../master/heap/HeapQuestions.md) |
 |10|[Complexity](../master/Complexity/ComplexityQuestions.md)|
@@ -66,12 +67,3 @@
 |-----|----------------|---------------|
 |1|Check if a string has unique characters|[Java](../master/ctci/UniqueString.java) |
 
-
-## Patterns
-
-|        Keywords                          |   Solutions                |
-|------------------------------------------|----------------------------|
-| 1 d array                                | sort it<br>reverse it<br>two pointes<br>sliding window |
-| 2d array with pair like [[1,2], [2,3]]   | Can it be a graph problem? | 
-| If you see characters like ‘(‘, ‘)’, ‘*’ | Can we use stack ?         |
-| Shortest Path in an unweighted graph<br> cycle detection<br>crawlers in search engine<br>broadcasting<br>social networking search| BFS |
