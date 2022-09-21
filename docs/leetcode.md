@@ -31,6 +31,7 @@ https://leetcode.com/discuss/interview-question/448285/List-of-questions-sorted-
 
 |  #  |      Title     |   Solutions   | Difficulty  | Tag         | Hint
 |-----|----------------|---------------|-------------|-------------|----------
+|86|[Maximum Matching of Players With Trainers](https://leetcode.com/problems/maximum-matching-of-players-with-trainers/)| [Java](../leetcode/MatchPlayersAndTrainers.java), [Python](../leetcode/matchPlayersAndTrainers.py), [Javascript](../leetcode/matchPlayersAndTrainers.js), [Rust](../leetcode/matchPlayersAndTrainers.py) | Easy | Sorting | |
 |85|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)| [Java](../leetcode/Partition.java), [Python](../leetcode/partition.py)| Medium | String | |
 |84|[Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)| [Java](../leetcode/FindKDistantIndices.java), [Python](../leetcode/findKDistantIndices.py)| Easy | Array| |
 |83|[Rotate String](https://leetcode.com/problems/rotate-string/)| [Java](../leetcode/RotateString.java) | Easy | String, rotate, substring| |
