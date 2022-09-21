@@ -13,6 +13,7 @@ nums.sort((a,b) => {
 console.log(nums);
 //[ 1, 2, 4, 5, 9 ]
 
+//descending array
 nums.sort((a, b) => {
    return b - a; 
 });
