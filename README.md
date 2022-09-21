@@ -40,7 +40,8 @@
 |-|-------|
 |1| [Java](../master/java/java.md)|
 |2| [Python](../master/python/python.md)|
-|3| [SQL](../master/sql/SQLquestions.md)|
+|3| [Javscript](../master/javascript/javascript.md)|
+|4| [SQL](../master/sql/SQLquestions.md)|
 
 
 ## Additional Topics
