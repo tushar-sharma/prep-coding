@@ -11,7 +11,7 @@ public class Test{
             System.out.println("contains 30");
         }
     
-        //tricks
+        //convert array to hashset
         String[] foo = {"foo1", "foo2", "foo3"};
         Set<String> newSet = new HashSet<>(Arrays.asList(foo));
     
