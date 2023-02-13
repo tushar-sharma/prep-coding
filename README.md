@@ -24,6 +24,7 @@
 |4| Binary Search Tree | [Java](../master/adt/BinarySearchTree.java), [Python](../master/adt/BinarySearchTree.py)| |
 |5| Heap | [Java](../master/adt/Heap.java) | [Java](../master/adt/HeapDemo.java), [Python](../master/adt/HeapDemo.py) |
 |6| Trie | [Java](../master/adt/Trie.java)| |
+|7| StringBuilder | [Java](../master/adt/SB.java)| |
 
 
 ## Algorithms
