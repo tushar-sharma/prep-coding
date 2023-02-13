@@ -11,5 +11,8 @@ public class SB{
     
     //update value
     output.setCharAt(j, (char)(val + '0'));
+    
+    //convert to string
+    String foo = output.toString();
   }
 }
