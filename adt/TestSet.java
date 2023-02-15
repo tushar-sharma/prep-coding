@@ -7,6 +7,9 @@ public class Test{
         mySet.add(1);
         mySet.add(2);
         mySet.add(30);
+    
+        //O(1)
+        mySet.remove(1);
    
         //O(1)
         //it only requires calculating the hash code of the element and checking if it exists in the hash table.
