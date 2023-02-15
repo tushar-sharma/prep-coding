@@ -17,6 +17,8 @@ public class Test{
             System.out.println("contains 30");
         }
     
+        System.out.println("Size of mySet: " + mySet.size());
+    
         //convert array to hashset
         String[] foo = {"foo1", "foo2", "foo3"};
         //O(n)
